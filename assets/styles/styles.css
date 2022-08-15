@@ -153,13 +153,14 @@ a.button{
     background-color:#FFFFFF;
     text-align:center;
     transition: all 0.15s;
+    
 }
 a.button:hover{
     text-shadow: 0 0 2em rgba(255,255,255,1);
     color:#FFFFFF;
     border-color:#FFFFFF;
 }
-@media all and (max-width:30em){
+@media all and (max-width:20em){
     a.button{
         display:block;
         margin:0.4em auto;
@@ -570,6 +571,7 @@ a.button:hover{
 .socicon {
   width: 2rem;
   height: 2rem;
+  margin-top: 20px;
 }
 
 
