@@ -376,8 +376,8 @@ filter:blur(0.8px);
   border:1px solid #000000;
   border-radius: 5px;
   margin-bottom: 20px;
+      /*
   text-align: center;
-    /*
   object-fit: cover;
   object-position: center;
 
@@ -479,6 +479,7 @@ filter:blur(0.8px);
   margin: 10px;
   min-height:30rem;
   max-height:40rem;
+  text-align: center;
 }
 
 .contact {
