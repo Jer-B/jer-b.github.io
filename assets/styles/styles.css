@@ -388,6 +388,11 @@ filter:blur(0.8px);
   /* .project-link{
     margin-top:50px;
   } */
+.project-container .project-pic {
+ display: flex;
+ justify-content: center;
+ align-items: center; 
+}
 .projects-container2 {
   display: flex;
   flex-wrap: wrap;
