@@ -313,7 +313,9 @@ a.button:hover{
   height: 100%;
   padding: 20px;
 }
-
+.pixelate {
+ image-rendering: pixelated;
+}
 .row {
   display: flex;
   flex-wrap: wrap;
