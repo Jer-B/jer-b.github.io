@@ -479,7 +479,7 @@ filter:blur(0.8px);
   margin: 10px;
   min-height:30rem;
   max-height:40rem;
-  text-align: center;
+  /*text-align: center;*/
 }
 
 .contact {
