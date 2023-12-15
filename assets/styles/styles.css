@@ -314,7 +314,8 @@ a.button:hover{
   padding: 20px;
 }
 .pixelate {
- image-rendering: pixelated;
+ /*image-rendering: pixelated;*/
+filter:blur(0.8px);
 }
 .row {
   display: flex;
