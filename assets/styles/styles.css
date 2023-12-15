@@ -376,6 +376,8 @@ filter:blur(0.8px);
   border:1px solid #000000;
   border-radius: 5px;
   margin-bottom: 20px;
+  margin-left:auto;
+  margin-right:auto;
       /*
   text-align: center;
   object-fit: cover;
@@ -647,11 +649,13 @@ footer {
 pre {
   white-space: pre-wrap;
 }
+/*
 .project-container .project-pic {
  display: flex;
  justify-content: center;
  align-items: center; 
 }
+*/
 /* #navbar {
   overflow: hidden;
   background-color: #333;
