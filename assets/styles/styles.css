@@ -376,9 +376,12 @@ filter:blur(0.8px);
   border:1px solid #000000;
   border-radius: 5px;
   margin-bottom: 20px;
+  object-fit: cover;
+  object-position: center;
+  /*
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: center; */
   }
   /* .project-link{
     margin-top:50px;
