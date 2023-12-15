@@ -453,6 +453,7 @@ filter:blur(0.8px);
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  min-height:40rem;
 }
 
 .project-container p {
@@ -472,6 +473,8 @@ filter:blur(0.8px);
 .project-details {
   margin-bottom: var(--bottom-margin);
   text-align: left;
+  min-height:30rem;
+  overflow-y: auto;
 }
 
 .project-card {
