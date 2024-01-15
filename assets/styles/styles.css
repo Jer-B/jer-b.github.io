@@ -135,6 +135,13 @@ align-items: center; */
   background-size: cover;
   height: 100vh;
 }
+.enter1 {
+  display: flex;
+  justify-content: center; /* Aligns horizontally */
+  align-items: center; /* Aligns vertically */
+  height: 100vh; /* Full height of the viewport */
+}
+
 p{
   font-size: 16px;
 }
