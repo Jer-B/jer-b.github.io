@@ -131,9 +131,16 @@ align-items: center; */
 } */
 
 .enter {
-  background: url('https://hackernoon.com/images/f2px36fy.gif') no-repeat center center;
+  background: url('https://hackernoon.com/images/f2px36fy.gif') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
+  width: 100vw;
   height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .enter1 {
   display: flex;
