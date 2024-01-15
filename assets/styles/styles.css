@@ -147,7 +147,7 @@ enter1 {
   justify-content: center; /* Aligns horizontally */
   align-items: center; /* Aligns vertically */
   height: 100vh; /* Full height of the viewport */
-  padding-top: 90px; /* Moves content 50px down */
+  padding-top: 120px; /* Moves content 50px down */
 }
 
 p{
