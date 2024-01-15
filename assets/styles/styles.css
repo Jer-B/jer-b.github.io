@@ -16,8 +16,8 @@
 
 @media only screen and (max-width: 390px) {
   .enter {
-    background-position: top center; /* Adjust as needed */
-    /* Other styles if necessary */
+    background-position: top center; 
+    
   }
 }
 
@@ -152,7 +152,7 @@ enter1 {
   justify-content: center; /* Aligns horizontally */
   align-items: center; /* Aligns vertically */
   height: 100vh; /* Full height of the viewport */
-  padding-top: 160px; /* Moves content 50px down */
+  padding-top: 210px; /* Moves content 50px down */
 }
 
 
