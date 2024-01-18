@@ -1,89 +1,110 @@
 <!DOCTYPE html>
 
 <html lang="en">
-    <head>
-         <!-- <meta http-equiv="refresh" content="10" /> -->
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
-<link
-rel="stylesheet"
-href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-/>        
-<link href="./assets/styles/styles.css" rel="stylesheet">
-<link
-rel="icon"
-type="image/png"
-sizes="32x32"
-href="./assets/main_img/coding.svg"
-/>
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-        <script>
-        document.addEventListener('DOMContentLoaded', function() {
-        window.onscroll = function() {myFunction()};
+  <head>
+    <!-- <meta http-equiv="refresh" content="10" /> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+      integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link href="./assets/styles/styles.css" rel="stylesheet" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/main_img/coding.svg"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        window.onscroll = function () {
+          myFunction();
+        };
         var navbar = document.getElementById("navbar");
         var sticky = navbar.offsetTop;
 
         function myFunction() {
-            if (window.pageYOffset >= sticky) {
-                navbar.classList.add("sticky")}
-            else {
-                navbar.classList.remove("sticky");
-
-            }
-
+          if (window.pageYOffset >= sticky) {
+            navbar.classList.add("sticky");
+          } else {
+            navbar.classList.remove("sticky");
+          }
         }
-        });
-        </script>
-        <script src="./assets/js/app.js"></script>
+      });
+    </script>
+    <script src="./assets/js/app.js"></script>
 
-        <title>プロジェクト</title>
-    </head>
-    <body>
-        <div class="header">
-  <!-- <h1>Career change: Software Engineer</h1> -->
-  <h1></h1>
-  <!-- <p>Introduction of myself to you.<br />Looking for someone ?</p> -->
-  <p></p>
-  <a href="project.html" class="button" style="background-color:#42cc8c;">プロジェクトを見る</a>
-</div>
-
-<div id="navbar">
-    <a href="index.html">Home</a>
-    <a href="portofolio.html">Portofolio</a>
-    <a class="active" href="project.html">Projects</a>
-    <!-- <a href="resume.html">Resume</a> -->
-    <a href="course_path.html">Course Paths & Ressources</a>
-    <!-- <a href="contact.html">Contact</a> -->
-  </div>
-<!-- <div class="content">
-  <h2>Welcome</h2>
-  <p></p>
-  <p>Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
-  <p>Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
-
-</div> -->
-
-<section class="hero" id="about">
-    <img
-      src="./assets/pages_img/projects.svg"
-      alt=""
-      loading="lazy"
-      class="hero-img"
-    />
-    <div class="bio animate__animated animate__shakeX">
-      <h2 class="bio-title">プロジェクトページ</h2>
-      <p class="bio-text">
-このページで作成・参加した全てのプロジェクトのリストを載せています。
-      </p>
+    <title>プロジェクト</title>
+  </head>
+  <body>
+    <div class="header">
+      <!-- <h1>Career change: Software Engineer</h1> -->
+      <h1></h1>
+      <!-- <p>Introduction of myself to you.<br />Looking for someone ?</p> -->
+      <p></p>
+      <a href="project.html" class="button" style="background-color: #42cc8c"
+        >プロジェクトを見る</a
+      >
     </div>
-</section>
 
-<!-- <section class="more-about">
+    <div id="navbar">
+      <div class="menu-container">
+        <div class="hamburger-menu">
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+        <span class="menu-label">メニュー</span>
+      </div>
+      <div class="navbar-links">
+        <a href="index.html">Home</a>
+        <a href="portofolio.html">Portofolio</a>
+        <a class="active" href="project.html">Projects</a>
+        <!-- <a href="resume.html">Resume</a> -->
+        <a href="course_path.html">Course Paths & Ressources</a>
+        <!-- <a href="contact.html">Contact</a> -->
+      </div>
+    </div>
+
+    <section class="hero" id="about">
+      <img
+        src="./assets/pages_img/projects.svg"
+        alt=""
+        loading="lazy"
+        class="hero-img"
+      />
+      <div class="bio animate__animated animate__shakeX">
+        <h2 class="bio-title">プロジェクトページ</h2>
+        <p class="bio-text">
+          このページで作成・参加した全てのプロジェクトのリストを載せています。
+        </p>
+      </div>
+    </section>
+
+    <!-- <section class="more-about">
     <h2>More About Me</h2>
     <p>
       フランスから参りました。子供のころからIT業界に興味お持ち。<br />常に新しい事に興味お持ち理解を深めるために動力してきてます。
@@ -97,7 +118,7 @@ href="./assets/main_img/coding.svg"
     </p>
   </section> -->
 
-<!-- <section class="skills" id="skills">
+    <!-- <section class="skills" id="skills">
     <h2 class="skill-header">トップスキル</h2>
 
     <div class="skills-wrapper">
@@ -144,12 +165,13 @@ href="./assets/main_img/coding.svg"
       </div>
     </div>
   </section> -->
-  
 
-  <section class="projects" id="projects">
-    <h2 class="projects-title">全てのプロジェクト<br />（新タイプから旧タイプ）</h2>
+    <section class="projects" id="projects">
+      <h2 class="projects-title">
+        全てのプロジェクト<br />（新タイプから旧タイプ）
+      </h2>
 
-    <!-- <div class="container bcontent">
+      <!-- <div class="container bcontent">
         <h2>Bootstrap Card with Header and Footer</h2>
         <hr />
         <div class="card">
@@ -168,551 +190,583 @@ href="./assets/main_img/coding.svg"
             <div class="card-footer text-muted">1 day ago</div>
         </div>
     </div> -->
-<!-- Soldity Smart Contract -->
+      <!-- Soldity Smart Contract -->
 
-<div class="card">
-  <!-- <div >
+      <div class="card">
+        <!-- <div >
     <h2 class="card-title">株ポートフォリオのシムレイション</h2>
   </div> -->
-  <div class="row">
-    <div class="avatar-container">
-      <div class="photo">
-        <img class="img" src="./assets/projects_img/solidity.png" />
-      </div>
-    </div>
-    <div class="details-container">
-      <div class="content">
-        <h3>スマートコントラクト</h3>
-        <p>ソリディティ言語で、EVM互換のブロックチェーンのスマートコントラクトプログラミングをしています。
+        <div class="row">
+          <div class="avatar-container">
+            <div class="photo">
+              <img class="img" src="./assets/projects_img/solidity.png" />
+            </div>
+          </div>
+          <div class="details-container">
+            <div class="content">
+              <h3>スマートコントラクト</h3>
+              <p>
+                ソリディティ言語で、EVM互換のブロックチェーンのスマートコントラクトプログラミングをしています。
 
-          <br />取引・宝くじなどのスマートコントラクトを作成しました。
-          <br />現在、Immutable-Xのブロックチェーンでアセットマネージャーを作成中。<br /><br />
-          言語:Python, Solidity<br />
-
-        </p>
-        <a href="solidity_code.html" class="project-link, button" style="background-color:#99e9c4;">コードを見る</a>
-        <!-- <button class="btn-card btn--block card__btn"><a class="btn-link" href="https://portofolio-finance.herokuapp.com/" target="_blank" class="project-link">Check it Out</a></button> -->
-      </div>
-      
-    </div>
-    
-  </div>
-  <!-- delete class or not class="card-footer"-->
-  <section class="skills2" id="skills">
-      <h4 class="skill-header">   ツール</h4>
-  
-      <div class="skills-wrapper">
-        <div class="first-set animate__animated animate__pulse">
-          <img
-            src="./assets/skill_icons/solidity.svg"
-            alt=""
-            loading="lazy"
-            class="icon2 icon-card"
-          />
-          <img
-          src="./assets/skill_icons/python.svg"
-          alt=""
-          loading="lazy"
-          class="icon2 icon-card"
-        />
+                <br />取引・宝くじなどのスマートコントラクトを作成しました。
+                <br />現在、Immutable-Xのブロックチェーンでアセットマネージャーを作成中。<br /><br />
+                言語:Python, Solidity<br />
+              </p>
+              <a
+                href="solidity_code.html"
+                class="project-link, button"
+                style="background-color: #99e9c4"
+                >コードを見る</a
+              >
+              <!-- <button class="btn-card btn--block card__btn"><a class="btn-link" href="https://portofolio-finance.herokuapp.com/" target="_blank" class="project-link">Check it Out</a></button> -->
+            </div>
+          </div>
         </div>
-      </div>            
-    </section>
-</div>
+        <!-- delete class or not class="card-footer"-->
+        <section class="skills2" id="skills">
+          <h4 class="skill-header">ツール</h4>
 
-    <!-- PROJET FINANCE -->
-    <div class="card">
+          <div class="skills-wrapper">
+            <div class="first-set animate__animated animate__pulse">
+              <img
+                src="./assets/skill_icons/solidity.svg"
+                alt=""
+                loading="lazy"
+                class="icon2 icon-card"
+              />
+              <img
+                src="./assets/skill_icons/python.svg"
+                alt=""
+                loading="lazy"
+                class="icon2 icon-card"
+              />
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <!-- PROJET FINANCE -->
+      <div class="card">
         <!-- <div >
           <h2 class="card-title">株ポートフォリオのシムレイション</h2>
         </div> -->
         <div class="row">
           <div class="avatar-container">
             <div class="photo">
-              <img class="img" src="./assets/projects_img/finance_portofolio.JPG" />
+              <img
+                class="img"
+                src="./assets/projects_img/finance_portofolio.JPG"
+              />
             </div>
           </div>
           <div class="details-container">
             <div class="content">
               <h3>株ポートフォリオのシミュレーション</h3>
-              <p>株のポートフォリオ・マネジメント・シミュレーションです。
+              <p>
+                株のポートフォリオ・マネジメント・シミュレーションです。
                 APIを使って、株の値段確認・売買・管理する事が出来ます。
                 <br />
                 言語:Python<br />
                 フロントエンド: Django+Jinja・HTML/CSS+SASS・JS<br />
-サーバーサイド: Flask<br />
-データベース: SQLITE3<br />
-バージョン管理:Git
+                サーバーサイド: Flask<br />
+                データベース: SQLITE3<br />
+                バージョン管理:Git
               </p>
-              <a href="https://portofolio-finance.herokuapp.com/" target="_blank" class="project-link, button" style="background-color:#99e9c4;">サイトを見る</a>
+              <a
+                href="https://flask-finance-123.azurewebsites.net/login"
+                target="_blank"
+                class="project-link, button"
+                style="background-color: #99e9c4"
+                >サイトを見る</a
+              >
               <!-- <button class="btn-card btn--block card__btn"><a class="btn-link" href="https://portofolio-finance.herokuapp.com/" target="_blank" class="project-link">Check it Out</a></button> -->
             </div>
-            
           </div>
-          
         </div>
         <!-- delete class or not class="card-footer"-->
         <section class="skills2" id="skills">
-            <h4 class="skill-header">   ツール</h4>
-        
-            <div class="skills-wrapper">
-              <div class="first-set animate__animated animate__pulse">
-                <img
-                  src="./assets/skill_icons/html5.svg"
-                  alt=""
-                  loading="lazy"
-                  class="icon2 icon-card"
-                />
-                <img
-                  src="./assets/skill_icons/css3.svg"
-                  alt=""
-                  loading="lazy"
-                  class="icon2 icon-card"
-                />
-                <img
+          <h4 class="skill-header">ツール</h4>
+
+          <div class="skills-wrapper">
+            <div class="first-set animate__animated animate__pulse">
+              <img
+                src="./assets/skill_icons/html5.svg"
+                alt=""
+                loading="lazy"
+                class="icon2 icon-card"
+              />
+              <img
+                src="./assets/skill_icons/css3.svg"
+                alt=""
+                loading="lazy"
+                class="icon2 icon-card"
+              />
+              <img
                 src="./assets/skill_icons/sass.svg"
                 alt=""
                 loading="lazy"
                 class="icon2 icon-card"
               />
-                <img
-                  src="./assets/skill_icons/python.svg"
-                  alt=""
-                  loading="lazy"
-                  class="icon2 icon-card"
-                />
-                <img
+              <img
+                src="./assets/skill_icons/python.svg"
+                alt=""
+                loading="lazy"
+                class="icon2 icon-card"
+              />
+              <img
                 src="./assets/skill_icons/flask.svg"
                 alt=""
                 loading="lazy"
                 class="icon2 icon-card"
               />
               <img
-              src="./assets/skill_icons/js.svg"
-              alt=""
-              loading="lazy"
-              class="icon2 icon-card"
-            />
-                <img
-                  src="./assets/skill_icons/django.svg"
-                  alt=""
-                  loading="lazy"
-                  class="icon2 icon-card"
-                />
-                <img
+                src="./assets/skill_icons/js.svg"
+                alt=""
+                loading="lazy"
+                class="icon2 icon-card"
+              />
+              <img
+                src="./assets/skill_icons/django.svg"
+                alt=""
+                loading="lazy"
+                class="icon2 icon-card"
+              />
+              <img
                 src="./assets/skill_icons/mysql.svg"
                 alt=""
                 loading="lazy"
                 class="icon2 icon-card"
               />
               <img
-              src="./assets/skill_icons/git.svg"
-              alt=""
-              loading="lazy"
-              class="icon2 icon-card"
-            />
-              </div>
-            </div>            
-          </section>
+                src="./assets/skill_icons/git.svg"
+                alt=""
+                loading="lazy"
+                class="icon2 icon-card"
+              />
+            </div>
+          </div>
+        </section>
       </div>
 
-
-<!-- Projet Birthday -->
-<div class="card">
-    <!-- <div >
+      <!-- Projet Birthday -->
+      <div class="card">
+        <!-- <div >
       <h2 class="card-title">株ポートフォリオのシムレイション</h2>
     </div> -->
-    <div class="row">
-      <div class="avatar-container">
-        <div class="photo">
-          <img class="img" src="./assets/projects_img/birthday_portofolio.JPG" />
-        </div>
-      </div>
-      <div class="details-container">
-        <div class="content">
-          <h3>誕生日カレンダー</h3>
-          <p>誕生日メモ帳と同じく使えるアプリです。
-            人の名前を書いて、生まれた月と日を選んでからその方の誕生日を登録出来ます。<br />
-            言語:Python<br />
-            フロントエンド: Django+Jinja・HTML/CSS+SASS<br />
-サーバーサイド: Flask<br />
-データベース: SQLITE3<br />
-バージョン管理:Git
-          </p>
-          <a href="https://portofolio-birthday.herokuapp.com/" target="_blank" class="project-link, button" style="background-color:#99e9c4;">サイトを見る</a>
-          <!-- <button class="btn-card btn--block card__btn"><a class="btn-link" href="https://portofolio-finance.herokuapp.com/" target="_blank" class="project-link">Check it Out</a></button> -->
-        </div>
-        
-      </div>
-      
-    </div>
-    <!-- delete class or not class="card-footer"-->
-    <section class="skills2" id="skills">
-        <h4 class="skill-header">   ツール</h4>
-    
-        <div class="skills-wrapper">
-          <div class="first-set animate__animated animate__pulse">
-            <img
-              src="./assets/skill_icons/html5.svg"
-              alt=""
-              loading="lazy"
-              class="icon2 icon-card"
-            />
-            <img
-              src="./assets/skill_icons/css3.svg"
-              alt=""
-              loading="lazy"
-              class="icon2 icon-card"
-            />
-            <img
-            src="./assets/skill_icons/sass.svg"
-            alt=""
-            loading="lazy"
-            class="icon2 icon-card"
-          />
-            <img
-              src="./assets/skill_icons/python.svg"
-              alt=""
-              loading="lazy"
-              class="icon2 icon-card"
-            />
-            <img
-            src="./assets/skill_icons/flask.svg"
-            alt=""
-            loading="lazy"
-            class="icon2 icon-card"
-          />
-            <img
-              src="./assets/skill_icons/django.svg"
-              alt=""
-              loading="lazy"
-              class="icon2 icon-card"
-            />
-            <img
-            src="./assets/skill_icons/mysql.svg"
-            alt=""
-            loading="lazy"
-            class="icon2 icon-card"
-          />
-          <img
-          src="./assets/skill_icons/git.svg"
-          alt=""
-          loading="lazy"
-          class="icon2 icon-card"
-        />
+        <div class="row">
+          <div class="avatar-container">
+            <div class="photo">
+              <img
+                class="img"
+                src="./assets/projects_img/birthday_portofolio.JPG"
+              />
+            </div>
           </div>
-        </div>            
-      </section>
-  </div>
+          <div class="details-container">
+            <div class="content">
+              <h3>誕生日カレンダー</h3>
+              <p>
+                誕生日メモ帳と同じく使えるアプリです。
+                人の名前を書いて、生まれた月と日を選んでからその方の誕生日を登録出来ます。<br />
+                言語:Python<br />
+                フロントエンド: Django+Jinja・HTML/CSS+SASS<br />
+                サーバーサイド: Flask<br />
+                データベース: SQLITE3<br />
+                バージョン管理:Git
+              </p>
+              <a
+                href="https://flask-birthday-123.azurewebsites.net/"
+                target="_blank"
+                class="project-link, button"
+                style="background-color: #99e9c4"
+                >サイトを見る</a
+              >
+              <!-- <button class="btn-card btn--block card__btn"><a class="btn-link" href="https://portofolio-finance.herokuapp.com/" target="_blank" class="project-link">Check it Out</a></button> -->
+            </div>
+          </div>
+        </div>
+        <!-- delete class or not class="card-footer"-->
+        <section class="skills2" id="skills">
+          <h4 class="skill-header">ツール</h4>
 
-<!-- C photo filter -->
-<div class="card">
-  <!-- <div >
+          <div class="skills-wrapper">
+            <div class="first-set animate__animated animate__pulse">
+              <img
+                src="./assets/skill_icons/html5.svg"
+                alt=""
+                loading="lazy"
+                class="icon2 icon-card"
+              />
+              <img
+                src="./assets/skill_icons/css3.svg"
+                alt=""
+                loading="lazy"
+                class="icon2 icon-card"
+              />
+              <img
+                src="./assets/skill_icons/sass.svg"
+                alt=""
+                loading="lazy"
+                class="icon2 icon-card"
+              />
+              <img
+                src="./assets/skill_icons/python.svg"
+                alt=""
+                loading="lazy"
+                class="icon2 icon-card"
+              />
+              <img
+                src="./assets/skill_icons/flask.svg"
+                alt=""
+                loading="lazy"
+                class="icon2 icon-card"
+              />
+              <img
+                src="./assets/skill_icons/django.svg"
+                alt=""
+                loading="lazy"
+                class="icon2 icon-card"
+              />
+              <img
+                src="./assets/skill_icons/mysql.svg"
+                alt=""
+                loading="lazy"
+                class="icon2 icon-card"
+              />
+              <img
+                src="./assets/skill_icons/git.svg"
+                alt=""
+                loading="lazy"
+                class="icon2 icon-card"
+              />
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <!-- C photo filter -->
+      <div class="card">
+        <!-- <div >
     <h2 class="card-title">株ポートフォリオのシムレイション</h2>
   </div> -->
-  <div class="row">
-    <div class="avatar-container">
-      <div class="photo">
-        <img class="img" src="./assets/code_img/c/grayscale.JPG" />
-      </div>
-    </div>
-    <div class="details-container">
-      <div class="content">
-        <h3>写真フィルター・プログラム</h3>
-        <p>プログラムにパラメーターとして写真名とパスを入れて、写真自体を編集する事が出来るプログラムです。<br />
-          例：写真の色を変えたり、ぼかし加工、ミラーエフェクトなど。<br /><br />
-          言語:C<br />
-
-        </p>
-        <a href="c_code.html" class="project-link, button" style="background-color:#99e9c4;">コードを見る</a>
-        <!-- <button class="btn-card btn--block card__btn"><a class="btn-link" href="https://portofolio-finance.herokuapp.com/" target="_blank" class="project-link">Check it Out</a></button> -->
-      </div>
-      
-    </div>
-    
-  </div>
-  <!-- delete class or not class="card-footer"-->
-  <section class="skills2" id="skills">
-      <h4 class="skill-header">   ツール</h4>
-  
-      <div class="skills-wrapper">
-        <div class="first-set animate__animated animate__pulse">
-          <img
-            src="./assets/skill_icons/c.svg"
-            alt=""
-            loading="lazy"
-            class="icon2 icon-card"
-          />
-       
+        <div class="row">
+          <div class="avatar-container">
+            <div class="photo">
+              <img class="img" src="./assets/code_img/c/grayscale.JPG" />
+            </div>
+          </div>
+          <div class="details-container">
+            <div class="content">
+              <h3>写真フィルター・プログラム</h3>
+              <p>
+                プログラムにパラメーターとして写真名とパスを入れて、写真自体を編集する事が出来るプログラムです。<br />
+                例：写真の色を変えたり、ぼかし加工、ミラーエフェクトなど。<br /><br />
+                言語:C<br />
+              </p>
+              <a
+                href="c_code.html"
+                class="project-link, button"
+                style="background-color: #99e9c4"
+                >コードを見る</a
+              >
+              <!-- <button class="btn-card btn--block card__btn"><a class="btn-link" href="https://portofolio-finance.herokuapp.com/" target="_blank" class="project-link">Check it Out</a></button> -->
+            </div>
+          </div>
         </div>
-      </div>            
-    </section>
-</div>
+        <!-- delete class or not class="card-footer"-->
+        <section class="skills2" id="skills">
+          <h4 class="skill-header">ツール</h4>
 
-<!-- All-Art -->
-<div class="card">
-  <!-- <div >
+          <div class="skills-wrapper">
+            <div class="first-set animate__animated animate__pulse">
+              <img
+                src="./assets/skill_icons/c.svg"
+                alt=""
+                loading="lazy"
+                class="icon2 icon-card"
+              />
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <!-- All-Art -->
+      <div class="card">
+        <!-- <div >
     <h2 class="card-title">株ポートフォリオのシムレイション</h2>
   </div> -->
-  <div class="row">
-    <div class="avatar-container">
-      <div class="photo">
-        <img class="img" src="./assets/projects_img/allart.JPG" />
-      </div>
-    </div>
-    <div class="details-container">
-      <div class="content">
-        <h3>アート系のネットショップ</h3>
-        <p>WordPressで作ってあるネットショップです。
+        <div class="row">
+          <div class="avatar-container">
+            <div class="photo">
+              <img class="img" src="./assets/projects_img/allart.JPG" />
+            </div>
+          </div>
+          <div class="details-container">
+            <div class="content">
+              <h3>アート系のネットショップ</h3>
+              <p>
+                WordPressで作ってあるネットショップです。
 
-          <br />現在やり直し中。
-          <br />Solidityとスマートコントラクトを使って新しいバージョンを作成中ですが、作成したデザインとフランス語から日本語への翻訳・通訳の少しを見せられます。<br /><br />
-    
-        </p>
-        <a href="allart.html" class="project-link, button" style="background-color:#99e9c4;">ページを見る</a>
-        <!-- <button class="btn-card btn--block card__btn"><a class="btn-link" href="https://portofolio-finance.herokuapp.com/" target="_blank" class="project-link">Check it Out</a></button> -->
-      </div>
-      
-    </div>
-    
-  </div>
-  <!-- delete class or not class="card-footer"-->
-  <section class="skills2" id="skills">
-      <h4 class="skill-header">   ツール</h4>
-  
-      <div class="skills-wrapper">
-        <div class="first-set animate__animated animate__pulse">
-          <img
-            src="./assets/skill_icons/wordpress.svg"
-            alt=""
-            loading="lazy"
-            class="icon2 icon-card"
-          />
-       
+                <br />現在やり直し中。
+                <br />Solidityとスマートコントラクトを使って新しいバージョンを作成中ですが、作成したデザインとフランス語から日本語への翻訳・通訳の少しを見せられます。<br /><br />
+              </p>
+              <a
+                href="allart.html"
+                class="project-link, button"
+                style="background-color: #99e9c4"
+                >ページを見る</a
+              >
+              <!-- <button class="btn-card btn--block card__btn"><a class="btn-link" href="https://portofolio-finance.herokuapp.com/" target="_blank" class="project-link">Check it Out</a></button> -->
+            </div>
+          </div>
         </div>
-      </div>            
-    </section>
-</div>
-<!-- Pet shop -->
-<div class="card">
-  <!-- <div >
+        <!-- delete class or not class="card-footer"-->
+        <section class="skills2" id="skills">
+          <h4 class="skill-header">ツール</h4>
+
+          <div class="skills-wrapper">
+            <div class="first-set animate__animated animate__pulse">
+              <img
+                src="./assets/skill_icons/wordpress.svg"
+                alt=""
+                loading="lazy"
+                class="icon2 icon-card"
+              />
+            </div>
+          </div>
+        </section>
+      </div>
+      <!-- Pet shop -->
+      <div class="card">
+        <!-- <div >
     <h2 class="card-title">株ポートフォリオのシムレイション</h2>
   </div> -->
-  <div class="row">
-    <div class="avatar-container">
-      <div class="photo">
-        <img class="img" src="./assets/projects_img/hisyoo.JPG" />
-      </div>
-    </div>
-    <div class="details-container">
-      <div class="content">
-        <h3>動物ネットショップ</h3>
-        <p>日本のGMOのCMSで作られているサイトです。<br /><br />
-          言語:HTML/CSS<br />
-
-        </p>
-        <a href="https://hisyoo.co.jp/"  target="_blank" class="project-link, button" style="background-color:#99e9c4;">サイトを見る</a>
-        <!-- <button class="btn-card btn--block card__btn"><a class="btn-link" href="https://portofolio-finance.herokuapp.com/" target="_blank" class="project-link">Check it Out</a></button> -->
-      </div>
-      
-    </div>
-    
-  </div>
-  <!-- delete class or not class="card-footer"-->
-  <section class="skills2" id="skills">
-      <h4 class="skill-header">   ツール</h4>
-  
-      <div class="skills-wrapper">
-        <div class="first-set animate__animated animate__pulse">
-          <img
-            src="./assets/skill_icons/html5.svg"
-            alt=""
-            loading="lazy"
-            class="icon2 icon-card"
-          />
-          <img
-          src="./assets/skill_icons/css3.svg"
-          alt=""
-          loading="lazy"
-          class="icon2 icon-card"
-        />
-        <img
-        src="./assets/skill_icons/gmo.svg"
-        alt=""
-        loading="lazy"
-        class="icon2 icon-card"
-      />
-      <img
-      src="./assets/skill_icons/mysql.svg"
-      alt=""
-      loading="lazy"
-      class="icon2 icon-card"
-    />
+        <div class="row">
+          <div class="avatar-container">
+            <div class="photo">
+              <img class="img" src="./assets/projects_img/hisyoo.JPG" />
+            </div>
+          </div>
+          <div class="details-container">
+            <div class="content">
+              <h3>動物ネットショップ</h3>
+              <p>
+                日本のGMOのCMSで作られているサイトです。<br /><br />
+                言語:HTML/CSS<br />
+              </p>
+              <a
+                href="https://hisyoo.co.jp/"
+                target="_blank"
+                class="project-link, button"
+                style="background-color: #99e9c4"
+                >サイトを見る</a
+              >
+              <!-- <button class="btn-card btn--block card__btn"><a class="btn-link" href="https://portofolio-finance.herokuapp.com/" target="_blank" class="project-link">Check it Out</a></button> -->
+            </div>
+          </div>
         </div>
-      </div>            
-    </section>
-</div>
+        <!-- delete class or not class="card-footer"-->
+        <section class="skills2" id="skills">
+          <h4 class="skill-header">ツール</h4>
 
-<!-- Hospital-->
-<div class="card">
-  <!-- <div >
+          <div class="skills-wrapper">
+            <div class="first-set animate__animated animate__pulse">
+              <img
+                src="./assets/skill_icons/html5.svg"
+                alt=""
+                loading="lazy"
+                class="icon2 icon-card"
+              />
+              <img
+                src="./assets/skill_icons/css3.svg"
+                alt=""
+                loading="lazy"
+                class="icon2 icon-card"
+              />
+              <img
+                src="./assets/skill_icons/gmo.svg"
+                alt=""
+                loading="lazy"
+                class="icon2 icon-card"
+              />
+              <img
+                src="./assets/skill_icons/mysql.svg"
+                alt=""
+                loading="lazy"
+                class="icon2 icon-card"
+              />
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <!-- Hospital-->
+      <div class="card">
+        <!-- <div >
     <h2 class="card-title">株ポートフォリオのシムレイション</h2>
   </div> -->
-  <div class="row">
-    <div class="avatar-container">
-      <div class="photo">
-        <img class="img" src="./assets/projects_img/growwing.JPG" />
-      </div>
-    </div>
-    <div class="details-container">
-      <div class="content">
-        <h3>動物病院会社のサイト</h3>
-        <p>日本のA-BlogCMSのCMSで作られているサイトです。<br /><br />
-          言語:HTML/CSS<br />
-
-        </p>
-        <a href="https://growwing.jp/"  target="_blank" class="project-link, button" style="background-color:#99e9c4;">サイトを見る</a>
-        <!-- <button class="btn-card btn--block card__btn"><a class="btn-link" href="https://portofolio-finance.herokuapp.com/" target="_blank" class="project-link">Check it Out</a></button> -->
-      </div>
-      
-    </div>
-    
-  </div>
-  <!-- delete class or not class="card-footer"-->
-  <section class="skills2" id="skills">
-      <h4 class="skill-header">   ツール</h4>
-  
-      <div class="skills-wrapper">
-        <div class="first-set animate__animated animate__pulse">
-          <img
-            src="./assets/skill_icons/html5.svg"
-            alt=""
-            loading="lazy"
-            class="icon2 icon-card"
-          />
-          <img
-          src="./assets/skill_icons/css3.svg"
-          alt=""
-          loading="lazy"
-          class="icon2 icon-card"
-        />
-        <img
-        src="./assets/skill_icons/a-blogcms.svg"
-        alt=""
-        loading="lazy"
-        class="icon2 icon-card"
-      />
-      <img
-      src="./assets/skill_icons/mysql.svg"
-      alt=""
-      loading="lazy"
-      class="icon2 icon-card"
-    />
+        <div class="row">
+          <div class="avatar-container">
+            <div class="photo">
+              <img class="img" src="./assets/projects_img/growwing.JPG" />
+            </div>
+          </div>
+          <div class="details-container">
+            <div class="content">
+              <h3>動物病院会社のサイト</h3>
+              <p>
+                日本のA-BlogCMSのCMSで作られているサイトです。<br /><br />
+                言語:HTML/CSS<br />
+              </p>
+              <a
+                href="https://growwing.jp/"
+                target="_blank"
+                class="project-link, button"
+                style="background-color: #99e9c4"
+                >サイトを見る</a
+              >
+              <!-- <button class="btn-card btn--block card__btn"><a class="btn-link" href="https://portofolio-finance.herokuapp.com/" target="_blank" class="project-link">Check it Out</a></button> -->
+            </div>
+          </div>
         </div>
-      </div>            
-    </section>
-</div>
+        <!-- delete class or not class="card-footer"-->
+        <section class="skills2" id="skills">
+          <h4 class="skill-header">ツール</h4>
 
+          <div class="skills-wrapper">
+            <div class="first-set animate__animated animate__pulse">
+              <img
+                src="./assets/skill_icons/html5.svg"
+                alt=""
+                loading="lazy"
+                class="icon2 icon-card"
+              />
+              <img
+                src="./assets/skill_icons/css3.svg"
+                alt=""
+                loading="lazy"
+                class="icon2 icon-card"
+              />
+              <img
+                src="./assets/skill_icons/a-blogcms.svg"
+                alt=""
+                loading="lazy"
+                class="icon2 icon-card"
+              />
+              <img
+                src="./assets/skill_icons/mysql.svg"
+                alt=""
+                loading="lazy"
+                class="icon2 icon-card"
+              />
+            </div>
+          </div>
+        </section>
+      </div>
 
-  <!-- L2J Projet -->
+      <!-- L2J Projet -->
 
-<!-- Projet Birthday -->
-<div class="card">
-    <!-- <div >
+      <!-- Projet Birthday -->
+      <div class="card">
+        <!-- <div >
       <h2 class="card-title">株ポートフォリオのシムレイション</h2>
     </div> -->
-    <div class="row">
-      <div class="avatar-container">
-        <div class="photo">
-          <img class="img" src="./assets/projects_img/L2j.png" />
-        </div>
-      </div>
-      <div class="details-container">
-        <div class="content">
-          <h3>L2jFreeとL2j・L2jNitghly Build</h3>
-          <p>
-            2003年～2006年・Lineage 2 大人気MMORPGのプライベートサーバーデベロップメントに参加していました。<br />
-            (現在、L2JFreeとL2JのデベロップメントチームはL2JServerとなりました。)<br />
-            ・このゲームのプライベートデベロップメントチームコミュニティーと一緒にオフィシャルゲームのアップデートやリリースからのデータ・アイテム・PNJなどをプライベートサーバーのサーバー・クライエント・データベースに移行していました。<br />
-            ・３人チームと一緒に３年間プライベートサーバーをホストしました。クライエント問題とサーバーのデータベース管理を行っていました。<br />
-            ・フランスのコミュニティーのためにフランス語版翻訳を行っていました。<br /><br />
-            言語: Java・C#<br />
-            サーバーとゲームクライエント: Java・C# (昔二つバージョンありました、現在はJAVAだけとなっています。)<br />
-データベース: PHPMyAdmin<br />
-・アカウント・キャラクター・イベント・アイテムやPNJやお化けのIDなどの管理。<br />
-バージョンコンパイラー・バージョン管理: Eclipse (Trunk)<br />
-アイテムのテキスト・PNJのテキストなど: HTMLとXML
-<br />
-          </p>
-          <a href="https://www.l2jserver.com/" target="_blank" class="project-link, button" style="background-color:#99e9c4;">L2Jデベロップメントサイトへ</a>
-          <!-- <button class="btn-card btn--block card__btn"><a class="btn-link" href="https://portofolio-finance.herokuapp.com/" target="_blank" class="project-link">Check it Out</a></button> -->
-        </div>
-        
-      </div>
-      
-    </div>
-    <!-- delete class or not class="card-footer"-->
-    <section class="skills2" id="skills">
-        <h4 class="skill-header">   ツール</h4>
-    
-        <div class="skills-wrapper">
-          <div class="first-set animate__animated animate__pulse">
-            <img
-              src="./assets/skill_icons/html5.svg"
-              alt=""
-              loading="lazy"
-              class="icon2 icon-card"
-            />
-            <img
-            src="./assets/skill_icons/java.svg"
-            alt=""
-            loading="lazy"
-            class="icon2 icon-card"
-          />
-            <img
-              src="./assets/skill_icons/phpmyadmin.svg"
-              alt=""
-              loading="lazy"
-              class="icon2 icon-card"
-            />
-            <img
-            src="./assets/skill_icons/csharp.svg"
-            alt=""
-            loading="lazy"
-            class="icon2 icon-card"
-          />
-          <img
-          src="./assets/skill_icons/xml.svg"
-          alt=""
-          loading="lazy"
-          class="icon2 icon-card"
-        />
-            <img
-              src="./assets/skill_icons/eclipse.svg"
-              alt=""
-              loading="lazy"
-              class="icon2 icon-card"
-            />
-            <img
-            src="./assets/skill_icons/mysql.svg"
-            alt=""
-            loading="lazy"
-            class="icon2 icon-card"
-          />
-          
+        <div class="row">
+          <div class="avatar-container">
+            <div class="photo">
+              <img class="img" src="./assets/projects_img/L2j.png" />
+            </div>
           </div>
-        </div>            
-      </section>
-  </div>
+          <div class="details-container">
+            <div class="content">
+              <h3>L2jFreeとL2j・L2jNitghly Build</h3>
+              <p>
+                2003年～2006年・Lineage 2
+                大人気MMORPGのプライベートサーバーデベロップメントに参加していました。<br />
+                (現在、L2JFreeとL2JのデベロップメントチームはL2JServerとなりました。)<br />
+                ・このゲームのプライベートデベロップメントチームコミュニティーと一緒にオフィシャルゲームのアップデートやリリースからのデータ・アイテム・PNJなどをプライベートサーバーのサーバー・クライエント・データベースに移行していました。<br />
+                ・３人チームと一緒に３年間プライベートサーバーをホストしました。クライエント問題とサーバーのデータベース管理を行っていました。<br />
+                ・フランスのコミュニティーのためにフランス語版翻訳を行っていました。<br /><br />
+                言語: Java・C#<br />
+                サーバーとゲームクライエント: Java・C#
+                (昔二つバージョンありました、現在はJAVAだけとなっています。)<br />
+                データベース: PHPMyAdmin<br />
+                ・アカウント・キャラクター・イベント・アイテムやPNJやお化けのIDなどの管理。<br />
+                バージョンコンパイラー・バージョン管理: Eclipse (Trunk)<br />
+                アイテムのテキスト・PNJのテキストなど: HTMLとXML
+                <br />
+              </p>
+              <a
+                href="https://www.l2jserver.com/"
+                target="_blank"
+                class="project-link, button"
+                style="background-color: #99e9c4"
+                >L2Jデベロップメントサイトへ</a
+              >
+              <!-- <button class="btn-card btn--block card__btn"><a class="btn-link" href="https://portofolio-finance.herokuapp.com/" target="_blank" class="project-link">Check it Out</a></button> -->
+            </div>
+          </div>
+        </div>
+        <!-- delete class or not class="card-footer"-->
+        <section class="skills2" id="skills">
+          <h4 class="skill-header">ツール</h4>
 
+          <div class="skills-wrapper">
+            <div class="first-set animate__animated animate__pulse">
+              <img
+                src="./assets/skill_icons/html5.svg"
+                alt=""
+                loading="lazy"
+                class="icon2 icon-card"
+              />
+              <img
+                src="./assets/skill_icons/java.svg"
+                alt=""
+                loading="lazy"
+                class="icon2 icon-card"
+              />
+              <img
+                src="./assets/skill_icons/phpmyadmin.svg"
+                alt=""
+                loading="lazy"
+                class="icon2 icon-card"
+              />
+              <img
+                src="./assets/skill_icons/csharp.svg"
+                alt=""
+                loading="lazy"
+                class="icon2 icon-card"
+              />
+              <img
+                src="./assets/skill_icons/xml.svg"
+                alt=""
+                loading="lazy"
+                class="icon2 icon-card"
+              />
+              <img
+                src="./assets/skill_icons/eclipse.svg"
+                alt=""
+                loading="lazy"
+                class="icon2 icon-card"
+              />
+              <img
+                src="./assets/skill_icons/mysql.svg"
+                alt=""
+                loading="lazy"
+                class="icon2 icon-card"
+              />
+            </div>
+          </div>
+        </section>
+      </div>
 
-<!-- nothing -->
-
+      <!-- nothing -->
 
       <!-- <div class="card"> -->
-        <!-- <div >
+      <!-- <div >
           <h2 class="card-title">株ポートフォリオのシムレイション</h2>
         </div> -->
-        <!-- <div class="row">
+      <!-- <div class="row">
           <div class="avatar-container">
             <div class="photo">
               <img class="img" src="finance_portofolio.JPG" />
@@ -733,8 +787,8 @@ href="./assets/main_img/coding.svg"
           </div>
           
         </div> -->
-        <!-- delete class or not class="card-footer"-->
-        <!-- <section class="skills2" id="skills">
+      <!-- delete class or not class="card-footer"-->
+      <!-- <section class="skills2" id="skills">
             <h4 class="skill-header">   ツール</h4>
         
             <div class="skills-wrapper">
@@ -784,57 +838,76 @@ href="./assets/main_img/coding.svg"
           </section>
       </div> -->
 
-
-  <!-- Side Images -->
-  <div class="socials">
-    <a href="https://github.com/Jer-B" target="_blank"
-      ><img
-        src="./assets/side_img/github.svg"
-        alt="Github"
-        loading="lazy"
-        class="socicon"
-    /></a>
-    <!-- <a href="#" target="_blank"
+      <!-- Side Images -->
+      <div class="socials">
+        <a href="https://github.com/Jer-B" target="_blank"
+          ><img
+            src="./assets/side_img/github.svg"
+            alt="Github"
+            loading="lazy"
+            class="socicon"
+        /></a>
+        <!-- <a href="#" target="_blank"
       ><img
         src="./assets/side_img/stackoverflow.svg"
         alt="Stackoverflow"
         loading="lazy"
         class="socicon"
     /></a> -->
-    <a href="https://githubgroupe.slack.com" target="_blank"
-      ><img
-        src="./assets/side_img/slack-logo.svg"
-        alt="Slack"
-        loading="lazy"
-        class="socicon"
-    /></a>
-    <!-- <a href="#" target="_blank"
+        <a href="https://githubgroupe.slack.com" target="_blank"
+          ><img
+            src="./assets/side_img/slack-logo.svg"
+            alt="Slack"
+            loading="lazy"
+            class="socicon"
+        /></a>
+        <!-- <a href="#" target="_blank"
       ><img src="./assets/side_img/linkedin.svg" alt="Linkedin" class="socicon"
     /></a> -->
-    <!-- <i class="scroll-up" id="scroll-up"
+        <!-- <i class="scroll-up" id="scroll-up"
     ><img
       src="./assets/side_img/uparrow.gif"
       class="socicon up-arrow"
       alt="scroll-up"
   /></i> -->
-  </div>
-</section>
-  <!-- Footer -->
-  <footer>
-    <p class="copy">&copy; Copyright 2022</p>
-    <p class="copy">
-      ブルー　ジェレミー　・　Bru Jeremy
-    </p>
-</footer>
-    </body>
- 
-       <!-- icons scripts -->
-    <script
-      type="module"
-      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
-    ></script>
-    <script
-      nomodule
-      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
-    ></script>
+      </div>
+    </section>
+    <!-- Footer -->
+    <footer>
+      <p class="copy">&copy; Copyright 2022</p>
+      <p class="copy">ブルー　ジェレミー　・　Bru Jeremy</p>
+    </footer>
+
+    <script>
+      // Get the menu and the button elements for mobile
+      const menu = document.querySelector(".navbar-links");
+      const button = document.querySelector(".hamburger-menu");
+
+      // Toggle the menu when the button is clicked
+      button.addEventListener("click", (event) => {
+        event.stopPropagation(); // Prevent the document click event from firing
+        menu.classList.toggle("display");
+      });
+
+      // Close the menu when the document is clicked
+      document.addEventListener("click", () => {
+        menu.classList.remove("display");
+      });
+
+      // Prevent the document click event from firing when the menu is clicked
+      menu.addEventListener("click", (event) => {
+        event.stopPropagation();
+      });
+    </script>
+  </body>
+
+  <!-- icons scripts -->
+  <script
+    type="module"
+    src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+  ></script>
+  <script
+    nomodule
+    src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+  ></script>
 </html>
