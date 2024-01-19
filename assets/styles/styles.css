@@ -648,6 +648,7 @@ a.button:hover {
   box-shadow: 0 3px 10px var(--primary-shadow);
   padding: 20px;
   margin: 5%;
+  overflow-x: auto;
   /* min-height:30rem;
   max-height:30rem; */
 }
@@ -684,6 +685,7 @@ a.button:hover {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  overflow-x: auto;
 }
 
 .row-code {
@@ -1173,6 +1175,10 @@ a.button:hover {
     max-width: 286px;
   }
 }
+/* .details-container h3 {
+  text-align: left;
+  overflow-x: auto;
+} */
 
 @media (min-width: 741px) {
   .details-container h3 {
@@ -1239,6 +1245,7 @@ footer {
 pre code {
   white-space: pre-wrap !important;
 }
+
 figcaption pre code {
   background-color: rgb(250, 250, 250) !important;
   white-space: pre-wrap !important;
@@ -1254,6 +1261,7 @@ figcaption pre code {
 .language-solidity {
   background-color: rgb(245, 245, 245) !important;
   border: none !important;
+  overflow-x: auto !important;
 }
 .copy-btn {
   margin-left: 10px;
@@ -1352,4 +1360,26 @@ figcaption pre code {
     margin-left: auto;
     margin-right: auto;
   }
+}
+
+@media (max-width: 850px) {
+  .language-c {
+    background-color: rgb(245, 245, 245) !important;
+    border: none !important;
+    overflow-x: auto !important;
+    /* max-width: 50%; */
+    word-break: break-all !important;
+  }
+  .language-solidity {
+    background-color: rgb(245, 245, 245) !important;
+    border: none !important;
+    overflow-x: auto !important;
+    /* max-width: 50%; */
+    word-break: break-all !important;
+  }
+}
+.content .h3code {
+  text-align: left;
+  padding: 0;
+  /* background-color: #4caf50; */
 }
