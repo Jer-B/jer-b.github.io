@@ -1,392 +1,453 @@
 <!DOCTYPE html>
 
 <html lang="en">
-    <head>
-         <!-- <meta http-equiv="refresh" content="10" /> -->
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
-<link
-rel="stylesheet"
-href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-/>        
-<link href="./assets/styles/styles.css" rel="stylesheet">
-<link
-rel="icon"
-type="image/png"
-sizes="32x32"
-href="./assets/main_img/coding.svg"
-/>
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-        <script>
-        document.addEventListener('DOMContentLoaded', function() {
-        window.onscroll = function() {myFunction()};
+  <head>
+    <!-- <meta http-equiv="refresh" content="10" /> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+      integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link href="./assets/styles/styles.css" rel="stylesheet" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/main_img/coding.svg"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.24.1/themes/prism.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        window.onscroll = function () {
+          myFunction();
+        };
         var navbar = document.getElementById("navbar");
         var sticky = navbar.offsetTop;
 
         function myFunction() {
-            if (window.pageYOffset >= sticky) {
-                navbar.classList.add("sticky")}
-            else {
-                navbar.classList.remove("sticky");
-
-            }
-
+          if (window.pageYOffset >= sticky) {
+            navbar.classList.add("sticky");
+          } else {
+            navbar.classList.remove("sticky");
+          }
         }
-        });
-        </script>
-        <script src="./assets/js/app.js"></script>
+      });
+    </script>
+    <script src="./assets/js/app.js"></script>
 
-        <title>Solidityコード</title>
-    </head>
-    <body>
-        <div class="header">
-  <!-- <h1>Career change: Software Engineer</h1> -->
-  <h1></h1>
-  <!-- <p>Introduction of myself to you.<br />Looking for someone ?</p> -->
-  <p></p>
-  <a href="contact.html" class="button" style="background-color:#42cc8c;">プロジェクトを見る</a>
-</div>
-
-<div id="navbar">
-    <a href="index.html">Home</a>
-    <a href="portofolio.html">Portofolio</a>
-    <a class="active" href="project.html">Projects</a>
-    <!-- <a href="resume.html">Resume</a> -->
-    <a href="course_path.html">Course Paths & Ressources</a>
-    <!-- <a href="contact.html">Contact</a> -->
-  </div>
-<!-- <div class="content">
-  <h2>Welcome</h2>
-  <p></p>
-  <p>Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
-  <p>Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
-
-</div> -->
-
-<section class="hero" id="about">
-    <img
-      src="./assets/pages_img/projects.svg"
-      alt=""
-      loading="lazy"
-      class="hero-img"
-    />
-    <div class="bio animate__animated animate__shakeX">
-      <h2 class="bio-title">Solidityコード</h2>
-      <p class="bio-text">Solidityでスマートコントラクトプログラミングを学び中です。
-        <br />
-        現在、このでページにあるコードは言語の使い方と考え方のコードテストです。
-      </p>
+    <title>Solidityコード</title>
+  </head>
+  <body>
+    <div class="header">
+      <!-- <h1>Career change: Software Engineer</h1> -->
+      <h1></h1>
+      <!-- <p>Introduction of myself to you.<br />Looking for someone ?</p> -->
+      <p></p>
+      <a href="contact.html" class="button" style="background-color: #42cc8c"
+        >プロジェクトを見る</a
+      >
     </div>
-</section>
 
-  
-
-  <section class="projects" id="projects">
-
-
-
-<!-- Fund Me -->
-<div class="card">
-    <!-- <div >
-      <h2 class="card-title">株ポートフォリオのシムレイション</h2>
-    </div> -->
-
-    <div class="row">
-
-      <div class="avatar-container">
-        <div class="photo">
-        
-          <img class="img" src="./assets/projects_img/solidity.png" />
+    <div id="navbar">
+      <div class="menu-container">
+        <div class="hamburger-menu">
+          <div></div>
+          <div></div>
+          <div></div>
         </div>
+        <span class="menu-label">メニュー</span>
       </div>
-      <div class="details-container">
-        <div class="content">
-          <h3>スマートコントラクト</h3>
-          <p>例えのコードについて:<br />
-          <ul>
-            <li>Remixテスト・SimpleStorage.sol。　スマートコントラクトから値と操作する事のコードです。</li>
-            <li>Remixテスト・SimpleStorage.sol。スマートコントラクトへの資金の入金と引き出しの事のコードです。</li>
-          </ul>
-          使い方：<br />
-          ・！Metamaskとテストブロックチェーン系のイーサリアムは必要です。！<br />
-          ・REMIXのサイトで新しいコントラクトを作成。<br />
-          ・コードをペストする。<br />
-          ・コンパイルして後、契約を操作する事が出来ます。<br />
-          </p>
-          <a href="project.html" class="project-link, button" style="background-color:#99e9c4;">プロジェクト・ページへ戻る</a>
-          <!-- <button class="btn-card btn--block card__btn"><a class="btn-link" href="https://portofolio-finance.herokuapp.com/" target="_blank" class="project-link">Check it Out</a></button> -->
-
-        </div>
+      <div class="navbar-links">
+        <a href="index.html">Home</a>
+        <a class="active" href="portofolio.html">Portofolio</a>
+        <a href="project.html">Projects</a>
+        <!-- <a href="resume.html">Resume</a> -->
+        <a href="course_path.html">Course Paths & Ressources</a>
+        <!-- <a href="contact.html">Contact</a> -->
       </div>
-      
     </div>
-    <!-- delete class or not class="card-footer"-->
-    <section class="skills2" id="skills">
-      <h4 class="skill-header">   ツール</h4>
-  
-      <div class="skills-wrapper">
-        <div class="first-set animate__animated animate__pulse">
-          <img
-            src="./assets/skill_icons/solidity.svg"
-            alt=""
-            loading="lazy"
-            class="icon2 icon-card"
-          />
-          <img
-          src="./assets/skill_icons/python.svg"
-          alt=""
-          loading="lazy"
-          class="icon2 icon-card"
-        />
-        <img
-        src="./assets/skill_icons/remix.png"
+
+    <section class="hero" id="about">
+      <img
+        src="./assets/pages_img/projects.svg"
         alt=""
         loading="lazy"
-        class="icon2 icon-card"
+        class="hero-img"
       />
-      <img
-      src="./assets/skill_icons/brownie.png"
-      alt=""
-      loading="lazy"
-      class="icon2 icon-card"
-    />
-    <img
-    src="./assets/skill_icons/chainlink.svg"
-    alt=""
-    loading="lazy"
-    class="icon2 icon-card"
-  />
-  <img
-  src="./assets/skill_icons/ganache.svg"
-  alt=""
-  loading="lazy"
-  class="icon2 icon-card"
-/> 
- <img
-src="./assets/skill_icons/web3.svg"
-alt=""
-loading="lazy"
-class="icon2 icon-card"
-/>
-        </div>
-      </div>            
+      <div class="bio animate__animated animate__shakeX">
+        <h2 class="bio-title">Solidityコード</h2>
+        <p class="bio-text">
+          Solidityでスマートコントラクトプログラミングを学び中です。
+          <br />
+          現在、このでページにあるコードは言語の使い方と考え方のコードテストです。
+        </p>
+      </div>
     </section>
-</div>
 
-<!-- filter.c -->
-<div class="card">
-    <!-- <div >
-      <h2 class="card-title">株ポートフォリオのシムレイション</h2>
-    </div> -->
-    <div class="row">
-      <div class="details-container">
-        <div class="content">
-          <h3>Remixテスト・SimpleStorage.sol</h3>
-          <figcaption><pre><code>
-            // SPDX-License-Identifier: MIT
-
-            pragma solidity ^0.6.0;
-            
-            contract SimpleStorage {
-                
-                // initialize　to 0
-                uint256 favoriteNumber;
-                bool favoriteBool;
-                
-                struct People {
-                    uint256 favoriteNumber;
-                    string name;
-                }
-                
-                People[] public people;
-                mapping(string => uint256) public nameToFavoriteNumber;
-                
-                function store(uint256 _favoriteNumber) public {
-                    favoriteNumber = _favoriteNumber;
-                }
-                
-                function retrieve() public view returns(uint256) {
-                    return favoriteNumber;
-                }
-                
-                function addPerson(string memory _name, uint256 _favoriteNumber) public{
-                    people.push(People(_favoriteNumber, _name));
-                    nameToFavoriteNumber[_name] = _favoriteNumber;
-                }    
-                
-            }
-            </code></pre></figcaption>
+    <section class="projects" id="projects">
+      <div class="card">
+        <div class="row-solidity">
+          <div class="avatar-container-solidity">
+            <div class="photo-solidity">
+              <img
+                class="img-solidity"
+                src="./assets/projects_img/solidity.png"
+              />
+            </div>
+          </div>
+          <div class="details-container-solidity">
+            <div class="content-solidity">
+              <h3>スマートコントラクト</h3>
+              <p>例えのコードについて:</p>
+              <ul>
+                <li>
+                  Remixテスト・SimpleStorage.sol。
+                  スマートコントラクトから値と操作する事のコードです。
+                </li>
+                <li>
+                  Remixテスト・SimpleStorage.sol。スマートコントラクトへの資金の入金と引き出しの事のコードです。
+                </li>
+              </ul>
+              <p>使い方：</p>
+              <ul>
+                <li>
+                  ！Metamaskとテストブロックチェーン系のイーサリアムは必要です。！
+                </li>
+                <li>REMIXのサイトで新しいコントラクトを作成。</li>
+                <li>コードをペストする。</li>
+                <li>コンパイルして後、契約を操作する事が出来ます。</li>
+              </ul>
+              <a
+                href="project.html"
+                class="project-link, button"
+                style="background-color: #99e9c4"
+                >プロジェクト・ページへ戻る</a
+              >
+              <!-- <button class="btn-card btn--block card__btn"><a class="btn-link" href="https://portofolio-finance.herokuapp.com/" target="_blank" class="project-link">Check it Out</a></button> -->
+            </div>
+          </div>
         </div>
-        
+        <!-- delete class or not class="card-footer"-->
+        <section class="skills2" id="skills">
+          <h4 class="skill-header">ツール</h4>
+
+          <div class="skills-wrapper">
+            <div class="first-set animate__animated animate__pulse">
+              <img
+                src="./assets/skill_icons/solidity.svg"
+                alt=""
+                loading="lazy"
+                class="icon2 icon-card"
+              />
+              <img
+                src="./assets/skill_icons/python.svg"
+                alt=""
+                loading="lazy"
+                class="icon2 icon-card"
+              />
+              <img
+                src="./assets/skill_icons/remix.png"
+                alt=""
+                loading="lazy"
+                class="icon2 icon-card"
+              />
+              <img
+                src="./assets/skill_icons/brownie.png"
+                alt=""
+                loading="lazy"
+                class="icon2 icon-card"
+              />
+              <img
+                src="./assets/skill_icons/chainlink.svg"
+                alt=""
+                loading="lazy"
+                class="icon2 icon-card"
+              />
+              <img
+                src="./assets/skill_icons/ganache.svg"
+                alt=""
+                loading="lazy"
+                class="icon2 icon-card"
+              />
+              <img
+                src="./assets/skill_icons/web3.svg"
+                alt=""
+                loading="lazy"
+                class="icon2 icon-card"
+              />
+            </div>
+          </div>
+        </section>
       </div>
-      
-    </div>
 
-  </div>
+      <div class="card">
+        <div class="row">
+          <div class="details-container">
+            <div class="content">
+              <h3>
+                Remixテスト・SimpleStorage.sol<button class="copy-btn">
+                  <i class="fas fa-copy"></i>
+                </button>
+              </h3>
+              <figcaption>
+                <pre><code class="language-solidity">
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.6.0;
 
-
-<!-- Bmp.h -->
-<div class="card">
-    <!-- <div >
-      <h2 class="card-title">株ポートフォリオのシムレイション</h2>
-    </div> -->
-    <div class="row">
-      <div class="details-container">
-        <div class="content">
-          <h3>Remixテスト・FundMe.sol</h3>
-          <code><pre>
-            // SPDX-License-Identifier: MIT
-
-            // Smart contract that lets anyone deposit ETH into the contract
-            // Only the owner of the contract can withdraw the ETH
-            pragma solidity >=0.6.6　&lt; 0.9.0;
-            
-            // Get the latest ETH/USD price from chainlink price feed
-            import "@chainlink/contracts/src/v0.6/interfaces/AggregatorV3Interface.sol";
-            import "@chainlink/contracts/src/v0.6/vendor/SafeMathChainlink.sol";
-            
-            contract FundMe {
-              // safe math library check uint256 for integer overflows
-                using SafeMathChainlink for uint256;
-                
-                //mapping to store which address depositeded how much ETH
-                mapping(address => uint256) public addressToAmountFunded;
-                // array of addresses who deposited
-                address[] public funders;
-                //address of the owner (who deployed the contract)
-                address public owner;
-                
-                // the first person to deploy the contract is
-                // the owner
-                constructor() public {
-                    owner = msg.sender;
-                }
-                
-                function fund() public payable {
-                  // 18 digit number to be compared with donated amount 
-                    uint256 minimumUSD = 50 * 10 ** 18;
-                    //is the donated amount less than 50USD?
-                    require(getConversionRate(msg.value) >= minimumUSD, "You need to spend more ETH!");
-                    //if not, add to mapping and funders array
-                    addressToAmountFunded[msg.sender] += msg.value;
-                    funders.push(msg.sender);
-                }
-                
-                //function to get the version of the chainlink pricefeed
-                function getVersion() public view returns (uint256){
-                    AggregatorV3Interface priceFeed = AggregatorV3Interface(0x8A753747A1Fa494EC906cE90E9f37563A8AF630e);
-                    return priceFeed.version();
-                }
-                
-                function getPrice() public view returns(uint256){
-                    AggregatorV3Interface priceFeed = AggregatorV3Interface(0x8A753747A1Fa494EC906cE90E9f37563A8AF630e);
-                    (,int256 answer,,,) = priceFeed.latestRoundData();
-                     // ETH/USD rate in 18 digit 
-                     return uint256(answer * 10000000000);
-                }
-                
-                // 1000000000
-                function getConversionRate(uint256 ethAmount) public view returns (uint256){
-                    uint256 ethPrice = getPrice();
-                    uint256 ethAmountInUsd = (ethPrice * ethAmount) / 1000000000000000000;
-                    // the actual ETH/USD conversation rate, after adjusting the extra 0s.
-                    return ethAmountInUsd;
-                }
-                
-                //modifier: https://medium.com/coinmonks/solidity-tutorial-all-about-modifiers-a86cf81c14cb
-                modifier onlyOwner {
-                  //is the message sender owner of the contract?
-                    require(msg.sender == owner);
-                    
-                    _;
-                }
-                
-                // onlyOwner modifer will first check the condition inside it 
-                // and 
-                // if true, withdraw function will be executed 
-                function withdraw() payable onlyOwner public {
-                
-                  // If you are using Solidity version v0.8.0 or above,
-              // you will need to modify the code below to
-              // payable(msg.sender).transfer(address(this).balance);
-                    msg.sender.transfer(address(this).balance);
-            
-                    
-                    //iterate through all the mappings and make them 0
-                    //since all the deposited amount has been withdrawn
-                    for (uint256 funderIndex=0; funderIndex < funders.length; funderIndex++){
-                        address funder = funders[funderIndex];
-                        addressToAmountFunded[funder] = 0;
-                    }
-                    //funders array will be initialized to 0
-                    funders = new address[](0);
-                }
-            }
-            </pre>
-            </code>
+contract SimpleStorage {
+    
+    // initialize to 0
+    uint256 favoriteNumber;
+    bool favoriteBool;
+    
+    struct People {
+        uint256 favoriteNumber;
+        string name;
+    }
+    
+    People[] public people;
+    mapping(string => uint256) public nameToFavoriteNumber;
+    
+    function store(uint256 _favoriteNumber) public {
+        favoriteNumber = _favoriteNumber;
+    }
+    
+    function retrieve() public view returns(uint256) {
+        return favoriteNumber;
+    }
+    
+    function addPerson(string memory _name, uint256 _favoriteNumber) public{
+        people.push(People(_favoriteNumber, _name));
+        nameToFavoriteNumber[_name] = _favoriteNumber;
+    }    
+    
+}
+            </code></pre>
+              </figcaption>
+            </div>
+          </div>
         </div>
-        
       </div>
-      
-    </div>
 
-  </div>
+      <div class="card">
+        <div class="row">
+          <div class="details-container">
+            <div class="content">
+              <h3>
+                Remixテスト・FundMe.sol<button class="copy-btn">
+                  <i class="fas fa-copy"></i>
+                </button>
+              </h3>
+              <figcaption>
+                <pre><code class="language-solidity">
+// SPDX-License-Identifier: MIT
+// Smart contract that lets anyone deposit ETH into the contract
+// Only the owner of the contract can withdraw the ETH
+pragma solidity >=0.6.6 &lt; 0.9.0;
 
+// Get the latest ETH/USD price from chainlink price feed
+import "@chainlink/contracts/src/v0.6/interfaces/AggregatorV3Interface.sol";
+import "@chainlink/contracts/src/v0.6/vendor/SafeMathChainlink.sol";
 
-  <!-- Side Images -->
-  <div class="socials">
-    <a href="https://github.com/Jer-B" target="_blank"
-      ><img
-        src="./assets/side_img/github.svg"
-        alt="Github"
-        loading="lazy"
-        class="socicon"
-    /></a>
-    <!-- <a href="#" target="_blank"
+contract FundMe {
+  // safe math library check uint256 for integer overflows
+    using SafeMathChainlink for uint256;
+    
+    //mapping to store which address depositeded how much ETH
+    mapping(address => uint256) public addressToAmountFunded;
+    // array of addresses who deposited
+    address[] public funders;
+    //address of the owner (who deployed the contract)
+    address public owner;
+    
+    // the first person to deploy the contract is
+    // the owner
+    constructor() public {
+        owner = msg.sender;
+    }
+    
+    function fund() public payable {
+      // 18 digit number to be compared with donated amount 
+        uint256 minimumUSD = 50 * 10 ** 18;
+        //is the donated amount less than 50USD?
+        require(getConversionRate(msg.value) >= minimumUSD, "You need to spend more ETH!");
+        //if not, add to mapping and funders array
+        addressToAmountFunded[msg.sender] += msg.value;
+        funders.push(msg.sender);
+    }
+    
+    //function to get the version of the chainlink pricefeed
+    function getVersion() public view returns (uint256){
+        AggregatorV3Interface priceFeed = AggregatorV3Interface(0x8A753747A1Fa494EC906cE90E9f37563A8AF630e);
+        return priceFeed.version();
+    }
+    
+    function getPrice() public view returns(uint256){
+        AggregatorV3Interface priceFeed = AggregatorV3Interface(0x8A753747A1Fa494EC906cE90E9f37563A8AF630e);
+        (,int256 answer,,,) = priceFeed.latestRoundData();
+         // ETH/USD rate in 18 digit 
+         return uint256(answer * 10000000000);
+    }
+    
+    // 1000000000
+    function getConversionRate(uint256 ethAmount) public view returns (uint256){
+        uint256 ethPrice = getPrice();
+        uint256 ethAmountInUsd = (ethPrice * ethAmount) / 1000000000000000000;
+        // the actual ETH/USD conversation rate, after adjusting the extra 0s.
+        return ethAmountInUsd;
+    }
+    
+    //modifier: https://medium.com/coinmonks/solidity-tutorial-all-about-modifiers-a86cf81c14cb
+    modifier onlyOwner {
+      //is the message sender owner of the contract?
+        require(msg.sender == owner);
+        
+        _;
+    }
+    
+    // onlyOwner modifer will first check the condition inside it 
+    // and 
+    // if true, withdraw function will be executed 
+    function withdraw() payable onlyOwner public {
+    
+      // If you are using Solidity version v0.8.0 or above,
+  // you will need to modify the code below to
+  // payable(msg.sender).transfer(address(this).balance);
+        msg.sender.transfer(address(this).balance);
+
+        
+        //iterate through all the mappings and make them 0
+        //since all the deposited amount has been withdrawn
+        for (uint256 funderIndex=0; funderIndex < funders.length; funderIndex++){
+            address funder = funders[funderIndex];
+            addressToAmountFunded[funder] = 0;
+        }
+        //funders array will be initialized to 0
+        funders = new address[](0);
+    }
+}
+          </code>  
+          </pre>
+              </figcaption>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Side Images -->
+      <div class="socials">
+        <a href="https://github.com/Jer-B" target="_blank"
+          ><img
+            src="./assets/side_img/github.svg"
+            alt="Github"
+            loading="lazy"
+            class="socicon"
+        /></a>
+        <!-- <a href="#" target="_blank"
       ><img
         src="./assets/side_img/stackoverflow.svg"
         alt="Stackoverflow"
         loading="lazy"
         class="socicon"
     /></a> -->
-    <a href="https://githubgroupe.slack.com" target="_blank"
-      ><img
-        src="./assets/side_img/slack-logo.svg"
-        alt="Slack"
-        loading="lazy"
-        class="socicon"
-    /></a>
-    <!-- <a href="#" target="_blank"
+        <a href="https://githubgroupe.slack.com" target="_blank"
+          ><img
+            src="./assets/side_img/slack-logo.svg"
+            alt="Slack"
+            loading="lazy"
+            class="socicon"
+        /></a>
+        <!-- <a href="#" target="_blank"
       ><img src="./assets/side_img/linkedin.svg" alt="Linkedin" class="socicon"
     /></a> -->
-    <!-- <i class="scroll-up" id="scroll-up"
+        <!-- <i class="scroll-up" id="scroll-up"
     ><img
       src="./assets/side_img/uparrow.gif"
       class="socicon up-arrow"
       alt="scroll-up"
   /></i> -->
-  </div>
- </section>
+      </div>
+    </section>
     <footer>
       <p class="copy">&copy; Copyright 2022</p>
-      <p class="copy">
-        ブルー　ジェレミー　・　Bru Jeremy
-      </p>
-</footer>
-    </body>
- 
-       <!-- icons scripts -->
-    <script
-      type="module"
-      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
-    ></script>
-    <script
-      nomodule
-      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
-    ></script>
+      <p class="copy">ブルー　ジェレミー　・　Bru Jeremy</p>
+    </footer>
+    <script>
+      document.querySelectorAll(".copy-btn").forEach(function (button) {
+        button.addEventListener("click", function () {
+          var code =
+            this.parentNode.nextElementSibling.querySelector("code").innerText;
+          var textarea = document.createElement("textarea");
+          textarea.textContent = code;
+          document.body.appendChild(textarea);
+          textarea.select();
+          document.execCommand("copy");
+          document.body.removeChild(textarea);
+        });
+      });
+    </script>
+    <script>
+      // Get the menu and the button elements for mobile
+      const menu = document.querySelector(".navbar-links");
+      const button = document.querySelector(".hamburger-menu");
+
+      // Toggle the menu when the button is clicked
+      button.addEventListener("click", (event) => {
+        event.stopPropagation(); // Prevent the document click event from firing
+        menu.classList.toggle("display");
+      });
+
+      // Close the menu when the document is clicked
+      document.addEventListener("click", () => {
+        menu.classList.remove("display");
+      });
+
+      // Prevent the document click event from firing when the menu is clicked
+      menu.addEventListener("click", (event) => {
+        event.stopPropagation();
+      });
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.24.1/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.24.1/components/prism-solidity.min.js"></script>
+  </body>
+
+  <!-- icons scripts -->
+  <script
+    type="module"
+    src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+  ></script>
+  <script
+    nomodule
+    src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+  ></script>
 </html>
