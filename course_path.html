@@ -86,12 +86,13 @@
         <span class="menu-label">メニュー</span>
       </div>
       <div class="navbar-links">
-        <a href="index.html">Home</a>
-        <a href="portofolio.html">Portofolio</a>
+        <!-- <a href="index.html">Home</a> -->
+        <a href="portofolio.html">Home</a>
         <a href="project.html">Projects</a>
         <!-- <a href="resume.html">Resume</a> -->
-        <a class="active" href="course_path.html">Course Paths & Ressources</a>
+        <a class="active" href="course_path.html">Study & Ressources</a>
         <!-- <a href="contact.html">Contact</a> -->
+        <a href="https://github.com/Jer-B/" target="_blank">Github</a>
       </div>
     </div>
 
@@ -103,21 +104,607 @@
         class="hero-img"
       />
       <div class="bio animate__animated animate__shakeX">
-        <h2 class="bio-title">コースパスとリソース</h2>
+        <h2 class="bio-title">勉強とリソース</h2>
         <p class="bio-text">
-          このページで勉強に使った全ての資料のリストを載せています。
+          下記の情報は、勉強に使ったの少しの資料とリソース一覧です。
+          全ては無料ので、ご自由に使ってください。<br />
         </p>
       </div>
     </section>
 
     <section class="projects" id="projects">
-      <h2 class="projects-title">勉強リソース<br />（新タイプから旧タイプ）</h2>
+      <h2 class="projects-title">勉強・リソース</h2>
 
-      <!-- P4E -->
+      <!-- Other -->
       <div class="card">
-        <!-- <div >
-            <h2 class="card-title">株ポートフォリオのシムレイション</h2>
-          </div> -->
+        <div class="row">
+          <div class="avatar-container">
+            <div class="photo">
+              <img
+                class="img"
+                src="./assets/course_img/DALLE_study_sharing.png"
+              />
+            </div>
+          </div>
+          <div class="details-container">
+            <div class="content">
+              <h3>その他「Usefull links」</h3>
+              <p>
+                他の人々と役立つリンクを共有するためのレポジトリーを作成しました。<br /><br />
+                勉強や新しい技術の実践に役立つかもしれません。なぜなら、新しいことを始めることはいつも面倒で、最初は新しい概念を理解するのが難しいからです。今まで集めたリンクを一覧にまとめることにしました。<br />
+                ほとんどのリソースは英語ですが、現在、すべてが翻訳される方法があります。<br />
+                一覧には、学術レベルのコース、ツール、開発学習のためのゲームもあります。<br />
+                例：
+              </p>
+              <ul>
+                <li>Javascript学習のための戦争ゲーム</li>
+                <li>HTML学習のためのRPGゲーム</li>
+                <li>
+                  SQLでデータベースと対話しながら容疑者や殺人犯を見つける探偵ゲーム
+                </li>
+                <li>
+                  ハッキングチャレンジや、Solidityの高度な概念を学ぶためのゲーム
+                </li>
+                <li>その他</li>
+              </ul>
+              <p>
+                コマンドの繰り返し、概念の繰り返し、そしてたまに同時に楽しみながら物事を覚えるのは良い方法です。
+              </p>
+
+              <a
+                href=""
+                target="_blank"
+                class="project-link, button"
+                style="background-color: #99e9c4"
+                >Coming Soon</a
+              >
+              <!-- <button class="btn-card btn--block card__btn"><a class="btn-link" href="https://portofolio-finance.herokuapp.com/" target="_blank" class="project-link">Check it Out</a></button> -->
+            </div>
+          </div>
+        </div>
+        <!-- delete class or not class="card-footer"-->
+        <section class="skills2" id="skills">
+          <h4 class="skill-header">ツール</h4>
+
+          <div class="skills-wrapper">
+            <div class="first-set animate__animated animate__pulse">
+              <img
+                src="./assets/skill_icons/github-icon-1.svg"
+                alt=""
+                title="Github"
+                loading="lazy"
+                class="icon2 icon-card"
+              />
+              <img
+                src="./assets/skill_icons/markdown.svg"
+                alt=""
+                title="Markdown"
+                loading="lazy"
+                class="icon2 icon-card"
+              />
+              <img
+                src="./assets/skill_icons/smiley-icon.svg"
+                alt=""
+                title="Have fun"
+                loading="lazy"
+                class="icon2 icon-card"
+              />
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <!-- Solidity Security -->
+      <div class="card">
+        <div class="row">
+          <div class="avatar-container">
+            <div class="photo">
+              <img class="img" src="./assets/course_img/ethical.webp" />
+            </div>
+          </div>
+          <div class="details-container">
+            <div class="content">
+              <h3>
+                スマートコントラクトの倫理的ハッキング「セキュリティ＆監査」
+              </h3>
+              <p>
+                このコースではSolidityとFoundry(ファウンドリーというフレームワーク)を使用し、Web3業界のプロトコルとプロジェクトの監査しながらスマートコントラクトに見つかるエクスプロイトを修正し、プロトコルがすべての資金を失うことや、悪意のある方法でプロトコルとやり取りする能力を避けること。<br />
+                内容的には、"Red
+                Guild"「レッドギルド」とセキュリティ監査員が主導しており、ChainlinkやOpenZeppelinのリードデベロッパーも含まれています。これらの人々は、DEFIエコシステムでの重大な脆弱性を防ぐことで数十億ドルを節約しました。<br />
+                このコースは、分散型金融（スワップ、ステーキング、フラッシュローン、AMM（自動市場メーカー）など）、ブリッジ、NFTまたは「ランダム性」のようなものを使用するその、ステーブルコイン、他のもの（DAOなど）の監査仕方とプロトコルとユーザーの資金を保護するためにそのセキュリティをどのように向上させるかのことについて学びます。<br />
+                また、高度なテスト技術やソリディティ／アセンブリプログラミングを使用しながら、プロトコル開発者（クライアント）との対話方法や、コードの証明（Proof
+                of Code
+                (POC)、クライアントのプロトコルを悪用する方法のコードと問題を解決する方法の説明に使われているコード）や脆弱性の重大性の詳細を含むレポートの作成方法を学びます。<br />
+                あまり知られていないと主要な脆弱性やそれらを防ぐ方法を学びます：フロントランニング、ロジックの誤解、リエントランシー攻撃、DOS攻撃、コンストラクタ攻撃、MEV、Proxyのストレージ攻撃、など...
+                <br />
+                注意: 初心者向けではない。<br /><br />
+                過去2年間にDefiでハッキングや盗難された金額：
+              </p>
+              <ul>
+                <li>2022年：38億ドルが盗まれた</li>
+                <li>2023年：30億ドルが盗まれた</li>
+              </ul>
+              <p>
+                Solidity・HuffとYul(アセンブリ言語)を使用し、
+                下記のテスト仕方を使用する:
+              </p>
+              <ul>
+                <li>Staging・ステージング</li>
+                <li>Static・静的</li>
+                <li>Unit・ユニット</li>
+                <li>Dynamic・動的</li>
+                <li>Stateless Fuzzing test・ステートレスファズテスト</li>
+                <li>Stateful Fuzzing test・ステートフルファズテスト</li>
+                <li>Invariants test・インバリアントテスト</li>
+                <li>Formal Verification test・形式的検証</li>
+              </ul>
+              <p>
+                言語: Solidity & Huff、Yul or Yul+ (Assembly言語)<br />
+                使用ツール: Forge Foundry, Assembly, Chainlink, OpenZeppelin,
+                Remix, IPFS, NextJS, Markdown, Chisel, Anvil,
+                (テスト用のツールSlither, Aderyn, Mithril, Echidna ....)
+                <a
+                  href="https://github.com/Cyfrin/security-and-auditing-full-course-s23"
+                  target="_blank"
+                  style="text-align: left; margin: 0; color: black"
+                  >(コースのGithubはこちら)</a
+                >
+              </p>
+              <a
+                href="https://updraft.cyfrin.io/courses/security"
+                target="_blank"
+                class="project-link, button"
+                style="background-color: #99e9c4"
+                >サイトを見る</a
+              >
+              <!-- <button class="btn-card btn--block card__btn"><a class="btn-link" href="https://portofolio-finance.herokuapp.com/" target="_blank" class="project-link">Check it Out</a></button> -->
+            </div>
+          </div>
+        </div>
+        <!-- delete class or not class="card-footer"-->
+        <section class="skills2" id="skills">
+          <h4 class="skill-header">ツール</h4>
+
+          <div class="skills-wrapper">
+            <div class="first-set animate__animated animate__pulse">
+              <img
+                src="./assets/skill_icons/foundry.png"
+                alt=""
+                title="Forge Foundry"
+                loading="lazy"
+                class="icon2 icon-card"
+              />
+              <img
+                src="./assets/skill_icons/solidity.svg"
+                alt=""
+                title="Solidity"
+                loading="lazy"
+                class="icon2 icon-card"
+              />
+              <img
+                src="./assets/skill_icons/huff.png"
+                alt=""
+                title="Huff"
+                loading="lazy"
+                class="icon2 icon-card"
+              />
+              <img
+                src="./assets/skill_icons/eth.png"
+                alt=""
+                title="Ethereum"
+                loading="lazy"
+                class="icon2 icon-card"
+              />
+              <img
+                src="./assets/skill_icons/remix.png"
+                alt=""
+                title="Remix"
+                loading="lazy"
+                class="icon2 icon-card"
+              />
+              <img
+                src="./assets/skill_icons/web3.png"
+                alt=""
+                title="Web3"
+                loading="lazy"
+                class="icon2 icon-card"
+              />
+
+              <img
+                src="./assets/skill_icons/nextjs.svg"
+                alt=""
+                title="NextJS"
+                loading="lazy"
+                class="icon2 icon-card"
+              />
+              <img
+                src="./assets/skill_icons/chainlink1.svg"
+                alt=""
+                title="Chainlink"
+                loading="lazy"
+                class="icon2 icon-card"
+              />
+              <img
+                src="./assets/skill_icons/openzeppelin1.svg"
+                alt=""
+                title="OpenZeppelin"
+                loading="lazy"
+                class="icon2 icon-card"
+              />
+              <img
+                src="./assets/skill_icons/mythril_new.png"
+                alt=""
+                title="Mythril"
+                loading="lazy"
+                class="icon2 icon-card"
+              />
+              <img
+                src="./assets/skill_icons/yulplus.png"
+                alt=""
+                title="Yul+"
+                loading="lazy"
+                class="icon2 icon-card"
+              />
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <!-- Solidity Forge -->
+      <div class="card">
+        <div class="row">
+          <div class="avatar-container">
+            <div class="photo">
+              <img class="img" src="./assets/course_img/blockchain2.png" />
+            </div>
+          </div>
+          <div class="details-container">
+            <div class="content">
+              <h3>ブロックチェーンエンジニア(Solidity・Foundry)</h3>
+              <p>
+                このコースではSolidityとFoundry(ファウンドリーというフレームワーク)を使用し、スマートコントラクトとWeb3の作成方法を学ぶ。<br />
+                内容的には、このコースの下にあるPython・Javascriptバージョンに違いが、ABIとコントラクトをコールする方法とテスティング仕方(Fuzzing,
+                Staging, Static,
+                Unitなど)とセキュリティーに関してはすごく深い。今回は、ほぼSolidityしか使わない。Web3のフロントエンド・バックエンドの内容は少ないです。<br /><br />
+
+                内容:
+                ブロックチェーンの説明、スマートコントラクトの作成（NFT/ERC721、ERC20、分散型金融(DeFi)）、DAO、チェーンリンク・オープンツェッペリンの使い方、アップグレード可能なスマートコントラクトの使い方、ハッキングとセキュリティなど。<br />
+                コアコンセプトを完全に紹介します。<br />
+                ブロックチェーンエンジニアリング・スマートコントラクトの開発。<br />
+                <br /><br />
+                言語: Solidity<br />
+                使用ツール: Forge Foundry, Chainlink, OpenZeppelin, Remix, IPFS,
+                NextJS, Chisel, Anvil, (テスト用のツールSlither, Mithril,
+                Echidna, 4nlyzer....)
+              </p>
+              <a
+                href="https://github.com/Cyfrin/foundry-full-course-f23"
+                target="_blank"
+                class="project-link, button"
+                style="background-color: #99e9c4"
+                >サイトを見る</a
+              >
+              <!-- <button class="btn-card btn--block card__btn"><a class="btn-link" href="https://portofolio-finance.herokuapp.com/" target="_blank" class="project-link">Check it Out</a></button> -->
+            </div>
+          </div>
+        </div>
+        <!-- delete class or not class="card-footer"-->
+        <section class="skills2" id="skills">
+          <h4 class="skill-header">ツール</h4>
+
+          <div class="skills-wrapper">
+            <div class="first-set animate__animated animate__pulse">
+              <img
+                src="./assets/skill_icons/foundry.png"
+                alt=""
+                title="Forge Foundry"
+                loading="lazy"
+                class="icon2 icon-card"
+              />
+              <img
+                src="./assets/skill_icons/solidity.svg"
+                alt=""
+                title="Solidity"
+                loading="lazy"
+                class="icon2 icon-card"
+              />
+              <img
+                src="./assets/skill_icons/eth.png"
+                alt=""
+                title="Ethereum"
+                loading="lazy"
+                class="icon2 icon-card"
+              />
+              <img
+                src="./assets/skill_icons/remix.png"
+                alt=""
+                title="Remix"
+                loading="lazy"
+                class="icon2 icon-card"
+              />
+              <img
+                src="./assets/skill_icons/web3.png"
+                alt=""
+                title="Web3"
+                loading="lazy"
+                class="icon2 icon-card"
+              />
+
+              <img
+                src="./assets/skill_icons/nextjs.svg"
+                alt=""
+                title="NextJS"
+                loading="lazy"
+                class="icon2 icon-card"
+              />
+              <img
+                src="./assets/skill_icons/chainlink1.svg"
+                alt=""
+                title="Chainlink"
+                loading="lazy"
+                class="icon2 icon-card"
+              />
+              <img
+                src="./assets/skill_icons/openzeppelin1.svg"
+                alt=""
+                title="OpenZeppelin"
+                loading="lazy"
+                class="icon2 icon-card"
+              />
+              <img
+                src="./assets/skill_icons/mythril_new.png"
+                alt=""
+                title="Mythril"
+                loading="lazy"
+                class="icon2 icon-card"
+              />
+              <img
+                src="./assets/skill_icons/Ipfs.png"
+                alt=""
+                title="IPFS"
+                loading="lazy"
+                class="icon2 icon-card"
+              />
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <!-- Solidity Javascript -->
+      <div class="card">
+        <div class="row">
+          <div class="avatar-container">
+            <div class="photo">
+              <img class="img" src="./assets/course_img/blockchainjs.png" />
+            </div>
+          </div>
+          <div class="details-container">
+            <div class="content">
+              <h3>ブロックチェーンエンジニア(JavascriptとHardHat・Solidity)</h3>
+              <p>
+                このコースではJavascript
+                とSolidityを使用し、スマートコントラクトとWeb3の作成方法を学ぶ。(Typescriptも含まれている)<br />
+                勉強の内容は、このコースの下にあるPythonバージョンに違いが、Web3のフロントエンド・バックエンドとソースコードのテスト方法の勉強がもうちょっと深いです。<br /><br />
+                内容:
+                ブロックチェーンの説明、スマートコントラクトの作成（NFT/ERC721、ERC20、分散型金融
+                (DeFi)）、DAO、チェーンリンク・オープンツェッペリンの使い方、アップグレード可能なスマートコントラクトの使い方、ハッキングとセキュリティなど。<br />
+                コアコンセプトを完全に紹介します。<br />
+                ブロックチェーンエンジニアリング・スマートコントラクトの開発。<br />
+                <br /><br />
+                言語: Javascript・Typescript, Solidity<br />
+                使用ツール: HardHat, Ganache, Node, Chainlink, OpenZeppelin,
+                NPM, Remix, Node.js, React, Web3.js, TailwindCSS, MaterialUI,
+                MongoDB, Redis, GraphQL, IPFS
+              </p>
+              <a
+                href="https://github.com/smartcontractkit/full-blockchain-solidity-course-js"
+                target="_blank"
+                class="project-link, button"
+                style="background-color: #99e9c4"
+                >サイトを見る</a
+              >
+              <!-- <button class="btn-card btn--block card__btn"><a class="btn-link" href="https://portofolio-finance.herokuapp.com/" target="_blank" class="project-link">Check it Out</a></button> -->
+            </div>
+          </div>
+        </div>
+        <!-- delete class or not class="card-footer"-->
+        <section class="skills2" id="skills">
+          <h4 class="skill-header">ツール</h4>
+
+          <div class="skills-wrapper">
+            <div class="first-set animate__animated animate__pulse">
+              <img
+                src="./assets/skill_icons/js.svg"
+                alt=""
+                title="Javascript"
+                loading="lazy"
+                class="icon2 icon-card"
+              />
+              <img
+                src="./assets/skill_icons/typescript.svg"
+                alt=""
+                title="Typescript"
+                loading="lazy"
+                class="icon2 icon-card"
+              />
+              <img
+                src="./assets/skill_icons/solidity.svg"
+                alt=""
+                title="Solidity"
+                loading="lazy"
+                class="icon2 icon-card"
+              />
+              <img
+                src="./assets/skill_icons/eth.png"
+                alt=""
+                title="Ethereum"
+                loading="lazy"
+                class="icon2 icon-card"
+              />
+              <img
+                src="./assets/skill_icons/hardhat2.svg"
+                alt=""
+                title="HardHat"
+                loading="lazy"
+                class="icon2 icon-card"
+              />
+              <img
+                src="./assets/skill_icons/ganache.svg"
+                alt=""
+                title="Ganache"
+                loading="lazy"
+                class="icon2 icon-card"
+              />
+              <img
+                src="./assets/skill_icons/remix.png"
+                alt=""
+                title="Remix"
+                loading="lazy"
+                class="icon2 icon-card"
+              />
+              <img
+                src="./assets/skill_icons/web3.png"
+                alt=""
+                title="Web3"
+                loading="lazy"
+                class="icon2 icon-card"
+              />
+              <img
+                src="./assets/skill_icons/node2.svg"
+                alt=""
+                title="NodeJS"
+                loading="lazy"
+                class="icon2 icon-card"
+              />
+              <img
+                src="./assets/skill_icons/npm.svg"
+                alt=""
+                title="NPM"
+                loading="lazy"
+                class="icon2 icon-card"
+              />
+              <img
+                src="./assets/skill_icons/nextjs.svg"
+                alt=""
+                title="NextJS"
+                loading="lazy"
+                class="icon2 icon-card"
+              />
+              <img
+                src="./assets/skill_icons/react.svg"
+                alt=""
+                title="React"
+                loading="lazy"
+                class="icon2 icon-card"
+              />
+              <img
+                src="./assets/skill_icons/tailwind.svg"
+                alt=""
+                title="TailwindCSS"
+                loading="lazy"
+                class="icon2 icon-card"
+              />
+              <img
+                src="./assets/skill_icons/chainlink1.svg"
+                alt=""
+                title="Chainlink"
+                loading="lazy"
+                class="icon2 icon-card"
+              />
+              <img
+                src="./assets/skill_icons/openzeppelin1.svg"
+                alt=""
+                title="OpenZeppelin"
+                loading="lazy"
+                class="icon2 icon-card"
+              />
+              <img
+                src="./assets/skill_icons/redis.svg"
+                alt=""
+                title="Redis"
+                loading="lazy"
+                class="icon2 icon-card"
+              />
+              <img
+                src="./assets/skill_icons/graphql.svg"
+                alt=""
+                title="GraphQL"
+                loading="lazy"
+                class="icon2 icon-card"
+              />
+              <img
+                src="./assets/skill_icons/mongodb.svg"
+                alt=""
+                title="MongoDB"
+                loading="lazy"
+                class="icon2 icon-card"
+              />
+              <img
+                src="./assets/skill_icons/Ipfs.png"
+                alt=""
+                title="IPFS"
+                loading="lazy"
+                class="icon2 icon-card"
+              />
+            </div>
+          </div>
+        </section>
+      </div>
+      <!-- Cryptozombies -->
+      <div class="card">
+        <div class="row">
+          <div class="avatar-container">
+            <div class="photo">
+              <img class="img" src="./assets/course_img/cryptozombies2.png" />
+            </div>
+          </div>
+          <div class="details-container">
+            <div class="content">
+              <h3>ブロックチェーンエンジニア(Solidity)</h3>
+              <p>
+                このコースではSolidityを使用し、ブロックチェーンとERCトークンのことを勉強しながらブロックチェーンNFTゲームを作成する。(ソンビ軍隊を作る。)<br />
+                初心者から上級者、様々な環境のことを勉強ができる。<br /><br />
+
+                言語: Python, Solidity<br />
+                使用ツール: CryptoZombies, Remix, Chainlink, OpenZeppelin
+              </p>
+              <a
+                href="https://cryptozombies.io/"
+                target="_blank"
+                class="project-link, button"
+                style="background-color: #99e9c4"
+                >サイトを見る</a
+              >
+              <!-- <button class="btn-card btn--block card__btn"><a class="btn-link" href="https://portofolio-finance.herokuapp.com/" target="_blank" class="project-link">Check it Out</a></button> -->
+            </div>
+          </div>
+        </div>
+        <!-- delete class or not class="card-footer"-->
+        <section class="skills2" id="skills">
+          <h4 class="skill-header">ツール</h4>
+
+          <div class="skills-wrapper">
+            <div class="first-set animate__animated animate__pulse">
+              <img
+                src="./assets/skill_icons/solidity.svg"
+                alt=""
+                title="Solidity"
+                loading="lazy"
+                class="icon2 icon-card"
+              />
+              <img
+                src="./assets/skill_icons/cryptozombies.png"
+                alt=""
+                title="Happy Zombies"
+                loading="lazy"
+                class="icon2 icon-card"
+              />
+            </div>
+          </div>
+        </section>
+      </div>
+      <!-- Solidity Python -->
+      <div class="card">
         <div class="row">
           <div class="avatar-container">
             <div class="photo">
@@ -126,21 +713,20 @@
           </div>
           <div class="details-container">
             <div class="content">
-              <h3>
-                FreeCodeCamp:
-                ブロックチェーン、ソリディティ、スマートコントラクト
-              </h3>
+              <h3>ブロックチェーンエンジニア(Python・Brownie・Solidity)</h3>
               <p>
-                このコースでは、ブロックチェーン、スマート
-                コントラクト、ソリディティ、NFT/ERC721、ERC20、分散型金融のコーディング
-                (DeFi)、Python
-                とソリディティ、チェーンリンク、イーサリアム、アップグレード可能なスマート
-                コントラクト、およびフル スタックのすべてのコア
-                コンセプトを完全に紹介します。 ブロックチェーンの開発。<br />
+                注意: Brownie は非推奨であるため、代わりに Ape (ApeWorx)
+                を使用する必要があります。<br />
+                このコースではPythonとSolidityを使用し、スマートコントラクトとWeb3の作成方法を学ぶ。<br /><br />
+                内容:
+                ブロックチェーンの説明、スマートコントラクトの作成（NFT/ERC721、ERC20、分散型金融のコーディング
+                (DeFi)）、チェーンリンク・オープンツェッペリンの使い方、アップグレード可能なスマートコントラクトの使い方、ハッキングとセキュリティなど。<br />
+                コアコンセプトを完全に紹介します。<br />
+                ブロックチェーンエンジニアリング・スマートコントラクトの開発。<br />
                 <br /><br />
                 言語: Python, Solidity<br />
-                ツール: Ganache, Brownie, Node, Chainlink, NPM, HardHat, Remix,
-                Web3
+                使用ツール: Ganache, Brownie, Node, Chainlink, OpenZeppelin,
+                NPM, Remix, Node.js, NextJs, Web3.py, Yarn
               </p>
               <a
                 href="https://www.freecodecamp.org/news/learn-solidity-blockchain-and-smart-contracts-in-a-free/"
@@ -162,66 +748,91 @@
               <img
                 src="./assets/skill_icons/python.svg"
                 alt=""
+                title="Python"
                 loading="lazy"
                 class="icon2 icon-card"
               />
               <img
                 src="./assets/skill_icons/solidity.svg"
                 alt=""
+                title="Solidity"
                 loading="lazy"
                 class="icon2 icon-card"
               />
               <img
-                src="./assets/skill_icons/eth.svg"
+                src="./assets/skill_icons/eth.png"
                 alt=""
+                title="Ethereum"
                 loading="lazy"
                 class="icon2 icon-card"
               />
               <img
                 src="./assets/skill_icons/ganache.svg"
                 alt=""
+                title="Ganache"
                 loading="lazy"
                 class="icon2 icon-card"
               />
               <img
                 src="./assets/skill_icons/remix.png"
                 alt=""
+                title="Remix"
                 loading="lazy"
                 class="icon2 icon-card"
               />
               <img
-                src="./assets/skill_icons/web3.svg"
+                src="./assets/skill_icons/web3.png"
                 alt=""
+                title="Web3"
                 loading="lazy"
                 class="icon2 icon-card"
               />
               <img
                 src="./assets/skill_icons/node2.svg"
                 alt=""
+                title="NodeJS"
                 loading="lazy"
                 class="icon2 icon-card"
               />
               <img
                 src="./assets/skill_icons/npm.svg"
                 alt=""
+                title="NPM"
+                loading="lazy"
+                class="icon2 icon-card"
+              />
+              <img
+                src="./assets/skill_icons/yarn.svg"
+                alt=""
+                title="Yarn"
+                loading="lazy"
+                class="icon2 icon-card"
+              />
+              <img
+                src="./assets/skill_icons/nextjs.svg"
+                alt=""
+                title="NextJS"
                 loading="lazy"
                 class="icon2 icon-card"
               />
               <img
                 src="./assets/skill_icons/brownie.png"
                 alt=""
+                title="Brownie"
                 loading="lazy"
                 class="icon2 icon-card"
               />
               <img
-                src="./assets/skill_icons/chainlink.svg"
+                src="./assets/skill_icons/chainlink1.svg"
                 alt=""
+                title="Chainlink"
                 loading="lazy"
                 class="icon2 icon-card"
               />
               <img
-                src="./assets/skill_icons/hardhat2.svg"
+                src="./assets/skill_icons/openzeppelin1.svg"
                 alt=""
+                title="OpenZeppelin"
                 loading="lazy"
                 class="icon2 icon-card"
               />
@@ -248,7 +859,7 @@
                 サイトを構築するための基礎を学びます。<br />
               </p>
               <a
-                href="https://www.edx.org/xseries/michiganx-django-for-everybody?index=product&queryID=7cfbe161d7c86f218db4fdd6912ed997&position=1"
+                href="https://www.dj4e.com/"
                 target="_blank"
                 class="project-link, button"
                 style="background-color: #99e9c4"
@@ -267,48 +878,56 @@
               <img
                 src="./assets/skill_icons/django.svg"
                 alt=""
+                title="Django"
                 loading="lazy"
                 class="icon2 icon-card"
               />
               <img
                 src="./assets/skill_icons/html5.svg"
                 alt=""
+                title="HTML5"
                 loading="lazy"
                 class="icon2 icon-card"
               />
               <img
                 src="./assets/skill_icons/css3.svg"
                 alt=""
+                title="CSS3"
                 loading="lazy"
                 class="icon2 icon-card"
               />
               <img
                 src="./assets/skill_icons/sqlite.svg"
                 alt=""
+                title="SQLite"
                 loading="lazy"
                 class="icon2 icon-card"
               />
               <img
                 src="./assets/skill_icons/python.svg"
                 alt=""
+                title="Python"
                 loading="lazy"
                 class="icon2 icon-card"
               />
               <img
                 src="./assets/skill_icons/javascript.svg"
                 alt=""
+                title="Javascript"
                 loading="lazy"
                 class="icon2 icon-card"
               />
               <img
                 src="./assets/skill_icons/json.svg"
                 alt=""
+                title="JSON"
                 loading="lazy"
                 class="icon2 icon-card"
               />
               <img
                 src="./assets/skill_icons/jquery.svg"
                 alt=""
+                title="JQuery"
                 loading="lazy"
                 class="icon2 icon-card"
               />
@@ -356,24 +975,28 @@
               <img
                 src="./assets/skill_icons/python.svg"
                 alt=""
+                title="Python"
                 loading="lazy"
                 class="icon2 icon-card"
               />
               <img
                 src="./assets/skill_icons/html5.svg"
                 alt=""
+                title="HTML5"
                 loading="lazy"
                 class="icon2 icon-card"
               />
               <img
                 src="./assets/skill_icons/css3.svg"
                 alt=""
+                title="CSS3"
                 loading="lazy"
                 class="icon2 icon-card"
               />
               <img
                 src="./assets/skill_icons/sqlite.svg"
                 alt=""
+                title="SQLite"
                 loading="lazy"
                 class="icon2 icon-card"
               />
@@ -423,30 +1046,35 @@
               <img
                 src="./assets/skill_icons/python.svg"
                 alt=""
+                title="Python"
                 loading="lazy"
                 class="icon2 icon-card"
               />
               <img
                 src="./assets/skill_icons/html5.svg"
                 alt=""
+                title="HTML5"
                 loading="lazy"
                 class="icon2 icon-card"
               />
               <img
                 src="./assets/skill_icons/css3.svg"
                 alt=""
+                title="CSS3"
                 loading="lazy"
                 class="icon2 icon-card"
               />
               <img
                 src="./assets/skill_icons/sass.svg"
                 alt=""
+                title="Sass"
                 loading="lazy"
                 class="icon2 icon-card"
               />
               <img
                 src="./assets/skill_icons/javascript.svg"
                 alt=""
+                title="Javascript"
                 loading="lazy"
                 class="icon2 icon-card"
               />
@@ -454,36 +1082,42 @@
               <img
                 src="./assets/skill_icons/flask.svg"
                 alt=""
+                title="Flask"
                 loading="lazy"
                 class="icon2 icon-card"
               />
               <img
                 src="./assets/skill_icons/django.svg"
                 alt=""
+                title="Django"
                 loading="lazy"
                 class="icon2 icon-card"
               />
               <img
                 src="./assets/skill_icons/sqlite.svg"
                 alt=""
+                title="SQLite"
                 loading="lazy"
                 class="icon2 icon-card"
               />
               <img
                 src="./assets/skill_icons/react.svg"
                 alt=""
+                title="React"
                 loading="lazy"
                 class="icon2 icon-card"
               />
               <img
                 src="./assets/skill_icons/bootstrap.svg"
                 alt=""
+                title="Bootstrap"
                 loading="lazy"
                 class="icon2 icon-card"
               />
               <img
                 src="./assets/skill_icons/git.svg"
                 alt=""
+                title="Git"
                 loading="lazy"
                 class="icon2 icon-card"
               />
@@ -537,36 +1171,42 @@
               <img
                 src="./assets/skill_icons/scratch.svg"
                 alt=""
+                title="Scratch"
                 loading="lazy"
                 class="icon2 icon-card"
               />
               <img
                 src="./assets/skill_icons/c.svg"
                 alt=""
+                title="C"
                 loading="lazy"
                 class="icon2 icon-card"
               />
               <img
                 src="./assets/skill_icons/python.svg"
                 alt=""
+                title="Python"
                 loading="lazy"
                 class="icon2 icon-card"
               />
               <img
                 src="./assets/skill_icons/html5.svg"
                 alt=""
+                title="HTML5"
                 loading="lazy"
                 class="icon2 icon-card"
               />
               <img
                 src="./assets/skill_icons/css3.svg"
                 alt=""
+                title="CSS3"
                 loading="lazy"
                 class="icon2 icon-card"
               />
               <img
                 src="./assets/skill_icons/javascript.svg"
                 alt=""
+                title="Javascript"
                 loading="lazy"
                 class="icon2 icon-card"
               />
@@ -574,18 +1214,21 @@
               <img
                 src="./assets/skill_icons/flask.svg"
                 alt=""
+                title="Flask"
                 loading="lazy"
                 class="icon2 icon-card"
               />
               <img
                 src="./assets/skill_icons/django.svg"
                 alt=""
+                title="Django"
                 loading="lazy"
                 class="icon2 icon-card"
               />
               <img
                 src="./assets/skill_icons/sqlite.svg"
                 alt=""
+                title="SQLite"
                 loading="lazy"
                 class="icon2 icon-card"
               />
@@ -596,13 +1239,13 @@
 
       <!-- Side Images -->
       <div class="socials">
-        <a href="https://github.com/Jer-B" target="_blank"
+        <!-- <a href="https://github.com/Jer-B" target="_blank"
           ><img
             src="./assets/side_img/github.svg"
             alt="Github"
             loading="lazy"
             class="socicon"
-        /></a>
+        /></a> -->
         <!-- <a href="#" target="_blank"
         ><img
           src="./assets/side_img/stackoverflow.svg"
@@ -610,13 +1253,13 @@
           loading="lazy"
           class="socicon"
       /></a> -->
-        <a href="https://githubgroupe.slack.com" target="_blank"
+        <!-- <a href="https://githubgroupe.slack.com" target="_blank"
           ><img
             src="./assets/side_img/slack-logo.svg"
             alt="Slack"
             loading="lazy"
             class="socicon"
-        /></a>
+        /></a> -->
         <!-- <a href="#" target="_blank"
         ><img src="./assets/side_img/linkedin.svg" alt="Linkedin" class="socicon"
       /></a> -->
@@ -629,8 +1272,10 @@
       </div>
     </section>
     <footer>
-      <p class="copy">&copy; Copyright 2022</p>
+      <a href="https://github.com/Jer-B/" class="copy-link">Github</a>
       <p class="copy">ブルー　ジェレミー　・　Bru Jeremy</p>
+      <p class="copy">Contact: j.bru@nodecom.jp</p>
+      <p class="copy">&copy; Copyright 2022~2024</p>
     </footer>
     <script>
       // Get the menu and the button elements for mobile
