@@ -98,17 +98,17 @@
         class="hero-img"
       />
       <div class="bio animate__animated animate__shakeX">
-        <h2 class="bio-title">プロジェクトページ</h2>
+        <h2 class="bio-title">プロジェクト一覧</h2>
         <p class="bio-text">
-          このページで作成・参加した全てのプロジェクトのリストを載せています。
+          下記は、今まで作成したまたは参加したプロジェクトの一覧です。
+          さまざまなカテゴリーと言語のプロジェクトをまとめました:
+          Web3、Python、JS、C、HTMLなど...
         </p>
       </div>
     </section>
 
     <section class="projects" id="projects">
-      <h2 class="projects-title">
-        全てのプロジェクト<br />（新タイプから旧タイプ）
-      </h2>
+      <h2 class="projects-title">プロジェクト</h2>
 
       <!-- <div class="container bcontent">
         <h2>Bootstrap Card with Header and Footer</h2>
@@ -141,19 +141,39 @@
           </div>
           <div class="details-container">
             <div class="content">
-              <h3>オンチェーンウォレット</h3>
+              <h3>オンチェーン マルチシグ ウォレット</h3>
               <p>
-                ソリディティ言語で、EVM互換のブロックチェーンのスマートコントラクトプログラミングをしています。
-
-                <br />取引・宝くじなどのスマートコントラクトを作成しました。
-                <br />現在、Immutable-Xのブロックチェーンでアセットマネージャーを作成中。<br /><br />
-                言語:Python, Solidity<br />
+                2024年<br />
+                「アカウント抽象化」のEIPを基礎として使用します。
+              </p>
+              <ul>
+                <li>
+                  ユーザーが新しいスマートコントラクトウォレットを作成し、そのウォレットの所有者を指定することができます。
+                </li>
+                <li>
+                  また、ユーザーのEOA (External Owned Account)が所有者である<br />スマートコントラクトウォレットのリストを表示します。<br />
+                  スマートコントラクトウォレットの一人の所有者が取引を開始できるようにします。
+                </li>
+                <li>他の所有者が取引にサインすることができます。</li>
+                <li>
+                  所有者全員がサインした後、どの所有者でも取引を送信し、最終的に実行されるようにします。
+                </li>
+                <li>
+                  ユーザーのスマートアカウントは、コントラクトにUUPSアップグレーダブルプロキシパターンが<br />実装されているため、アップグレード可能です。
+                </li>
+              </ul>
+              <p>
+                サイトはこちら:
+                <a style="display: inline" href="">Multi-Sig Wallet Project</a
+                ><br /><br />
+                言語:JavaScript, Solidity<br />
+                ツール: Foundry, OpenZeppelin, NextJS, TailwindCSS, IPFS<br />
               </p>
               <a
                 href="solidity_code.html"
                 class="project-link, button"
                 style="background-color: #99e9c4"
-                >コードを見る</a
+                >Githubで見る</a
               >
               <!-- <button class="btn-card btn--block card__btn"><a class="btn-link" href="https://portofolio-finance.herokuapp.com/" target="_blank" class="project-link">Check it Out</a></button> -->
             </div>
@@ -173,9 +193,51 @@
                 class="icon2 icon-card"
               />
               <img
-                src="./assets/skill_icons/python.svg"
+                src="./assets/skill_icons/foundry.png"
+                alt=""
+                title="Foundry"
+                loading="lazy"
+                class="icon2 icon-card"
+              />
+              <img
+                src="./assets/skill_icons/eth.png"
+                alt=""
+                title="Ethereum"
+                loading="lazy"
+                class="icon2 icon-card"
+              />
+              <img
+                src="./assets/skill_icons/nextjs.svg"
+                alt=""
+                title="NextJS"
+                loading="lazy"
+                class="icon2 icon-card"
+              />
+              <img
+                src="./assets/skill_icons/javascript.svg"
                 alt=""
                 title="Python"
+                loading="lazy"
+                class="icon2 icon-card"
+              />
+              <img
+                src="./assets/skill_icons/Ipfs.png"
+                alt=""
+                title="IPFS"
+                loading="lazy"
+                class="icon2 icon-card"
+              />
+              <img
+                src="./assets/skill_icons/tailwind.svg"
+                alt=""
+                title="tailwind"
+                loading="lazy"
+                class="icon2 icon-card"
+              />
+              <img
+                src="./assets/skill_icons/openzeppelin1.svg"
+                alt=""
+                title="OpenZeppelin"
                 loading="lazy"
                 class="icon2 icon-card"
               />
@@ -191,7 +253,7 @@
           <div class="avatar-container">
             <div style="width: 80%; background-color: black" class="photo">
               <img
-                style="width: 70%"
+                style="width: 70%; border-style: none"
                 class="img"
                 src="./assets/projects_img/DSC.png"
               />
@@ -201,6 +263,7 @@
             <div class="content">
               <h3>ステブルコイン「DSC」(Decentralized StableCoin)</h3>
               <p>
+                2023年<br />
                 このプロジェクトは、ユーザーがWETHとWBTCを預けることで、<br />1:1の比率でUSDに連動するトークンと交換できるステーブルコインを目指しています。<br /><br />
                 言語: Solidity<br />
                 ツール: Foundry, OpenZeppelin, Chainlink<br />
@@ -236,6 +299,13 @@
                 class="icon2 icon-card"
               />
               <img
+                src="./assets/skill_icons/eth.png"
+                alt=""
+                title="Solidity"
+                loading="lazy"
+                class="icon2 icon-card"
+              />
+              <img
                 src="./assets/skill_icons/openzeppelin1.svg"
                 alt=""
                 title="OpenZeppelin"
@@ -259,19 +329,42 @@
       <div class="card">
         <div class="row">
           <div class="avatar-container">
-            <div class="photo">
-              <img class="img" src="./assets/projects_img/solidity.png" />
+            <div
+              style="width: 80%; background-color: rgb(150, 221, 241)"
+              class="photo"
+            >
+              <img
+                style="width: 80%; border-style: none"
+                class="img"
+                src="./assets/projects_img/DALLE_PASMO.png"
+              />
             </div>
           </div>
           <div class="details-container">
             <div class="content">
-              <h3>PASMOオンチェーン</h3>
+              <h3>PASMOオンチェーン「ハッカソンプロジェクト」</h3>
               <p>
-                ソリディティ言語で、EVM互換のブロックチェーンのスマートコントラクトプログラミングをしています。
+                2023年<br />
+                ※
+                他のメンバーと連絡しています。求人のためにプロジェクトを非公開に出来るかは相談している中。<br />
+                ※
+                非公開にすることは可能であれば、ソースコードが思いため、フロントエンドの作りも必要と思います。<br /><br />
+                このプロジェクトはハッカソンで作成されました。全26チーム中、2位で終了しました。<br />
+                私を含む3人のチームで、電車の利用や店舗での支払いに使われるPasmo
+                ICカードが、<br />
+                オンチェーン化にしたらとどうなるかというシンプルなプロジェクトを行いました。<br /><br />
 
-                <br />取引・宝くじなどのスマートコントラクトを作成しました。
-                <br />現在、Immutable-Xのブロックチェーンでアセットマネージャーを作成中。<br /><br />
+                100%所有者によってコントロールされ、いつでもカードにチャージされた資金を完全に管理できるように、<br />
+                これには、詐欺対策や、紛失したカードをすぐに所有者が再び制御できるようにする機能、<br />
+                そして線路の事故やその他の理由が発生した際にカードの条件設定を自動リセットする機能が含まれています。<br /><br />
+                このプロジェクトは、鉄道会社に大きな影響を与える可能性があります。<br />
+                様々な理由で鉄道会社にとっては良い面と悪い面の両方で数億円の利益を得ることができます。<br />
+                オンチェーン取引の検証に切り替えることで電力やデータセンターの使用を抑制すること。<br />
+                時間とともに価値が上がる資産で支払われたり、非低い手数料（数百円）で自動でその数億円の価値がある資産を日本円に交換したりすることができ。<br />
+                カード管理のための人員が少なくて済み、カードチェックのためのデータセンターやサーバーの維持に関わる人員が不要になる。<br />
+                サーバーやデータセンターが少なくなれるためため、会社が所有する必要のある建物やインフラが少なくて済むなどの理由があります。など...<br /><br />
                 言語:Python, Solidity<br />
+                ツール: Foundry, OpenZeppelin, Chainlink<br />
               </p>
               <a
                 href="solidity_code.html"
@@ -297,9 +390,30 @@
                 class="icon2 icon-card"
               />
               <img
-                src="./assets/skill_icons/python.svg"
+                src="./assets/skill_icons/foundry.png"
                 alt=""
-                title="Python"
+                title="Foundry"
+                loading="lazy"
+                class="icon2 icon-card"
+              />
+              <img
+                src="./assets/skill_icons/eth.png"
+                alt=""
+                title="Ethereum"
+                loading="lazy"
+                class="icon2 icon-card"
+              />
+              <img
+                src="./assets/skill_icons/openzeppelin1.svg"
+                alt=""
+                title="OpenZeppelin"
+                loading="lazy"
+                class="icon2 icon-card"
+              />
+              <img
+                src="./assets/skill_icons/chainlink1.svg"
+                alt=""
+                title="Chainlink"
                 loading="lazy"
                 class="icon2 icon-card"
               />
@@ -372,6 +486,13 @@
                 class="icon2 icon-card"
               />
               <img
+                src="./assets/skill_icons/eth.png"
+                alt=""
+                title="Solidity"
+                loading="lazy"
+                class="icon2 icon-card"
+              />
+              <img
                 src="./assets/skill_icons/apeworx.jpeg"
                 alt=""
                 title="Apeworx"
@@ -403,117 +524,7 @@
           </div>
         </section>
       </div>
-      <!-- Flash Loeans -->
 
-      <div class="card">
-        <div class="row">
-          <div class="avatar-container">
-            <div style="width: 80%; background-color: black" class="photo">
-              <img
-                style="width: 70%"
-                class="img"
-                src="./assets/projects_img/flash_loan.png"
-              />
-            </div>
-          </div>
-          <div class="details-container">
-            <div class="content">
-              <h3>フラッシュローン</h3>
-              <p>
-                ソリディティ言語で、EVM互換のブロックチェーンのスマートコントラクトプログラミングをしています。
-
-                <br />取引・宝くじなどのスマートコントラクトを作成しました。
-                <br />現在、Immutable-Xのブロックチェーンでアセットマネージャーを作成中。<br /><br />
-                言語:Python, Solidity<br />
-              </p>
-              <a
-                href="solidity_code.html"
-                class="project-link, button"
-                style="background-color: #99e9c4"
-                >コードを見る</a
-              >
-              <!-- <button class="btn-card btn--block card__btn"><a class="btn-link" href="https://portofolio-finance.herokuapp.com/" target="_blank" class="project-link">Check it Out</a></button> -->
-            </div>
-          </div>
-        </div>
-        <!-- delete class or not class="card-footer"-->
-        <section class="skills2" id="skills">
-          <h4 class="skill-header">ツール</h4>
-
-          <div class="skills-wrapper">
-            <div class="first-set animate__animated animate__pulse">
-              <img
-                src="./assets/skill_icons/solidity.svg"
-                alt=""
-                title="Solidity"
-                loading="lazy"
-                class="icon2 icon-card"
-              />
-              <img
-                src="./assets/skill_icons/python.svg"
-                alt=""
-                title="Python"
-                loading="lazy"
-                class="icon2 icon-card"
-              />
-            </div>
-          </div>
-        </section>
-      </div>
-
-      <!-- Defi -->
-
-      <div class="card">
-        <div class="row">
-          <div class="avatar-container">
-            <div class="photo">
-              <img class="img" src="./assets/projects_img/solidity.png" />
-            </div>
-          </div>
-          <div class="details-container">
-            <div class="content">
-              <h3>小さいDefiプロジェクト</h3>
-              <p>
-                ソリディティ言語で、EVM互換のブロックチェーンのスマートコントラクトプログラミングをしています。
-
-                <br />取引・宝くじなどのスマートコントラクトを作成しました。
-                <br />現在、Immutable-Xのブロックチェーンでアセットマネージャーを作成中。<br /><br />
-                言語:Python, Solidity<br />
-              </p>
-              <a
-                href="solidity_code.html"
-                class="project-link, button"
-                style="background-color: #99e9c4"
-                >コードを見る</a
-              >
-              <!-- <button class="btn-card btn--block card__btn"><a class="btn-link" href="https://portofolio-finance.herokuapp.com/" target="_blank" class="project-link">Check it Out</a></button> -->
-            </div>
-          </div>
-        </div>
-        <!-- delete class or not class="card-footer"-->
-        <section class="skills2" id="skills">
-          <h4 class="skill-header">ツール</h4>
-
-          <div class="skills-wrapper">
-            <div class="first-set animate__animated animate__pulse">
-              <img
-                src="./assets/skill_icons/solidity.svg"
-                alt=""
-                title="Solidity"
-                loading="lazy"
-                class="icon2 icon-card"
-              />
-              <img
-                src="./assets/skill_icons/python.svg"
-                alt=""
-                title="Python"
-                loading="lazy"
-                class="icon2 icon-card"
-              />
-            </div>
-          </div>
-        </section>
-      </div>
       <!-- Ethernaut -->
 
       <div class="card">
@@ -527,6 +538,7 @@
             <div class="content">
               <h3>Ethernautチャレンジの解決策</h3>
               <p>
+                2023年~2024年<br />
                 Ethernautは、Web3/Solidityベースのコーディングウォーゲームで、Ethereum
                 Virtual Machine (EVM) でプレイされます。<br />
                 各レベルはハッキングする必要があるスマートコントラクトです。<br /><br />
@@ -534,10 +546,10 @@
                 ツール: Foundry, Remix.
               </p>
               <a
-                href="solidity_code.html"
+                href="https://github.com/Jer-B/Ethernaut_all_-spoil-"
                 class="project-link, button"
                 style="background-color: #99e9c4"
-                >コードを見る</a
+                >Githubで見る</a
               >
               <!-- <button class="btn-card btn--block card__btn"><a class="btn-link" href="https://portofolio-finance.herokuapp.com/" target="_blank" class="project-link">Check it Out</a></button> -->
             </div>
@@ -570,6 +582,13 @@
                 loading="lazy"
                 class="icon2 icon-card"
               />
+              <img
+                src="./assets/skill_icons/eth.png"
+                alt=""
+                title="Solidity"
+                loading="lazy"
+                class="icon2 icon-card"
+              />
             </div>
           </div>
         </section>
@@ -581,24 +600,26 @@
         <div class="row">
           <div class="avatar-container">
             <div class="photo">
-              <img class="img" src="./assets/projects_img/solidity.png" />
+              <img class="img" src="./assets/projects_img/badges_1.avif" />
             </div>
           </div>
           <div class="details-container">
             <div class="content">
-              <h3>オンチェーンハッキングチャレンジ</h3>
+              <h3>オンチェーン問題チャレンジの解決策</h3>
               <p>
-                ソリディティ言語で、EVM互換のブロックチェーンのスマートコントラクトプログラミングをしています。
-
-                <br />取引・宝くじなどのスマートコントラクトを作成しました。
-                <br />現在、Immutable-Xのブロックチェーンでアセットマネージャーを作成中。<br /><br />
-                言語:Python, Solidity<br />
+                2022年~2024年<br />
+                これはテストネットに既にデプロイされたコントラクトの様々なチャレンジソリューションに関するものです。<br />
+                他のコントラクトとどのようにやり取りし、読み取るかを練習する方法です。<br />
+                簡単なチャレンジもありますし、外部コントラクトやエクスプロイトを必要とするチャレンジもあります。<br />
+                各チャレンジの問題説明はスマートコントラクト内に記載されています。チャレンジが解決されると、報酬はNFTです。<br /><br />
+                言語: Solidity<br />
+                ツール: Foundry, Remix<br />
               </p>
               <a
-                href="solidity_code.html"
+                href="https://github.com/Jer-B/Foundry_onchain_challenges_-spoil-"
                 class="project-link, button"
                 style="background-color: #99e9c4"
-                >コードを見る</a
+                >Githubで見る</a
               >
               <!-- <button class="btn-card btn--block card__btn"><a class="btn-link" href="https://portofolio-finance.herokuapp.com/" target="_blank" class="project-link">Check it Out</a></button> -->
             </div>
@@ -618,9 +639,23 @@
                 class="icon2 icon-card"
               />
               <img
-                src="./assets/skill_icons/python.svg"
+                src="./assets/skill_icons/foundry.png"
                 alt=""
-                title="Python"
+                title="Foundry"
+                loading="lazy"
+                class="icon2 icon-card"
+              />
+              <img
+                src="./assets/skill_icons/eth.png"
+                alt=""
+                title="Solidity"
+                loading="lazy"
+                class="icon2 icon-card"
+              />
+              <img
+                src="./assets/skill_icons/remix.png"
+                alt=""
+                title="Remix"
                 loading="lazy"
                 class="icon2 icon-card"
               />
@@ -629,7 +664,179 @@
         </section>
       </div>
 
-      <!-- NFT -->
+      <!-- DAO -->
+
+      <div class="card">
+        <div class="row">
+          <div class="avatar-container">
+            <div
+              style="width: 80%; background-color: rgb(147, 184, 189)"
+              class="photo"
+            >
+              <img
+                style="width: 80%; border-style: none"
+                class="img"
+                src="./assets/projects_img/DALLE_DAO.png"
+              />
+            </div>
+          </div>
+          <div class="details-container">
+            <div class="content">
+              <h3>基本的なDAO (Decentralized Autonomous Organization)</h3>
+              <p>
+                2023年<br />
+                非常にシンプルなDAOプロジェクトで、ユーザーは提案を行い、提案に投票することができます。<br />
+                タイマーが設定されており、前の提案サイクルが終了するまで他の提案は行えません。<br />
+                投票力はガバナンストークンに基づいています。このコントラクトはDAOによって完全に制御されており、<br />
+                個々のエンティティがコントラクトを所有することはありません。完全に分散化されています。<br /><br />
+
+                ※
+                本番用途で使用するためのDAOではありません。投票システムがガバナンストークンの価格を推測することを促し、<br />
+                合理的な投票思考ではなくなるためです。<br /><br />
+                言語: Solidity<br />
+                ツール: Foundry, Openzeppelin<br />
+              </p>
+              <a
+                href="https://github.com/Jer-B/Foundry_DAO"
+                class="project-link, button"
+                style="background-color: #99e9c4"
+                >Githubで見る</a
+              >
+              <!-- <button class="btn-card btn--block card__btn"><a class="btn-link" href="https://portofolio-finance.herokuapp.com/" target="_blank" class="project-link">Check it Out</a></button> -->
+            </div>
+          </div>
+        </div>
+        <!-- delete class or not class="card-footer"-->
+        <section class="skills2" id="skills">
+          <h4 class="skill-header">ツール</h4>
+
+          <div class="skills-wrapper">
+            <div class="first-set animate__animated animate__pulse">
+              <img
+                src="./assets/skill_icons/solidity.svg"
+                alt=""
+                title="Solidity"
+                loading="lazy"
+                class="icon2 icon-card"
+              />
+              <img
+                src="./assets/skill_icons/foundry.png"
+                alt=""
+                title="Foundry"
+                loading="lazy"
+                class="icon2 icon-card"
+              />
+              <img
+                src="./assets/skill_icons/eth.png"
+                alt=""
+                title="Solidity"
+                loading="lazy"
+                class="icon2 icon-card"
+              />
+              <img
+                src="./assets/skill_icons/openzeppelin1.svg"
+                alt=""
+                title="OpenZeppelin"
+                loading="lazy"
+                class="icon2 icon-card"
+              />
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <!-- NFT1 -->
+
+      <div class="card">
+        <div class="row">
+          <div class="avatar-container">
+            <div class="photo">
+              <img class="img" src="./assets/projects_img/nft_project2.png" />
+            </div>
+          </div>
+          <div class="details-container">
+            <div class="content">
+              <h3>
+                基本的なNFT(Basic NFT)とダイナミックNFTプロジェクト(Dynamic NFT)
+              </h3>
+              <p>
+                2023年<br />
+                この2つのプロジェクトについては、<br />
+                一つは基本的な特徴と直接的なミンティングプロセスを持つ基本的なNFTプロジェクトで、もう一つはユーザーが自分のNFTの画像を自由に変更できるダイナミックNFTプロジェクトです。<br />
+                どちらのプロジェクトもSVGとBase64のURIを使用しており、IPFS上にホストされています。<br /><br />
+                Dynamic NFTのコントラクトをこちらで簡単に使用できます:
+                <a
+                  style="display: inline"
+                  href="https://abi.ninja/0x5ef9f85711932c78f80f70ee4dd4c7621aed33ce/sepolia?functions=mintNFT%2CmintNft"
+                  >Dynamic NFT ・ ABI Ninja</a
+                >
+                <br />
+                Basic NFTのコントラクトをこちらで簡単に使用できます：
+                <a
+                  style="display: inline"
+                  href="https://abi.ninja/0x7fdC673352cb7b8Efa1EB69A28DDe4FA2e1D0A8C/sepolia?functions=mintNFT"
+                  >Dynamic NFT ・ ABI Ninja</a
+                ><br /><br />
+                言語: Solidity<br />
+                ツール: Foundry, Openzeppelin, IPFS<br />
+              </p>
+              <a
+                href="https://github.com/Jer-B/Foundry_NFTBasic_and_NFTMood"
+                class="project-link, button"
+                style="background-color: #99e9c4"
+                >Githubで見る</a
+              >
+              <!-- <button class="btn-card btn--block card__btn"><a class="btn-link" href="https://portofolio-finance.herokuapp.com/" target="_blank" class="project-link">Check it Out</a></button> -->
+            </div>
+          </div>
+        </div>
+        <!-- delete class or not class="card-footer"-->
+        <section class="skills2" id="skills">
+          <h4 class="skill-header">ツール</h4>
+
+          <div class="skills-wrapper">
+            <div class="first-set animate__animated animate__pulse">
+              <img
+                src="./assets/skill_icons/solidity.svg"
+                alt=""
+                title="Solidity"
+                loading="lazy"
+                class="icon2 icon-card"
+              />
+              <img
+                src="./assets/skill_icons/foundry.png"
+                alt=""
+                title="Foundry"
+                loading="lazy"
+                class="icon2 icon-card"
+              />
+              <img
+                src="./assets/skill_icons/Ipfs.png"
+                alt=""
+                title="IPFS"
+                loading="lazy"
+                class="icon2 icon-card"
+              />
+              <img
+                src="./assets/skill_icons/eth.png"
+                alt=""
+                title="Solidity"
+                loading="lazy"
+                class="icon2 icon-card"
+              />
+              <img
+                src="./assets/skill_icons/openzeppelin1.svg"
+                alt=""
+                title="OpenZeppelin"
+                loading="lazy"
+                class="icon2 icon-card"
+              />
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <!-- Defi -->
 
       <div class="card">
         <div class="row">
@@ -640,19 +847,23 @@
           </div>
           <div class="details-container">
             <div class="content">
-              <h3>動的なNFT</h3>
+              <h3>NFTマーケットプレイス</h3>
               <p>
-                ソリディティ言語で、EVM互換のブロックチェーンのスマートコントラクトプログラミングをしています。
+                2022年<br />
+                ※注意：メインネットでの使用はお控えください。実際このプロジェクトのソースコードは非推奨です。<br />
+                テストネットの変更が必要し、Moralisの方法は非推奨し、GraphQLの方法には様々な情報の変更が必要です。<br /><br />
 
-                <br />取引・宝くじなどのスマートコントラクトを作成しました。
-                <br />現在、Immutable-Xのブロックチェーンでアセットマネージャーを作成中。<br /><br />
-                言語:Python, Solidity<br />
+                ユーザーが自分のNFTを売りに出すためにリストアップし、NFTを購入できるマーケットプレイスです。<br />
+                NFTが購入されると、売り手から買い手に転送されます。<br /><br />
+                言語: Solidity, Javascript<br />
+                ツール: HardHat, Chainlink, Openzeppelin, IPFS, NextJS,
+                GraphQL<br />
               </p>
               <a
-                href="solidity_code.html"
+                href="https://github.com/Jer-B/HardHat_projects/tree/main/HardHat_Marketplace/Marketplace_contracts"
                 class="project-link, button"
                 style="background-color: #99e9c4"
-                >コードを見る</a
+                >Githubで見る</a
               >
               <!-- <button class="btn-card btn--block card__btn"><a class="btn-link" href="https://portofolio-finance.herokuapp.com/" target="_blank" class="project-link">Check it Out</a></button> -->
             </div>
@@ -672,9 +883,51 @@
                 class="icon2 icon-card"
               />
               <img
-                src="./assets/skill_icons/python.svg"
+                src="./assets/skill_icons/javascript.svg"
                 alt=""
-                title="Python"
+                title="Javascript"
+                loading="lazy"
+                class="icon2 icon-card"
+              />
+              <img
+                src="./assets/skill_icons/hardhat2.svg"
+                alt=""
+                title="HardHat"
+                loading="lazy"
+                class="icon2 icon-card"
+              />
+              <img
+                src="./assets/skill_icons/nextjs.svg"
+                alt=""
+                title="NextJS"
+                loading="lazy"
+                class="icon2 icon-card"
+              />
+              <img
+                src="./assets/skill_icons/openzeppelin1.svg"
+                alt=""
+                title="OpenZeppelin"
+                loading="lazy"
+                class="icon2 icon-card"
+              />
+              <img
+                src="./assets/skill_icons/chainlink1.svg"
+                alt=""
+                title="Chainlink"
+                loading="lazy"
+                class="icon2 icon-card"
+              />
+              <img
+                src="./assets/skill_icons/Ipfs.png"
+                alt=""
+                title="IPFS"
+                loading="lazy"
+                class="icon2 icon-card"
+              />
+              <img
+                src="./assets/skill_icons/graphql.svg"
+                alt=""
+                title="GraphQL"
                 loading="lazy"
                 class="icon2 icon-card"
               />
@@ -683,7 +936,108 @@
         </section>
       </div>
 
-      <!-- NFT -->
+      <!-- NFT2 -->
+
+      <div class="card">
+        <div class="row">
+          <div class="avatar-container">
+            <div class="photo">
+              <img class="img" src="./assets/projects_img/nft_project2.png" />
+            </div>
+          </div>
+          <div class="details-container">
+            <div class="content">
+              <h3>
+                ランダムなレアリティ割合を持つNFTと、価格条件に基づいたNFT
+              </h3>
+              <p>
+                2022年<br />
+                ※注意：このプロジェクトのソースコードは非推奨です。Chainlink
+                VRFとテストネットが変わりました<br /><br />
+                この2つのプロジェクトについては、<br />
+                一つは基本的な特徴と直接的なミンティングプロセス、さらにレアリティミンティングプロセスを備えた基本的なNFTプロジェクトで、<br />
+                本当のランダム性を得るためにChainlink VRFを使用しています。<br /><br />
+                もう一つは価格条件に基づいています。ユーザーはミンティング時にEthereumの価格を設定し、<br />
+                その条件に応じて価格がミンティング時に設定された価格より上か下かによって画像が変わります(嬉しい顔は上、下の場合は寂しい顔)。<br />
+                どちらもSVGとBase64
+                URIを使用し、両プロジェクトともIPFS上にホストされています。<br /><br />
+                レアリティレベル: パグ = 一般 | 柴犬 = まれ | セントバーナード =
+                レア<br /><br />
+                言語: Solidity, Javascript<br />
+                ツール: HardHat, Chainlink, Openzeppelin, IPFS<br />
+              </p>
+              <a
+                href="https://github.com/Jer-B/HardHat_projects/tree/main/HardHat_UltimateNFT"
+                class="project-link, button"
+                style="background-color: #99e9c4"
+                >Githubで見る</a
+              >
+              <!-- <button class="btn-card btn--block card__btn"><a class="btn-link" href="https://portofolio-finance.herokuapp.com/" target="_blank" class="project-link">Check it Out</a></button> -->
+            </div>
+          </div>
+        </div>
+        <!-- delete class or not class="card-footer"-->
+        <section class="skills2" id="skills">
+          <h4 class="skill-header">ツール</h4>
+
+          <div class="skills-wrapper">
+            <div class="first-set animate__animated animate__pulse">
+              <img
+                src="./assets/skill_icons/solidity.svg"
+                alt=""
+                title="Solidity"
+                loading="lazy"
+                class="icon2 icon-card"
+              />
+              <img
+                src="./assets/skill_icons/hardhat2.svg"
+                alt=""
+                title="HardHat"
+                loading="lazy"
+                class="icon2 icon-card"
+              />
+              <img
+                src="./assets/skill_icons/eth.png"
+                alt=""
+                title="Solidity"
+                loading="lazy"
+                class="icon2 icon-card"
+              />
+              <img
+                src="./assets/skill_icons/javascript.svg"
+                alt=""
+                title="Javascript"
+                loading="lazy"
+                class="icon2 icon-card"
+              />
+
+              <img
+                src="./assets/skill_icons/Ipfs.png"
+                alt=""
+                title="IPFS"
+                loading="lazy"
+                class="icon2 icon-card"
+              />
+              <img
+                src="./assets/skill_icons/openzeppelin1.svg"
+                alt=""
+                title="OpenZeppelin"
+                loading="lazy"
+                class="icon2 icon-card"
+              />
+              <img
+                src="./assets/skill_icons/chainlink1.svg"
+                alt=""
+                title="OpenZeppelin"
+                loading="lazy"
+                class="icon2 icon-card"
+              />
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <!-- Token Farming Dapp -->
 
       <div class="card">
         <div class="row">
@@ -694,19 +1048,24 @@
           </div>
           <div class="details-container">
             <div class="content">
-              <h3>小さいDAO</h3>
+              <h3>トークンファーミングDEFI Dapp</h3>
               <p>
-                ソリディティ言語で、EVM互換のブロックチェーンのスマートコントラクトプログラミングをしています。
+                2022年<br />
+                ※注意：メインネットでの使用はお控えください。実際このプロジェクトのソースコードは非推奨です。<br />
+                テストネットの変更が必要し、Brownieは非推奨です。<br /><br />
 
-                <br />取引・宝くじなどのスマートコントラクトを作成しました。
-                <br />現在、Immutable-Xのブロックチェーンでアセットマネージャーを作成中。<br /><br />
-                言語:Python, Solidity<br />
+                このプロジェクトでは、ステーク預け入れのために様々なERC20トークン（Link、DAI、WETH）を使用しています。<br />
+                ステーキングには許可されたトークンのみを受け入れる条件があります。<br />
+                ユーザーがトークンを引き出したり、ステークを解除したりすることも可能です。<br />
+                このDAPPには独自のERC20トークンがあり、ステークされた期間と量に応じた利益・リワードとして使用されます。<br /><br />
+                言語:Python, Solidity, Typescript<br />
+                ツール: Brownie, React, OpenZeppelin, Chainlink<br />
               </p>
               <a
-                href="solidity_code.html"
+                href="https://github.com/Jer-B/Brownie_projects/tree/main/Brownie_dapp/dapp"
                 class="project-link, button"
                 style="background-color: #99e9c4"
-                >コードを見る</a
+                >Githubで見る</a
               >
               <!-- <button class="btn-card btn--block card__btn"><a class="btn-link" href="https://portofolio-finance.herokuapp.com/" target="_blank" class="project-link">Check it Out</a></button> -->
             </div>
@@ -732,11 +1091,133 @@
                 loading="lazy"
                 class="icon2 icon-card"
               />
+              <img
+                src="./assets/skill_icons/brownie.png"
+                alt=""
+                title="Brownie"
+                loading="lazy"
+                class="icon2 icon-card"
+              />
+              <img
+                src="./assets/skill_icons/eth.png"
+                alt=""
+                title="Solidity"
+                loading="lazy"
+                class="icon2 icon-card"
+              />
+              <img
+                src="./assets/skill_icons/react.svg"
+                alt=""
+                title="React"
+                loading="lazy"
+                class="icon2 icon-card"
+              />
+              <img
+                src="./assets/skill_icons/typescript.svg"
+                alt=""
+                title="Typescript"
+                loading="lazy"
+                class="icon2 icon-card"
+              />
+              <img
+                src="./assets/skill_icons/openzeppelin1.svg"
+                alt=""
+                title="OpenZeppelin"
+                loading="lazy"
+                class="icon2 icon-card"
+              />
+              <img
+                src="./assets/skill_icons/chainlink1.svg"
+                alt=""
+                title="Chainlink"
+                loading="lazy"
+                class="icon2 icon-card"
+              />
             </div>
           </div>
         </section>
       </div>
 
+      <!-- Flash Loans -->
+
+      <div class="card">
+        <div class="row">
+          <div class="avatar-container">
+            <div style="width: 80%; background-color: black" class="photo">
+              <img
+                style="width: 70%"
+                class="img"
+                src="./assets/projects_img/flash_loan.png"
+              />
+            </div>
+          </div>
+          <div class="details-container">
+            <div class="content">
+              <h3>基本なフラッシュローンコントラクト</h3>
+              <p>
+                2022年<br />
+                ※注意：メインネットでの使用はお控えください。実際このプロジェクトのソースコードは非推奨です。<br />
+                AAVEインターフェースの変更が必要し、Brownieは非推奨です。<br /><br />
+                PythonとSolidityを使用し、AAVEプロトコルでETHをWETHに交換し、<br />
+                その後WETHを売却して、借金を返済する、一つの取引で完結する基本的なフラッシュローンコントラクト。<br /><br />
+
+                言語:Python, Solidity<br />
+                プラットホーム: Brownie, AAVE, Chainlink<br />
+              </p>
+              <a
+                href="https://github.com/Jer-B/Brownie_projects/tree/main/brownie_flash_loans"
+                class="project-link, button"
+                style="background-color: #99e9c4"
+                >Githubで見る</a
+              >
+            </div>
+          </div>
+        </div>
+        <!-- delete class or not class="card-footer"-->
+        <section class="skills2" id="skills">
+          <h4 class="skill-header">ツール</h4>
+
+          <div class="skills-wrapper">
+            <div class="first-set animate__animated animate__pulse">
+              <img
+                src="./assets/skill_icons/solidity.svg"
+                alt=""
+                title="Solidity"
+                loading="lazy"
+                class="icon2 icon-card"
+              />
+              <img
+                src="./assets/skill_icons/python.svg"
+                alt=""
+                title="Python"
+                loading="lazy"
+                class="icon2 icon-card"
+              />
+              <img
+                src="./assets/skill_icons/eth.png"
+                alt=""
+                title="Solidity"
+                loading="lazy"
+                class="icon2 icon-card"
+              />
+              <img
+                src="./assets/skill_icons/brownie.png"
+                alt=""
+                title="Brownie"
+                loading="lazy"
+                class="icon2 icon-card"
+              />
+              <img
+                src="./assets/skill_icons/chainlink1.svg"
+                alt=""
+                title="Chainlink"
+                loading="lazy"
+                class="icon2 icon-card"
+              />
+            </div>
+          </div>
+        </section>
+      </div>
       <!-- Soldity Smart Contract -->
       <!-- 
       <div class="card">
@@ -806,10 +1287,17 @@
               <h3>株ポートフォリオのシミュレーション</h3>
               <p>
                 2020年<br />
-                株のポートフォリオ・マネジメント・シミュレーションです。
-                APIを使って、株の値段確認・売買・管理する事が出来ます。
+                株のポートフォリオ・マネジメント・シミュレーションです。<br />
+                APIを使って、株の値段確認・売買・管理する事が出来ます。<br />
+                Githubでソースコードを見る:
+                <a
+                  style="display: inline"
+                  href="https://github.com/Jer-B/Python_Finance_project"
+                  >こちらへ</a
+                ><br /><br />
                 <br />
                 言語:Python<br />
+                ホスト:Azure<br />
                 スタック: Flask+Jinja・HTML/CSS+SASS<br />
                 サーバーサイド: Flask<br />
                 データベース: SQLITE3・Postgres<br />
@@ -895,6 +1383,13 @@
                 loading="lazy"
                 class="icon2 icon-card"
               />
+              <img
+                src="./assets/skill_icons/azure.svg"
+                alt=""
+                title="Azure"
+                loading="lazy"
+                class="icon2 icon-card"
+              />
             </div>
           </div>
         </section>
@@ -916,9 +1411,16 @@
               <h3>誕生日カレンダー</h3>
               <p>
                 2020年<br />
-                誕生日メモ帳と同じく使えるアプリです。
+                誕生日メモ帳と同じく使えるアプリです。<br />
                 人の名前を書いて、生まれた月と日を選んでからその方の誕生日を登録出来ます。<br />
+                Githubでソースコードを見る:
+                <a
+                  style="display: inline"
+                  href="https://github.com/Jer-B/Python_Birthday_project"
+                  >こちらへ</a
+                ><br /><br />
                 言語:Python<br />
+                ホスト:Azure<br />
                 スタック: Flask+Jinja・HTML/CSS+SASS<br />
                 データベース: SQLITE3・Postgres<br />
                 バージョン管理:Git
@@ -1000,6 +1502,13 @@
                 src="./assets/skill_icons/git.svg"
                 alt=""
                 title="Git"
+                loading="lazy"
+                class="icon2 icon-card"
+              />
+              <img
+                src="./assets/skill_icons/azure.svg"
+                alt=""
+                title="Azure"
                 loading="lazy"
                 class="icon2 icon-card"
               />
