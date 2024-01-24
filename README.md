@@ -12,8 +12,8 @@ For the exercise, and to not rely on any frameworks, it is made fully in HTML an
 
 It is also translated into English and French (Main language is in Japanese). See below for other language versions.
 
-French Version: [Here](https://jer-b.github.io/portofolio_fr.html).<br />
-English Version: [Here](https://jer-b.github.io/portofolio_en.html).
+French Version: [Here](https://jer-b.github.io/portfolio_fr.html).<br />
+English Version: [Here](https://jer-b.github.io/portfolio_en.html).
 <br />
 <br />
 <br />
@@ -30,8 +30,8 @@ English Version: [Here](https://jer-b.github.io/portofolio_en.html).
 
 また、英語とフランス語に翻訳されています。他言語バージョンについては以下を参照してください。
 
-フランス語版: [こちら](https://jer-b.github.io/portofolio_fr.html)<br />
-英語版: [こちら](https://jer-b.github.io/portofolio_en.html)
+フランス語版: [こちら](https://jer-b.github.io/portfolio_fr.html)<br />
+英語版: [こちら](https://jer-b.github.io/portfolio_en.html)
 <br />
 <br />
 <br />
