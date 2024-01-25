@@ -67,14 +67,14 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.24.1/components/prism-c.min.js"></script>
     <!-- <script src="./assets/js/app.js"></script> -->
 
-    <title>Cコード</title>
+    <title>C code</title>
   </head>
   <body>
     <div class="header">
       <h1></h1>
       <p></p>
-      <a href="project.html" class="button" style="background-color: #42cc8c"
-        >プロジェクトへ戻る</a
+      <a href="project_fr.html" class="button" style="background-color: #42cc8c"
+        >Retour à mes projets</a
       >
     </div>
     <div id="navbar">
@@ -84,14 +84,14 @@
           <div></div>
           <div></div>
         </div>
-        <span class="menu-label">メニュー</span>
+        <span class="menu-label">Menu</span>
       </div>
       <div class="navbar-links">
         <!-- <a href="index.html">Home</a> -->
         <a href="portofolio.html">Home</a>
         <a class="active" href="project.html">Projects</a>
         <!-- <a href="resume.html">Resume</a> -->
-        <a href="course_path.html">Study & Resources</a>
+        <a href="course_path.html">Étude & Ressources</a>
         <!-- <a href="contact.html">Contact</a> -->
         <a href="https://github.com/Jer-B/" target="_blank">Github</a>
       </div>
@@ -105,43 +105,48 @@
         class="hero-img"
       />
       <div class="bio animate__animated animate__shakeX">
-        <h2 class="bio-title">C言語プロジェクト</h2>
-        <p class="bio-text">「写真フィルター」</p>
+        <h2 class="bio-title">Projet en C</h2>
+        <p class="bio-text">「Filtre Photo」</p>
       </div>
     </section>
 
     <section class="projects" id="projects">
       <div class="card-code">
-        <h3 class="grid-title">C・写真フィルター</h3>
+        <h3 class="grid-title">C・Filtre Photo</h3>
         <div class="details-container">
           <div class="c-content">
-            <h3>内容</h3>
+            <h3>Contenu</h3>
             <p>
-              プログラムにパラメーターとして写真名とパスとフィルターのタイプを入力し、写真自体を編集する事が出来るプログラムです。<br />
-              例：写真の色を変えたり、ぼかし加工、ミラーエフェクトなど。<br /><br />
-              言語: C<br />
-              テストのため下にコードを載せました。<br />
+              Ce programme permet d'éditer une photo en applicant un filtre. Le
+              nom et le chemin vers la photo ainsi que le type de filtre à
+              utiliser est nécessaire en tant que paramètres.<br />
+              Exemples: changer la couleur de la photo, appliquer un flou, et
+              des effets miroir.<br /><br />
+              Langage: C<br />
+              J'ai posté le code ci-dessous pour tester.<br />
             </p>
 
             <ol>
               <li>
-                同じフォルダーにfilter.c、helpers.c、bmp.h、helpers.h、のファイルを作成する。
+                Créez les fichiers filter.c, helpers.c, bmp.h et helpers.h dans
+                le même dossier.
               </li>
-              <li>フィルターエフェクトのパラメーター:</li>
+              <li>Paramètres pour les effets de filtre :</li>
               <ul>
-                <li>-b (Blur)</li>
-                <li>-g (Grayscale)</li>
-                <li>-r (Reflection)</li>
-                <li>-s (Sepia)</li>
-                <li>-e (Edge)</li>
+                <li>-b (Blur - Flou)</li>
+                <li>-g (Grayscale - Niveaux de gris)</li>
+                <li>-r (Reflection - Mirroir)</li>
+                <li>-s (Sépia)</li>
+                <li>-e (Edge - Contour)</li>
               </ul>
-              <li>コンパイルする。</li>
+              <li>Compiler.</li>
               <li>
-                下記のコマンドでプログラムを実行する。パラメーターは-gとなっています。
+                Exécutez le programme avec la commande plus bas. Le paramètre
+                est réglé sur -g.
               </li>
             </ol>
-            <h3>使用方法</h3>
-            <p>下記のコマンドを実行する：</p>
+            <h3>Comment utiliser</h3>
+            <p>Exécutez la commande suivante :</p>
             <p>./filter -g images/yard.bmp out.bmp</p>
           </div>
         </div>
@@ -155,7 +160,7 @@
               alt="Original"
             />
             <a href="./assets/code_img/c/yard.bmp" target="_blank"
-              >元サイズの写真へ</a
+              >Voir taille originale</a
             >
           </div>
           <div class="photo-code">
@@ -166,7 +171,7 @@
               alt="Original"
             />
             <a href="./assets/code_img/c/blur.JPG" target="_blank"
-              >元サイズの写真へ</a
+              >Voir taille originale</a
             >
           </div>
           <div class="photo-code">
@@ -177,7 +182,7 @@
               alt="Original"
             />
             <a href="./assets/code_img/c/grayscale.JPG" target="_blank"
-              >元サイズの写真へ</a
+              >Voir taille originale</a
             >
           </div>
           <div class="photo-code">
@@ -188,7 +193,7 @@
               alt="Original"
             />
             <a href="./assets/code_img/c/reflect.JPG" target="_blank"
-              >元サイズの写真へ</a
+              >Voir taille originale</a
             >
           </div>
 
@@ -200,7 +205,7 @@
               alt="Original"
             />
             <a href="./assets/code_img/c/Sepia.JPG" target="_blank"
-              >元サイズの写真へ</a
+              >Voir taille originale</a
             >
           </div>
           <div class="photo-code">
@@ -213,7 +218,7 @@
             <a
               href="./assets/code_img/c/blur_blue_sum=green.JPG"
               target="_blank"
-              >元サイズの写真へ</a
+              >Voir taille originale</a
             >
           </div>
           <div class="photo-code">
@@ -224,7 +229,7 @@
               alt="Original"
             />
             <a href="./assets/code_img/c/Edge_out.bmp" target="_blank"
-              >元サイズの写真へ</a
+              >Voir taille originale</a
             >
           </div>
           <!-- Details Container -->
@@ -249,7 +254,7 @@
             href="project.html"
             class="project-link, button"
             style="background-color: #99e9c4"
-            >プロジェクト一覧へ戻る</a
+            >Retour à mes projets</a
           >
           <!-- <button class="btn-card btn--block card__btn"><a class="btn-link" href="https://portofolio-finance.herokuapp.com/" target="_blank" class="project-link">Check it Out</a></button> -->
         </div>

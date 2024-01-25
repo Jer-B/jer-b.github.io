@@ -57,7 +57,7 @@
     </script>
     <script src="./assets/js/app.js"></script>
 
-    <title>プロジェクト</title>
+    <title>Projects</title>
   </head>
   <body>
     <div class="header">
@@ -65,8 +65,8 @@
       <h1></h1>
       <!-- <p>Introduction of myself to you.<br />Looking for someone ?</p> -->
       <p></p>
-      <a href="project.html" class="button" style="background-color: #42cc8c"
-        >プロジェクトを見る</a
+      <a href="project_en.html" class="button" style="background-color: #42cc8c"
+        >All my projects</a
       >
     </div>
 
@@ -77,14 +77,14 @@
           <div></div>
           <div></div>
         </div>
-        <span class="menu-label">メニュー</span>
+        <span class="menu-label">Menu</span>
       </div>
       <div class="navbar-links">
         <!-- <a href="index.html">Home</a> -->
-        <a href="portofolio.html">Home</a>
-        <a class="active" href="project.html">Projects</a>
+        <a href="portfolio_en.html">Home</a>
+        <a class="active" href="project_en.html">Projects</a>
         <!-- <a href="resume.html">Resume</a> -->
-        <a href="course_path.html">Study & Resources</a>
+        <a href="course_path_en.html">Study & Resources</a>
         <!-- <a href="contact.html">Contact</a> -->
         <a href="https://github.com/Jer-B/" target="_blank">Github</a>
       </div>
@@ -98,17 +98,17 @@
         class="hero-img"
       />
       <div class="bio animate__animated animate__shakeX">
-        <h2 class="bio-title">プロジェクト一覧</h2>
+        <h2 class="bio-title">Project List</h2>
         <p class="bio-text">
-          下記は、今まで作成したまたは参加したプロジェクトの一覧です。
-          さまざまなカテゴリーと言語のプロジェクトをまとめました:
-          Web3、Python、JS、C、HTMLなど...
+          Below is a list of projects I have created or participated in so far.
+          I have compiled projects from various categories and languages: Web3,
+          Python, JS, C, HTML, and more...
         </p>
       </div>
     </section>
 
     <section class="projects" id="projects">
-      <h2 class="projects-title">プロジェクト</h2>
+      <h2 class="projects-title">Projects</h2>
 
       <!-- <div class="container bcontent">
         <h2>Bootstrap Card with Header and Footer</h2>
@@ -141,18 +141,15 @@
           </div>
           <div class="details-container">
             <div class="content">
-              <h3>ポートフォリオ V1</h3>
+              <h3>Portfolio V1</h3>
               <p>
-                作品を紹介するために、このポートフォリオを作成しました。<br /><br />
-                練習のため、そしてフレームワークに頼らないために、HTMLとCSSを主に使用し、<br />
-                モバイルデバイスでメニューをより良い形で表示するために部分的にJavaScriptを使用しています。<br />
-                事前に用意されたレスポンシブコードを使用せずに、できるだけレスポンシブになるよう工夫しています。<br />
-                また、英語とフランス語に翻訳されています。他言語バージョンについては以下を参照してください。<br />
-              </p>
-              <p>
-                <a style="display: inline" href="portfolio_en.html"
-                  >English Version</a
-                >
+                I created this portfolio to showcase my work.<br /><br />
+                For practice and to avoid to use frameworks, I primarily used
+                HTML and CSS and a bit of JavaScript to better display the menu
+                on mobile devices. <br />
+                I've tried to make it as responsive as possible without using
+                pre-made responsive codes. <br />
+                It's also translated into Japanese and French.<br />
               </p>
               <p>
                 <a style="display: inline" href="portfolio_fr.html"
@@ -160,14 +157,19 @@
                 >
               </p>
               <p>
-                言語:HTML, CSS, JS<br />
-                ホスト: Github<br />
+                <a style="display: inline" href="portofolio.html"
+                  >Japanese Version</a
+                >
+              </p>
+              <p>
+                Languages: HTML, CSS, JS<br />
+                Host: Github<br />
               </p>
               <a
                 href="https://github.com/Jer-B/jer-b.github.io"
                 class="project-link, button"
                 style="background-color: #99e9c4"
-                >Githubで見る</a
+                >View Github repo</a
               >
               <!-- <button class="btn-card btn--block card__btn"><a class="btn-link" href="https://portofolio-finance.herokuapp.com/" target="_blank" class="project-link">Check it Out</a></button> -->
             </div>
@@ -175,7 +177,7 @@
         </div>
         <!-- delete class or not class="card-footer"-->
         <section class="skills2" id="skills">
-          <h4 class="skill-header">ツール</h4>
+          <h4 class="skill-header">Tools</h4>
 
           <div class="skills-wrapper">
             <div class="first-set animate__animated animate__pulse">
@@ -222,39 +224,43 @@
           </div>
           <div class="details-container">
             <div class="content">
-              <h3>オンチェーン マルチシグ ウォレット</h3>
+              <h3>On-Chain Multi-Sig Wallet</h3>
               <p>
-                2024年<br />
-                「アカウント抽象化」のEIPを基礎として使用します。
+                2024<br />
+                This project uses the 'Account Abstraction' EIP as a base.
               </p>
               <ul style="font-size: 1em">
                 <li>
-                  ユーザーが新しいスマートコントラクトウォレットを作成し、そのウォレットの所有者を指定することができます。
+                  Users can create a new smart contract wallet and designate its
+                  owners.
                 </li>
                 <li>
-                  また、ユーザーのEOA (External Owned Account)が所有者である<br />スマートコントラクトウォレットのリストを表示します。<br />
-                  スマートコントラクトウォレットの一人の所有者が取引を開始できるようにします。
+                  Displays a list of Smart Contract Wallets for which the user's
+                  EOA (External Owned Account) is the owner<br />
+                  It allows one owner of a smart contract wallet to initiate a
+                  transaction.
                 </li>
-                <li>他の所有者が取引にサインすることができます。</li>
+                <li>Other owners signs the transaction request.</li>
                 <li>
-                  所有者全員がサインした後、どの所有者でも取引を送信し、最終的に実行されるようにします。
+                  After all owners have signed, any of the owners can send the
+                  transaction, which is then executed.
                 </li>
                 <li>
-                  ユーザーのスマートアカウントは、コントラクトにUUPSアップグレーダブルプロキシパターンが<br />実装されているため、アップグレード可能です。
+                  The smart-contract it implements the UUPS proxy pattern.
                 </li>
               </ul>
               <p>
-                Githubのレポジトリーはこちら:
+                Here is the Github repo of the
                 <a style="display: inline" href="">Multi-Sig Wallet Project</a
                 ><br /><br />
-                言語:JavaScript, Solidity<br />
-                ツール: Foundry, OpenZeppelin, NextJS, TailwindCSS, IPFS<br />
+                Languages: JavaScript, Solidity<br />
+                Tools: Foundry, OpenZeppelin, NextJS, TailwindCSS, IPFS<br />
               </p>
               <a
                 href="solidity_code.html"
                 class="project-link, button"
                 style="background-color: #99e9c4"
-                >サイトを見る</a
+                >View website</a
               >
               <!-- <button class="btn-card btn--block card__btn"><a class="btn-link" href="https://portofolio-finance.herokuapp.com/" target="_blank" class="project-link">Check it Out</a></button> -->
             </div>
@@ -262,7 +268,7 @@
         </div>
         <!-- delete class or not class="card-footer"-->
         <section class="skills2" id="skills">
-          <h4 class="skill-header">ツール</h4>
+          <h4 class="skill-header">Tools</h4>
 
           <div class="skills-wrapper">
             <div class="first-set animate__animated animate__pulse">
@@ -342,18 +348,22 @@
           </div>
           <div class="details-container">
             <div class="content">
-              <h3>ステブルコイン「DSC」(Decentralized StableCoin)</h3>
+              <h3>Stablecoin「DSC」(Decentralized StableCoin)</h3>
               <p>
-                2023年<br />
-                このプロジェクトは、ユーザーがWETHとWBTCを預けることで、<br />1:1の比率でUSDに連動するトークンと交換できるステーブルコインを目指しています。<br /><br />
-                言語: Solidity<br />
-                ツール: Foundry, OpenZeppelin, Chainlink<br />
+                2023<br />
+                This project is a stablecoin contract where users can deposit
+                WETH and WBTC in exchange for DSC tokens which have a 1:1 ratio
+                to USD. The goal is to provide a stablecoin that is linked to
+                the value of USD while being decentralized and understand how
+                they work.<br /><br />
+                Languages: Solidity<br />
+                Tools: Foundry, OpenZeppelin, Chainlink<br />
               </p>
               <a
                 href="https://github.com/Jer-B/Foundry_Stablecoin"
                 class="project-link, button"
                 style="background-color: #99e9c4"
-                >Githubで見る</a
+                >View Github repo</a
               >
               <!-- <button class="btn-card btn--block card__btn"><a class="btn-link" href="https://portofolio-finance.herokuapp.com/" target="_blank" class="project-link">Check it Out</a></button> -->
             </div>
@@ -361,7 +371,7 @@
         </div>
         <!-- delete class or not class="card-footer"-->
         <section class="skills2" id="skills">
-          <h4 class="skill-header">ツール</h4>
+          <h4 class="skill-header">Tools</h4>
 
           <div class="skills-wrapper">
             <div class="first-set animate__animated animate__pulse">
@@ -423,39 +433,51 @@
           </div>
           <div class="details-container">
             <div class="content">
-              <h3>PASMOオンチェーン「ハッカソンプロジェクト」</h3>
+              <h3>PASMO On-Chain「Hackathon Project」</h3>
               <p>
-                2023年<br />
-                ※
-                他のメンバーと連絡しています。求人のためにプロジェクトを公開に出来るかは相談している中。<br />
-                ※
-                公開にすることは可能であれば、ソースコードが思いため、フロントエンドの作りも必要と思います。<br /><br />
-                このプロジェクトはハッカソンで作成されました。全26チーム中、2位で終了しました。<br />
-                私を含む3人のチームで、電車の利用や店舗での支払いに使われるPasmo
-                ICカードが、<br />
-                オンチェーン化にしたらとどうなるかというシンプルなプロジェクトを行いました。<br /><br />
+                2023<br />
+                ※ I am in contact with other team members. We are discussing the
+                possibility of making the project public for job recruitment
+                purposes. If it is possible to make it public, the source code
+                will be pushed to github, and the frontend will also be
+                developed.<br />
+                This project was created during a hackathon and finished in
+                second place among 26 teams. Our team of three, including
+                myself, conducted a simple project on what would happen if the
+                Pasmo IC card, used for train rides and store payments, was put
+                on the blockchain.<br /><br />
 
-                100%所有者によってコントロールされ、いつでもカードにチャージされた資金を完全に管理できるように、<br />
-                これには、詐欺対策や、紛失したカードをすぐに所有者が再び制御できるようにする機能、<br />
-                そして線路の事故やその他の理由が発生した際にカードの条件設定を自動リセットする機能が含まれています。<br /><br />
+                The project features 100% owner-controlled and fully manageable
+                funds charged on the card at any time. This includes anti-fraud
+                measures, the ability for owners to regain control of lost cards
+                immediately, and an automatic reset function for the card's
+                conditions in case of rail accidents or other incidents.<br />
               </p>
               <!-- <p>
-                このプロジェクトは、鉄道会社に大きな影響を与える可能性があります。<br />
-                様々な理由で鉄道会社にとっては良い面と悪い面の両方で数億円の利益を得ることができます。<br />
-                オンチェーン取引の検証に切り替えることで電力やデータセンターの使用を抑制すること。<br />
-                時間とともに価値が上がる資産で支払われたり、非低い手数料（数百円）で自動でその数億円の価値がある資産を日本円に交換したりすることができ。<br />
-                カード管理のための人員が少なくて済み、カードチェックのためのデータセンターやサーバーの維持に関わる人員が不要になる。<br />
-                サーバーやデータセンターが少なくなれるためため、会社が所有する必要のある建物やインフラが少なくて済むなどの理由があります。など...<br /><br />
+                This project has the potential to significantly impact railway
+                companies. It can benefit and negatively affect the railway
+                companies in various ways, potentially generating hundreds of
+                millions of yen in profits. By switching to on-chain transaction
+                verification, it reduces the use of electricity and data
+                centers. Payments can be made in assets that increase in value
+                over time, and assets worth hundreds of millions of yen can be
+                automatically exchanged for Japanese yen with minimal fees
+                (several hundred yen). Fewer staff are needed for card
+                management, and there's no need for personnel involved in
+                maintaining data centers and servers for card checks. As a
+                result, fewer servers and data centers are required, reducing
+                the need for company-owned buildings and infrastructure, among
+                other reasons.<br /><br />
               </p> -->
               <p>
-                言語:Python, Solidity<br />
-                ツール: Foundry, OpenZeppelin, Chainlink<br />
+                Languages: Python, Solidity<br />
+                Tools: Foundry, OpenZeppelin, Chainlink<br />
               </p>
               <a
                 href="solidity_code.html"
                 class="project-link, button"
                 style="background-color: #99e9c4"
-                >Githubで見る</a
+                >View Github repo</a
               >
               <!-- <button class="btn-card btn--block card__btn"><a class="btn-link" href="https://portofolio-finance.herokuapp.com/" target="_blank" class="project-link">Check it Out</a></button> -->
             </div>
@@ -463,7 +485,7 @@
         </div>
         <!-- delete class or not class="card-footer"-->
         <section class="skills2" id="skills">
-          <h4 class="skill-header">ツール</h4>
+          <h4 class="skill-header">Tools</h4>
 
           <div class="skills-wrapper">
             <div class="first-set animate__animated animate__pulse">
@@ -522,16 +544,18 @@
           </div>
           <div class="details-container">
             <div class="content">
-              <h3>フラッシュローンボットと清算ボット</h3>
+              <h3>Flash Loan Bot and Liquidation Bot</h3>
               <p>
-                ApeWorxのSilverbackフレームワーク（Pythonベース）を使用して作成された、市場ポジション清算ボットとフラッシュローンボットです。<br />
-                このボットは、AAVE、Uniswap、1inchなどの数々のAMMや貸付プラットフォームで使用することができます。<br />
-                取引がMEVボットによってフロントランされたり潰されたりすることから保護する。<br /><br />
+                These are market position liquidation bots and flash loan bots
+                created using the Silverback framework of ApeWorx
+                (Python-based). The bots can be used on various AMMs and lending
+                platforms such as AAVE, Uniswap, 1inch, etc. They are designed
+                to protect against trades being front-run or crushed by MEV
+                bots.<br /><br />
 
-                言語:Python, Solidity<br />
-                ツール: Foundry, Silverback, OpenZeppelin, Chainlink,
-                そしてAAVE, Uniswap,
-                1inchその他のAMM...のコントラクトインターフェース<br />
+                Languages: Python, Solidity<br />
+                Tools: Foundry, Silverback, OpenZeppelin, Chainlink, contract
+                interfaces of AAVE, Uniswap, 1inch and other AMMs..<br />
               </p>
               <a
                 href="solidity_code.html"
@@ -545,7 +569,7 @@
         </div>
         <!-- delete class or not class="card-footer"-->
         <section class="skills2" id="skills">
-          <h4 class="skill-header">ツール</h4>
+          <h4 class="skill-header">Tools</h4>
 
           <div class="skills-wrapper">
             <div class="first-set animate__animated animate__pulse">
@@ -621,22 +645,23 @@
           </div>
           <div class="details-container">
             <div class="content">
-              <h3>Ethernautチャレンジの解決策</h3>
+              <h3>Ethernaut Challenge Solutions</h3>
               <p>
-                2023年~2024年<br />
-                ※レポジトリーを更新するためにチャレンジを再度行う必要があります。<br />
-                したがって、再びチャレンジを行う時間があるときに更新されます。<br /><br />
-                Ethernautは、Web3/Solidityベースのコーディングウォーゲームで、Ethereum
-                Virtual Machine (EVM) でプレイされます。<br />
-                各レベルはハッキングする必要があるスマートコントラクトです。<br /><br />
-                言語: Solidity<br />
-                ツール: Foundry, Remix.
+                2023 ~ 2024<br />
+                ※ The repository is updated bit by bit as I need to redo
+                challenges for it.
+                <br /><br />
+                Ethernaut is a Web3/Solidity-based coding exploit game played on
+                the Ethereum Virtual Machine (EVM). Each level is a smart
+                contract that needs to be hacked.<br /><br />
+                Languages: Solidity<br />
+                Tools: Foundry, Remix.
               </p>
               <a
                 href="https://github.com/Jer-B/Ethernaut_all_-spoil-"
                 class="project-link, button"
                 style="background-color: #99e9c4"
-                >Githubで見る</a
+                >View Github repo</a
               >
               <!-- <button class="btn-card btn--block card__btn"><a class="btn-link" href="https://portofolio-finance.herokuapp.com/" target="_blank" class="project-link">Check it Out</a></button> -->
             </div>
@@ -644,7 +669,7 @@
         </div>
         <!-- delete class or not class="card-footer"-->
         <section class="skills2" id="skills">
-          <h4 class="skill-header">ツール</h4>
+          <h4 class="skill-header">Tools</h4>
 
           <div class="skills-wrapper">
             <div class="first-set animate__animated animate__pulse">
@@ -692,23 +717,28 @@
           </div>
           <div class="details-container">
             <div class="content">
-              <h3>オンチェーン問題チャレンジの解決策</h3>
+              <h3>On-Chain Challenge Solutions</h3>
               <p>
-                2022年~2024年<br />
-                ※レポジトリーを更新するためにチャレンジを再度行う必要があります。<br />
-                したがって、再びチャレンジを行う時間があるときに更新されます。<br /><br />
-                これはテストネットに既にデプロイされたコントラクトの様々なチャレンジソリューションに関するものです。<br />
-                他のコントラクトとどのようにやり取りし、読み取るかを練習する方法です。<br />
-                簡単なチャレンジもありますし、外部コントラクトやエクスプロイトを必要とするチャレンジもあります。<br />
-                各チャレンジの問題説明はスマートコントラクト内に記載されています。チャレンジが解決されると、報酬はNFTです。<br /><br />
-                言語: Solidity<br />
-                ツール: Foundry, Remix<br />
+                2022 ~ 2024<br />
+                ※ The repository needs to be updated by redoing all challenges.
+                Therefore, it will be updated when i will have the time to redo
+                them again.<br /><br />
+
+                Various challenge solutions for contracts that have already been
+                deployed on the testnet. It's a way to practice how to interact
+                with and read other contracts. There are simple challenges as
+                well as challenges that require interaction with external
+                contracts or to exploit them. The problem description of each
+                challenge is included in the smart-contract. Upon solving a
+                challenge, the reward is an NFT.<br /><br />
+                Languages: Solidity<br />
+                Tools: Foundry, Remix<br />
               </p>
               <a
                 href="https://github.com/Jer-B/Foundry_onchain_challenges_-spoil-"
                 class="project-link, button"
                 style="background-color: #99e9c4"
-                >Githubで見る</a
+                >View Github repo</a
               >
               <!-- <button class="btn-card btn--block card__btn"><a class="btn-link" href="https://portofolio-finance.herokuapp.com/" target="_blank" class="project-link">Check it Out</a></button> -->
             </div>
@@ -716,7 +746,7 @@
         </div>
         <!-- delete class or not class="card-footer"-->
         <section class="skills2" id="skills">
-          <h4 class="skill-header">ツール</h4>
+          <h4 class="skill-header">Tools</h4>
 
           <div class="skills-wrapper">
             <div class="first-set animate__animated animate__pulse">
@@ -771,25 +801,28 @@
           </div>
           <div class="details-container">
             <div class="content">
-              <h3>基本的なDAO (Decentralized Autonomous Organization)</h3>
+              <h3>Basic DAO (Decentralized Autonomous Organization)</h3>
               <p>
-                2023年<br />
-                非常にシンプルなDAOプロジェクトで、ユーザーは提案を行い、提案に投票することができます。<br />
-                タイマーが設定されており、前の提案サイクルが終了するまで他の提案は行えません。<br />
-                投票力はガバナンストークンに基づいています。このコントラクトはDAOによって完全に制御されており、<br />
-                個々のエンティティがコントラクトを所有することはありません。完全に分散化されています。<br /><br />
+                2023<br />
+                This is a very simple DAO project where users can make proposals
+                and vote on them. A timer is set, and no other proposals can be
+                made until the previous proposal cycle ends. Voting power is
+                based on governance tokens. This contract is completely
+                controlled by the DAO, and no individual entity owns the
+                contract. It is fully decentralized.<br /><br />
 
-                ※
-                本番用途で使用するためのDAOではありません。投票システムがガバナンストークンの価格を推測することを促し、<br />
-                合理的な投票思考ではなくなるためです。<br /><br />
-                言語: Solidity<br />
-                ツール: Foundry, Openzeppelin<br />
+                ※ This DAO is not intended for production use. The reason is
+                that the voting system encourages speculation over the price of
+                the governance tokens, rather than rational voting behavior
+                only.<br /><br />
+                Languages: Solidity<br />
+                Tools: Foundry, Openzeppelin<br />
               </p>
               <a
                 href="https://github.com/Jer-B/Foundry_DAO"
                 class="project-link, button"
                 style="background-color: #99e9c4"
-                >Githubで見る</a
+                >View Github repo</a
               >
               <!-- <button class="btn-card btn--block card__btn"><a class="btn-link" href="https://portofolio-finance.herokuapp.com/" target="_blank" class="project-link">Check it Out</a></button> -->
             </div>
@@ -797,7 +830,7 @@
         </div>
         <!-- delete class or not class="card-footer"-->
         <section class="skills2" id="skills">
-          <h4 class="skill-header">ツール</h4>
+          <h4 class="skill-header">Tools</h4>
 
           <div class="skills-wrapper">
             <div class="first-set animate__animated animate__pulse">
@@ -845,35 +878,35 @@
           </div>
           <div class="details-container">
             <div class="content">
-              <h3>
-                基本的なNFT(Basic NFT)とダイナミックNFTプロジェクト(Dynamic NFT)
-              </h3>
+              <h3>Basic NFT and Dynamic NFT Project</h3>
               <p>
-                2023年<br />
-                この2つのプロジェクトについては、<br />
-                一つは基本的な特徴と直接的なミンティングプロセスを持つ基本的なNFTプロジェクトで、もう一つはユーザーが自分のNFTの画像を自由に変更できるダイナミックNFTプロジェクトです。<br />
-                どちらのプロジェクトもSVGとBase64のURIを使用しており、IPFS上にホストされています。<br /><br />
-                Dynamic NFTのコントラクトをこちらで簡単に使用できます:
+                2023<br />
+                Regarding these two projects:<br />
+                One is a basic NFT project with basic features and a direct
+                minting process, while the other is a dynamic NFT project where
+                users can freely change the image of their NFT. Both projects
+                use SVG and Base64 URIs and are hosted on IPFS.<br /><br />
+                You can easily use the contract for Dynamic NFT here:
                 <a
                   style="display: inline"
                   href="https://abi.ninja/0x5ef9f85711932c78f80f70ee4dd4c7621aed33ce/sepolia?functions=mintNFT%2CmintNft"
                   >Dynamic NFT ・ ABI Ninja</a
                 >
                 <br />
-                Basic NFTのコントラクトをこちらで簡単に使用できます：
+                You can easily use the contract for Basic NFT here:
                 <a
                   style="display: inline"
                   href="https://abi.ninja/0x7fdC673352cb7b8Efa1EB69A28DDe4FA2e1D0A8C/sepolia?functions=mintNFT"
                   >Dynamic NFT ・ ABI Ninja</a
                 ><br /><br />
-                言語: Solidity<br />
-                ツール: Foundry, Openzeppelin, IPFS<br />
+                Languages: Solidity<br />
+                Tools: Foundry, Openzeppelin, IPFS<br />
               </p>
               <a
                 href="https://github.com/Jer-B/Foundry_NFTBasic_and_NFTMood"
                 class="project-link, button"
                 style="background-color: #99e9c4"
-                >Githubで見る</a
+                >View Github repo</a
               >
               <!-- <button class="btn-card btn--block card__btn"><a class="btn-link" href="https://portofolio-finance.herokuapp.com/" target="_blank" class="project-link">Check it Out</a></button> -->
             </div>
@@ -881,7 +914,7 @@
         </div>
         <!-- delete class or not class="card-footer"-->
         <section class="skills2" id="skills">
-          <h4 class="skill-header">ツール</h4>
+          <h4 class="skill-header">Tools</h4>
 
           <div class="skills-wrapper">
             <div class="first-set animate__animated animate__pulse">
@@ -936,23 +969,27 @@
           </div>
           <div class="details-container">
             <div class="content">
-              <h3>NFTマーケットプレイス</h3>
+              <h3>NFT Marketplace</h3>
               <p>
-                2022年<br />
-                ※注意：メインネットでの使用はお控えください。実際このプロジェクトのソースコードは非推奨です。<br />
-                テストネットの変更が必要し、Moralisの方法は非推奨し、GraphQLの方法には様々な情報の変更が必要です。<br /><br />
+                2022<br />
+                ※ Note: Please refrain from using this on the mainnet. The
+                source code of this project is deprecated. Changes to the
+                testnet are necessary, and the Moralis method is deprecated,
+                while the GraphQL method requires various information
+                changes.<br /><br />
 
-                ユーザーが自分のNFTを売りに出すためにリストアップし、NFTを購入できるマーケットプレイスです。<br />
-                NFTが購入されると、売り手から買い手に転送されます。<br /><br />
-                言語: Solidity, Javascript<br />
-                ツール: HardHat, Chainlink, Openzeppelin, IPFS, NextJS,
+                This is a marketplace where users can list their NFTs for sale
+                and purchase NFTs. When an NFT is purchased, it is transferred
+                from the seller to the buyer.<br /><br />
+                Languages: Solidity, Javascript<br />
+                Tools: HardHat, Chainlink, Openzeppelin, IPFS, NextJS,
                 GraphQL<br />
               </p>
               <a
                 href="https://github.com/Jer-B/HardHat_projects/tree/main/HardHat_Marketplace/Marketplace_contracts"
                 class="project-link, button"
                 style="background-color: #99e9c4"
-                >Githubで見る</a
+                >View Github repo</a
               >
               <!-- <button class="btn-card btn--block card__btn"><a class="btn-link" href="https://portofolio-finance.herokuapp.com/" target="_blank" class="project-link">Check it Out</a></button> -->
             </div>
@@ -960,7 +997,7 @@
         </div>
         <!-- delete class or not class="card-footer"-->
         <section class="skills2" id="skills">
-          <h4 class="skill-header">ツール</h4>
+          <h4 class="skill-header">Tools</h4>
 
           <div class="skills-wrapper">
             <div class="first-set animate__animated animate__pulse">
@@ -1036,30 +1073,30 @@
           </div>
           <div class="details-container">
             <div class="content">
-              <h3>
-                ランダムなレアリティ割合を持つNFTと、価格条件に基づいたNFT
-              </h3>
+              <h3>Random Rarity NFT and Price-Condition-Based NFT</h3>
               <p>
-                2022年<br />
-                ※注意：このプロジェクトのソースコードは非推奨です。Chainlink
-                VRFとテストネットが変わりました<br /><br />
-                この2つのプロジェクトについては、<br />
-                一つは基本的な特徴と直接的なミンティングプロセス、さらにレアリティミンティングプロセスを備えた基本的なNFTプロジェクトで、<br />
-                本当のランダム性を得るためにChainlink VRFを使用しています。<br /><br />
-                もう一つは価格条件に基づいています。ユーザーはミンティング時にEthereumの価格を設定し、<br />
-                その条件に応じて価格がミンティング時に設定された価格より上か下かによって画像が変わります(嬉しい顔は上、下の場合は寂しい顔)。<br />
-                どちらもSVGとBase64
-                URIを使用し、両プロジェクトともIPFS上にホストされています。<br /><br />
-                レアリティレベル: パグ = 一般 | 柴犬 = まれ | セントバーナード =
-                レア<br /><br />
-                言語: Solidity, Javascript<br />
-                ツール: HardHat, Chainlink, Openzeppelin, IPFS<br />
+                2022<br />
+                ※ Note: The source code of this project is deprecated. Chainlink
+                VRF and the testnet have changed.<br /><br />
+                Regarding these two projects:<br />
+                One is a basic NFT project with basic features, a direct minting
+                process, with a rarity level process, using Chainlink VRF for
+                true randomness.<br /><br />
+                The other is based on price conditions. Users set the price of
+                Ethereum at the time of minting, and depending on whether the
+                price is higher or lower than the price set at minting, the
+                image changes (a happy face for higher, a sad face for lower).
+                Both use SVG and Base64 URIs and are hosted on IPFS.<br /><br />
+                Rarity Levels: Pug = Common | Shiba Inu = Rare | Saint Bernard =
+                Very Rare<br /><br />
+                Languages: Solidity, Javascript<br />
+                Tools: HardHat, Chainlink, Openzeppelin, IPFS<br />
               </p>
               <a
                 href="https://github.com/Jer-B/HardHat_projects/tree/main/HardHat_UltimateNFT"
                 class="project-link, button"
                 style="background-color: #99e9c4"
-                >Githubで見る</a
+                >View Github repo</a
               >
               <!-- <button class="btn-card btn--block card__btn"><a class="btn-link" href="https://portofolio-finance.herokuapp.com/" target="_blank" class="project-link">Check it Out</a></button> -->
             </div>
@@ -1067,7 +1104,7 @@
         </div>
         <!-- delete class or not class="card-footer"-->
         <section class="skills2" id="skills">
-          <h4 class="skill-header">ツール</h4>
+          <h4 class="skill-header">Tools</h4>
 
           <div class="skills-wrapper">
             <div class="first-set animate__animated animate__pulse">
@@ -1137,24 +1174,26 @@
           </div>
           <div class="details-container">
             <div class="content">
-              <h3>トークンファーミングDEFI Dapp</h3>
+              <h3>Token Farming DeFi Dapp</h3>
               <p>
-                2022年<br />
-                ※注意：メインネットでの使用はお控えください。実際このプロジェクトのソースコードは非推奨です。<br />
-                テストネットの変更が必要し、Brownieは非推奨です。<br /><br />
+                2022<br />
+                ※ Note: Please refrain from using this on the mainnet. The
+                source code of this project is deprecated. Changes to the
+                testnet are necessary, and Brownie is deprecated.<br /><br />
 
-                このプロジェクトでは、ステーク預け入れのために様々なERC20トークン（Link、DAI、WETH）を使用しています。<br />
-                ステーキングには許可されたトークンのみを受け入れる条件があります。<br />
-                ユーザーがトークンを引き出したり、ステークを解除したりすることも可能です。<br />
-                このDAPPには独自のERC20トークンがあり、ステークされた期間と量に応じた利益・リワードとして使用されます。<br /><br />
-                言語:Python, Solidity, Typescript<br />
-                ツール: Brownie, React, OpenZeppelin, Chainlink<br />
+                In this project, various ERC20 tokens (Link, DAI, WETH) are used
+                for stake deposits. Staking accepts only permitted tokens. Users
+                can also withdraw tokens or unstake them. This DAPP has its own
+                ERC20 token, which is used as a profit/reward depending on the
+                staked duration and amount.<br /><br />
+                Languages: Python, Solidity, Typescript<br />
+                Tools: Brownie, React, OpenZeppelin, Chainlink<br />
               </p>
               <a
                 href="https://github.com/Jer-B/Brownie_projects/tree/main/Brownie_dapp/dapp"
                 class="project-link, button"
                 style="background-color: #99e9c4"
-                >Githubで見る</a
+                >View Github repo</a
               >
               <!-- <button class="btn-card btn--block card__btn"><a class="btn-link" href="https://portofolio-finance.herokuapp.com/" target="_blank" class="project-link">Check it Out</a></button> -->
             </div>
@@ -1162,7 +1201,7 @@
         </div>
         <!-- delete class or not class="card-footer"-->
         <section class="skills2" id="skills">
-          <h4 class="skill-header">ツール</h4>
+          <h4 class="skill-header">Tools</h4>
 
           <div class="skills-wrapper">
             <div class="first-set animate__animated animate__pulse">
@@ -1242,29 +1281,33 @@
           </div>
           <div class="details-container">
             <div class="content">
-              <h3>基本なフラッシュローンコントラクト</h3>
+              <h3>Basic Flash Loan</h3>
               <p>
-                2022年<br />
-                ※注意：メインネットでの使用はお控えください。実際このプロジェクトのソースコードは非推奨です。<br />
-                AAVEインターフェースの変更が必要し、Brownieは非推奨です。<br /><br />
-                PythonとSolidityを使用し、AAVEプロトコルでETHをWETHに交換し、<br />
-                その後WETHを売却して、借金を返済する、一つの取引で完結する基本的なフラッシュローンコントラクト。<br /><br />
+                2022<br />
+                ※ Note: Please refrain from using this on the mainnet. Done on
+                Kovan, needs to be updated.<br />
+                Changes to the AAVE interface are necessary, and Brownie is
+                deprecated.<br /><br />
+                This is a basic flash loan contract using Python and Solidity,
+                it allows to exchanges ETH for WETH using the AAVE protocol,
+                then sells the WETH to repay the debt of the loan, all in a
+                single transaction.<br /><br />
 
-                言語: Python, Solidity<br />
-                ツール: Brownie, AAVE, Chainlink<br />
+                Languages: Python, Solidity<br />
+                Tools: Brownie, AAVE, Chainlink<br />
               </p>
               <a
                 href="https://github.com/Jer-B/Brownie_projects/tree/main/brownie_flash_loans"
                 class="project-link, button"
                 style="background-color: #99e9c4"
-                >Githubで見る</a
+                >View Github repo</a
               >
             </div>
           </div>
         </div>
         <!-- delete class or not class="card-footer"-->
         <section class="skills2" id="skills">
-          <h4 class="skill-header">ツール</h4>
+          <h4 class="skill-header">Tools</h4>
 
           <div class="skills-wrapper">
             <div class="first-set animate__animated animate__pulse">
@@ -1324,7 +1367,7 @@
 
                 <br />取引・宝くじなどのスマートコントラクトを作成しました。
                 <br />現在、Immutable-Xのブロックチェーンでアセットマネージャーを作成中。<br /><br />
-                言語:Python, Solidity<br />
+                Languages: Python, Solidity<br />
               </p>
               <a
                 href="solidity_code.html"
@@ -1337,7 +1380,7 @@
           </div>
         </div>
         <section class="skills2" id="skills">
-          <h4 class="skill-header">ツール</h4>
+          <h4 class="skill-header">Tools</h4>
 
           <div class="skills-wrapper">
             <div class="first-set animate__animated animate__pulse">
@@ -1373,32 +1416,34 @@
           </div>
           <div class="details-container">
             <div class="content">
-              <h3>株ポートフォリオのシミュレーション</h3>
+              <h3>Stocks manager</h3>
               <p>
-                2020年<br />
-                ※注意：取引所のAPIの期限のため、株の値段は見れないかも知れません。400のエラーが表示する可能性はあり。<br />
-                上記の問題のため、Githubにあるレポジトリーにサイトの前ページのスクリーンショットが載せってあります。<br /><br />
-                株のポートフォリオ・マネジメント・シミュレーションです。<br />
-                APIを使って、株の値段確認・売買・管理する事が出来ます。<br />
-                Githubでソースコードを見る:
+                2020<br />
+                ※Note: Since the API Key as a validity period, check the repo
+                for screenshots. Stock prices may not be visible and a 400 error
+                could occur.<br /><br />
+                It's a stock portfolio management simulation. Using an API, you
+                can check stock prices, trade (Buy / Sell), and manage your
+                portfolio.<br />
+                To view the source code on Github:
                 <a
                   style="display: inline"
                   href="https://github.com/Jer-B/Python_Finance_project"
-                  >こちらへ</a
+                  >click here</a
                 ><br /><br />
                 <br />
-                言語: Python<br />
-                ホスト: Azure<br />
-                スタック: Flask+Jinja・HTML/CSS+SASS<br />
-                データベース: SQLITE3・Postgres<br />
-                バージョン管理: Git
+                Language: Python<br />
+                Host: Azure<br />
+                Stack: Flask+Jinja・HTML/CSS+SASS<br />
+                Database: SQLITE3・Postgres<br />
+                Version control: Git
               </p>
               <a
                 href="https://flask-finance-123.azurewebsites.net/login"
                 target="_blank"
                 class="project-link, button"
                 style="background-color: #99e9c4"
-                >サイトを見る</a
+                >View website</a
               >
               <!-- <button class="btn-card btn--block card__btn"><a class="btn-link" href="https://portofolio-finance.herokuapp.com/" target="_blank" class="project-link">Check it Out</a></button> -->
             </div>
@@ -1406,7 +1451,7 @@
         </div>
         <!-- delete class or not class="card-footer"-->
         <section class="skills2" id="skills">
-          <h4 class="skill-header">ツール</h4>
+          <h4 class="skill-header">Tools</h4>
 
           <div class="skills-wrapper">
             <div class="first-set animate__animated animate__pulse">
@@ -1498,29 +1543,30 @@
           </div>
           <div class="details-container">
             <div class="content">
-              <h3>誕生日カレンダー</h3>
+              <h3>Birthday Calendar</h3>
               <p>
-                2020年<br />
-                誕生日メモ帳と同じく使えるアプリです。<br />
-                人の名前を書いて、生まれた月と日を選んでからその方の誕生日を登録出来ます。<br />
-                Githubでソースコードを見る:
+                2020<br />
+                An app that can be used like a birthday notepad. You can
+                register someone's birthday by writing their name and selecting
+                their birth month and day.<br />
+                To view the source code on Github:
                 <a
                   style="display: inline"
                   href="https://github.com/Jer-B/Python_Birthday_project"
-                  >こちらへ</a
+                  >click here</a
                 ><br /><br />
-                言語: Python<br />
-                ホスト: Azure<br />
-                スタック: Flask+Jinja・HTML/CSS+SASS<br />
-                データベース: SQLITE3・Postgres<br />
-                バージョン管理: Git
+                Language:Python<br />
+                Host:Azure<br />
+                Stack: Flask+Jinja・HTML/CSS+SASS<br />
+                Database: SQLITE3・Postgres<br />
+                Version control:Git
               </p>
               <a
                 href="https://flask-birthday-123.azurewebsites.net/"
                 target="_blank"
                 class="project-link, button"
                 style="background-color: #99e9c4"
-                >サイトを見る</a
+                >View website</a
               >
               <!-- <button class="btn-card btn--block card__btn"><a class="btn-link" href="https://portofolio-finance.herokuapp.com/" target="_blank" class="project-link">Check it Out</a></button> -->
             </div>
@@ -1528,7 +1574,7 @@
         </div>
         <!-- delete class or not class="card-footer"-->
         <section class="skills2" id="skills">
-          <h4 class="skill-header">ツール</h4>
+          <h4 class="skill-header">Tools</h4>
 
           <div class="skills-wrapper">
             <div class="first-set animate__animated animate__pulse">
@@ -1623,18 +1669,19 @@
           </div>
           <div class="details-container">
             <div class="content">
-              <h3>リカバー</h3>
+              <h3>Data Recovery</h3>
               <p>
-                2020年<br />
-                メモリーカードのフォレンジックイメージからJPEG画像を回復するために設計されたC言語のプログラムです。<br />
-                生のバイナリーデータを読み取り、処理してJPEGファイルを識別し、抽出する作業を含みます。<br /><br />
-                言語:C<br />
+                2020<br />
+                A C language program designed to recover JPEG images from a
+                forensic image of a memory card. It involves reading raw binary
+                data, to identify and extract JPEG files.<br /><br />
+                Language: C<br />
               </p>
               <a
                 href="https://github.com/Jer-B/C_projects/tree/main/recover/recover"
                 class="project-link, button"
                 style="background-color: #99e9c4"
-                >Githubで見る</a
+                >View Github repo</a
               >
               <!-- <button class="btn-card btn--block card__btn"><a class="btn-link" href="https://portofolio-finance.herokuapp.com/" target="_blank" class="project-link">Check it Out</a></button> -->
             </div>
@@ -1642,7 +1689,7 @@
         </div>
         <!-- delete class or not class="card-footer"-->
         <section class="skills2" id="skills">
-          <h4 class="skill-header">ツール</h4>
+          <h4 class="skill-header">Tools</h4>
 
           <div class="skills-wrapper">
             <div class="first-set animate__animated animate__pulse">
@@ -1668,30 +1715,32 @@
           </div>
           <div class="details-container">
             <div class="content">
-              <h3>写真フィルター・プログラム</h3>
+              <h3>Photo Filter</h3>
               <p>
-                2020年<br />
-                二つプログラムで分かれています。(フィルターは違う)<br />
-                パラメーターとしてフィルターのオプション、写真名とパスを入力して、選んだフィルターで写真自体を編集する。<br />
-                例：写真の色を変えたり、ぼかし加工、ミラーエフェクトなど。<br />
-                Githubでソースコードを見る:<br />
+                2020<br />
+                The program is divided into two parts.(Different filters)<br />
+                This program allows you to edit the photo itself by entering the
+                photo name, path, filter type as parameters.<br />
+                Examples: changing the color of the photo, applying blur, and
+                mirror effects.<br />
+                View the source code on Github:<br />
                 <a
                   style="display: inline"
                   href="https://github.com/Jer-B/C_projects/edit/main/filter_less/filter/"
-                  >Filter_lessはこちらへ</a
+                  >Filter_less, click here</a
                 ><br />
                 <a
                   style="display: inline"
                   href="https://github.com/Jer-B/C_projects/edit/main/filter_more/filter/"
-                  >Filter_moreはこちらへ</a
+                  >Filter_more, click here</a
                 ><br /><br />
-                言語:C<br />
+                Language: C<br />
               </p>
               <a
-                href="c_code.html"
+                href="c_code_en.html"
                 class="project-link, button"
                 style="background-color: #99e9c4"
-                >サンプルを見る</a
+                >View example</a
               >
               <!-- <button class="btn-card btn--block card__btn"><a class="btn-link" href="https://portofolio-finance.herokuapp.com/" target="_blank" class="project-link">Check it Out</a></button> -->
             </div>
@@ -1699,7 +1748,7 @@
         </div>
         <!-- delete class or not class="card-footer"-->
         <section class="skills2" id="skills">
-          <h4 class="skill-header">ツール</h4>
+          <h4 class="skill-header">Tools</h4>
 
           <div class="skills-wrapper">
             <div class="first-set animate__animated animate__pulse">
@@ -1731,26 +1780,26 @@
           </div>
           <div class="details-container">
             <div class="content">
-              <h3>スペラー</h3>
+              <h3>Speller</h3>
               <p>
-                2020年<br />
-                ハッシュテーブルを使用してファイルのスペルチェックを行うC言語のプログラムです。<br />
-                スペルチェックの速度を最適化するための効率的なアルゴリズムを実装することに焦点を当てています。<br /><br />
-                言語:C<br />
+                2020<br />
+                A C language program that uses hash tables to perform spell
+                checking on files. It focuses on implementing efficient
+                algorithms to optimize the speed of spell checking.<br /><br />
+                Language: C<br />
               </p>
               <a
                 href="https://github.com/Jer-B/C_projects/tree/main/speller"
                 class="project-link, button"
                 style="background-color: #99e9c4"
-                >Githubで見る</a
+                >View Github repo</a
               >
-              <!-- <button class="btn-card btn--block card__btn"><a class="btn-link" href="https://portofolio-finance.herokuapp.com/" target="_blank" class="project-link">Check it Out</a></button> -->
             </div>
           </div>
         </div>
         <!-- delete class or not class="card-footer"-->
         <section class="skills2" id="skills">
-          <h4 class="skill-header">ツール</h4>
+          <h4 class="skill-header">Tools</h4>
 
           <div class="skills-wrapper">
             <div class="first-set animate__animated animate__pulse">
@@ -1776,25 +1825,25 @@
           </div>
           <div class="details-container">
             <div class="content">
-              <h3>アート系のネットショップ</h3>
+              <h3>Online Shop for Arts (AllArt)</h3>
               <p>
-                バージョン１：2019 ~ 2022<br />
-                WordPressで作ってあるネットショップです。<br /><br />
-                2024年の夏に、新しいバージョンがオープンするため、Githubまたはリンクを載せません。<br />
-
-                新しいバージョンについては、スマートコントラクトを使用しているネットショップとなっていますし、Wordpressではなく、NextJS・GraphQL・MongoDBを使っています。<br /><br />
-                デザイン：Photodhop/Illustrator/indesign<br />
-                マーケティング： (ビデオ・広報告・SEO作成) Google Analytics,
-                Google ads, Google Tag Manager, Google Trend, Instagram,
-                Facebook (+ pixel), インフルエンサー, Mailchimp など。<br />
-                SEOツール: Screaming Frog, Ahrefs, Semrush<br />
-                ※ 個人会社
+                Version 1: 2019 ~ 2022<br />
+                The new version of the online shop will be using smart
+                contracts, and instead of WordPress, it is built with NextJS,
+                GraphQL, and MongoDB.<br />
+                <br />
+                Design: Photodhop/Illustrator/indesign<br />
+                Marketing: (Video, Advertising, SEO) Google Analytics, Google
+                ads, Google Tag Manager, Google Trend, Instagram, Facebook (+
+                pixel), Influencers, Mailchimp etc...<br />
+                SEO Tools: Screaming Frog, Ahrefs, Semrush<br />
+                ※ This project is a Personal business.
               </p>
               <a
-                href="allart.html"
+                href="allart_en.html"
                 class="project-link, button"
                 style="background-color: #99e9c4"
-                >ページを見る</a
+                >View exemple V1</a
               >
               <!-- <button class="btn-card btn--block card__btn"><a class="btn-link" href="https://portofolio-finance.herokuapp.com/" target="_blank" class="project-link">Check it Out</a></button> -->
             </div>
@@ -1802,7 +1851,7 @@
         </div>
         <!-- delete class or not class="card-footer"-->
         <section class="skills2" id="skills">
-          <h4 class="skill-header">ツール</h4>
+          <h4 class="skill-header">Tools</h4>
 
           <div class="skills-wrapper">
             <div class="first-set animate__animated animate__pulse">
@@ -1933,24 +1982,26 @@
           </div>
           <div class="details-container">
             <div class="content">
-              <h3>女性用のネットショップ</h3>
+              <h3>Online Shop for Women</h3>
               <p>
                 2020 ~ 2022<br />
-                Shopifyを使用して、ネットショプを作成しました。<br /><br />
-                SnippetとPluginはLiquidというShopifyの言語を使って、マーケティング関係のツールを作っていました。<br /><br />
-                ※2023年に、サイトがDMMに買収されましたため、サイト名とリンクを載せません。<br /><br />
+                Online shop using Shopify.<br /><br />
+                Used Liquid, Shopify's programming language, to create
+                marketing-related tools through snippets and plugins.<br /><br />
+                ※ Since the site was acquired by DMM in 2023, I will not post
+                the site name and link.<br /><br />
 
-                言語:Liquid / Ruby on Rails, HTML/CSS, JS<br />
-                プラットフォーム: Shopify<br />
-                デザイン：Photodhop/Illustrator<br />
-                マーケティング： (ビデオ・広報告・SEO作成) Google Analytics,
-                Google ads, Google Tag Manager, Google Trend, Instagram,
-                Facebook (+ pixel), インフルエンサー, Mailchimp など。<br />
-                SEOツール: Screaming Frog, Ahrefs, Semrush<br />
-                ※ 個人会社
+                Languages:Liquid / Ruby on Rails, HTML/CSS, JS<br />
+                Platform: Shopify<br />
+                Design: Photodhop/Illustrator<br />
+                Marketing: (Video, Advertising, SEO) Google Analytics, Google
+                ads, Google Tag Manager, Google Trend, Instagram, Facebook (+
+                pixel), Influencers, Mailchimp など。<br />
+                SEO Tools: Screaming Frog, Ahrefs, Semrush<br />
+                ※ Personnal Business
               </p>
               <a class="project-link, button" style="background-color: #99e9c4"
-                >秘密情報</a
+                >Confidential</a
               >
               <!-- <button class="btn-card btn--block card__btn"><a class="btn-link" href="https://portofolio-finance.herokuapp.com/" target="_blank" class="project-link">Check it Out</a></button> -->
             </div>
@@ -1958,7 +2009,7 @@
         </div>
         <!-- delete class or not class="card-footer"-->
         <section class="skills2" id="skills">
-          <h4 class="skill-header">ツール</h4>
+          <h4 class="skill-header">Tools</h4>
 
           <div class="skills-wrapper">
             <div class="first-set animate__animated animate__pulse">
@@ -2089,18 +2140,18 @@
           </div>
           <div class="details-container">
             <div class="content">
-              <h3>動物ネットショップ</h3>
+              <h3>Veterinary Online Shop</h3>
               <p>
                 2020 ~ 2021<br />
-                日本のGMOのCMSで作られているサイトです。<br /><br />
-                ※その動物病院会社に迷惑を掛けないように、そして個人情報を守るために、リンクを載せません。<br /><br />
-
-                言語:HTML/CSS/JS<br />
-                プラットフォーム: GMO CMS<br />
-                デザイン：Photodhop/Illustrator<br />
+                This is a site created using a japanese CMS made by "GMO".<br /><br />
+                ※ To avoid causing inconvenience to the veterinary clinic and to
+                protect personal information, I keep the link confidential.<br /><br />
+                Languages:HTML/CSS/JS<br />
+                Platform: GMO CMS<br />
+                Design: Photodhop/Illustrator<br />
               </p>
               <a class="project-link, button" style="background-color: #99e9c4"
-                >秘密情報</a
+                >Confidential</a
               >
               <!-- <button class="btn-card btn--block card__btn"><a class="btn-link" href="https://portofolio-finance.herokuapp.com/" target="_blank" class="project-link">Check it Out</a></button> -->
             </div>
@@ -2108,7 +2159,7 @@
         </div>
         <!-- delete class or not class="card-footer"-->
         <section class="skills2" id="skills">
-          <h4 class="skill-header">ツール</h4>
+          <h4 class="skill-header">Tools</h4>
 
           <div class="skills-wrapper">
             <div class="first-set animate__animated animate__pulse">
@@ -2169,16 +2220,18 @@
           </div>
           <div class="details-container">
             <div class="content">
-              <h3>動物病院会社のサイト</h3>
+              <h3>Veterinary Clinic Website</h3>
               <p>
                 2020 ~ 2021<br />
-                日本のA-BlogCMSのCMSで作られているサイトです。<br /><br />
-                その動物病院に迷惑を掛けないように、そして個人情報を守るために、リンクを載せません。<br /><br />
-                言語:HTML/CSS/JS<br />
-                デザイン：Photodhop/Illustrator<br />
+                This is a site created using a japanese CMS called
+                "A-BlogCMS".<br /><br />
+                ※ To avoid causing inconvenience to the veterinary clinic and to
+                protect personal information, I keep the link confidential.<br /><br />
+                Languages: HTML/CSS/JS<br />
+                Design: Photodhop/Illustrator<br />
               </p>
               <a class="project-link, button" style="background-color: #99e9c4"
-                >秘密情報</a
+                >Confidential</a
               >
               <!-- <button class="btn-card btn--block card__btn"><a class="btn-link" href="https://portofolio-finance.herokuapp.com/" target="_blank" class="project-link">Check it Out</a></button> -->
             </div>
@@ -2186,7 +2239,7 @@
         </div>
         <!-- delete class or not class="card-footer"-->
         <section class="skills2" id="skills">
-          <h4 class="skill-header">ツール</h4>
+          <h4 class="skill-header">Tools</h4>
 
           <div class="skills-wrapper">
             <div class="first-set animate__animated animate__pulse">
@@ -2248,32 +2301,37 @@
           </div>
           <div class="details-container">
             <div class="content">
-              <h3>L2jFreeとL2j・L2jNitghly Build</h3>
+              <h3>L2jFree and L2j・L2jNightly Build Package</h3>
               <p>
-                2003年～2006年・Lineage 2<br />
-                大人気MMORPGのプライベートサーバーデベロップメントに参加していました。<br />
-                (現在、L2JFreeとL2JのデベロップメントチームはL2JServerとなりました。)<br />
-                ・このゲームのプライベートデベロップメントチームコミュニティーと一緒にオフィシャルゲームのアップデートやリリースからのデータ・アイテム・PNJなどをプライベートサーバーのサーバー・クライエント・データベースに移行していました。<br />
-                ・３人チームと一緒に３年間プライベートサーバーをホストしました。クライエント問題とサーバーのデータベース管理を行っていました。<br />
-                ・フランスのコミュニティーのためにフランス語版翻訳を行っていました。<br /><br />
-                言語: Java・C#<br />
-                サーバーとゲームクライエント: Java・C#
-                (昔二つバージョンありました、現在はJAVAだけとなっています。)<br />
-                データベース: PHPMyAdmin<br />
-                ・アカウント・キャラクター・イベント・アイテムやPNJやお化けのIDなどの管理。<br />
-                バージョンコンパイラー・バージョン管理: Eclipse (Trunk)<br />
-                アイテムのテキスト・NPCのテキストや動きのイベントなど: HTMLとXML
+                2003 ~ 2006<br />
+                I was involved in the private server development of the game
+                Lineage 2, a highly popular MMORPG. (Now, the L2JFree and L2J
+                development teams have merged into L2JServer.)<br />
+                ・I worked with the private development team community to
+                migrate data, items, NPCs, etc., from official game updates and
+                releases to private servers, clients, and databases.<br />
+                ・I co-hosted a private server for three years with a team of
+                three, managing client issues and server database.<br />
+                ・I performed French translations for the French community.<br /><br />
+                Languages: Java・C#<br />
+                Server and game client: Java・C# (there were two versions in the
+                past, but now it's only Java).<br />
+                Database: PHPMyAdmin<br />
+                ・Management of accounts, characters, events, items, NPCs,
+                monsters' IDs, etc...<br />
+                Version Compiler, Version Controller: Eclipse (Trunk)<br />
+                Item Texts, NPC Texts, Event Scripts, etc.: HTMLとXML
                 <br />
-                サイト: FTP・PHP・HTML・CSS<br />
-                フォラム: phpBB<br />
-                デザイン: Photoshop 7<br />
+                Website: FTP・PHP・HTML・CSS<br />
+                Forum: phpBB<br />
+                Design: Photoshop 7<br />
               </p>
               <a
                 href="https://www.l2jserver.com/"
                 target="_blank"
                 class="project-link, button"
                 style="background-color: #99e9c4"
-                >L2Jのサイトへ</a
+                >L2J Website</a
               >
               <!-- <button class="btn-card btn--block card__btn"><a class="btn-link" href="https://portofolio-finance.herokuapp.com/" target="_blank" class="project-link">Check it Out</a></button> -->
             </div>
@@ -2281,7 +2339,7 @@
         </div>
         <!-- delete class or not class="card-footer"-->
         <section class="skills2" id="skills">
-          <h4 class="skill-header">ツール</h4>
+          <h4 class="skill-header">Tools</h4>
 
           <div class="skills-wrapper">
             <div class="first-set animate__animated animate__pulse">
