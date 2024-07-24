@@ -1,0 +1,9 @@
+{
+  "name": "Inn Pass",
+  "description": "OpenSea Creatures are adorable aquatic beings primarily for demonstrating what can be done using the OpenSea platform. Adopt one today to try out all the OpenSea buying, selling, and bidding feature set.",
+  "image": "https://launchpad-api-dev-metadata.s3.ap-northeast-1.amazonaws.com/contract_metadata/images/penguin.jpg",
+  "banner_image": "https://launchpad-api-dev-metadata.s3.ap-northeast-1.amazonaws.com/contract_metadata/images/banner.png",
+  "featured_image": "https://launchpad-api-dev-metadata.s3.ap-northeast-1.amazonaws.com/contract_metadata/images/featured_image.jpg",
+  "external_link": "https://google.com",
+  "collaborators": ["0xAd8BAe33956eD7f54e9D399734e0F13CE6d44eB9"]
+}
