@@ -1,7 +1,7 @@
 {
   "description": "Test OpenSea Token",
   "external_url": "https://www.famitsu.com/",
-  "image": "https://jer-b.github.io/test/dev.png",
+  "image": "https://jer-b.github.io/test/dummyHotel.png",
   "name": "My-Token-Number-Zero",
   "attributes": [
     {"trait_type": "Level", "value": 43},
